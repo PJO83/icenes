@@ -1,0 +1,389 @@
+EESchema Schematic File Version 4
+LIBS:icenes-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L icenes-library:iCE40HX8K-CT256 U?
+U 5 1 5D1E4CCD
+P 5300 1950
+AR Path="/5D1E4CCD" Ref="U?"  Part="5" 
+AR Path="/5D1BB49B/5D1E4CCD" Ref="U?"  Part="5" 
+F 0 "U?" H 5250 2065 50  0000 C CNN
+F 1 "iCE40HX8K-CT256" H 5250 1974 50  0000 C CNN
+F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 5300 1950 50  0001 C CNN
+F 3 "" H 5300 1950 50  0001 C CNN
+	5    5300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:iCE40HX8K-CT256 U?
+U 6 1 5D1F06A7
+P 12250 2000
+AR Path="/5D1F06A7" Ref="U?"  Part="6" 
+AR Path="/5D1BB49B/5D1F06A7" Ref="U?"  Part="6" 
+F 0 "U?" H 12200 2115 50  0000 C CNN
+F 1 "iCE40HX8K-CT256" H 12200 2024 50  0000 C CNN
+F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 12250 2000 50  0001 C CNN
+F 3 "" H 12250 2000 50  0001 C CNN
+	6    12250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2150 4450 2150
+Wire Wire Line
+	4600 2450 4450 2450
+Wire Wire Line
+	4450 2450 4450 2350
+Connection ~ 4450 2150
+Wire Wire Line
+	4600 2350 4450 2350
+Connection ~ 4450 2350
+Wire Wire Line
+	4450 2350 4450 2250
+Wire Wire Line
+	4600 2250 4450 2250
+Connection ~ 4450 2250
+Wire Wire Line
+	4450 2250 4450 2150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D333FAE
+P 2700 2050
+AR Path="/5D1BB1FB/5D333FAE" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5D333FAE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 1900 50  0001 C CNN
+F 1 "+3V3" H 2715 2223 50  0000 C CNN
+F 2 "" H 2700 2050 50  0001 C CNN
+F 3 "" H 2700 2050 50  0001 C CNN
+	1    2700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D333FB4
+P 4050 2600
+AR Path="/5D1BB1FB/5D333FB4" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5D333FB4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 2350 50  0001 C CNN
+F 1 "GND" H 4055 2427 50  0000 C CNN
+F 2 "" H 4050 2600 50  0001 C CNN
+F 3 "" H 4050 2600 50  0001 C CNN
+	1    4050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D333FBB
+P 4050 2350
+AR Path="/5D1BB1FB/5D333FBB" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D333FBB" Ref="C?"  Part="1" 
+F 0 "C?" H 4165 2396 50  0000 L CNN
+F 1 "C0.1uF" H 3900 2250 50  0001 C CNN
+F 2 "" H 4050 2350 50  0001 C CNN
+F 3 "" H 4050 2350 50  0001 C CNN
+F 4 "0.1uF" H 4165 2305 50  0000 L CNN "Capacitance"
+	1    4050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D333FC2
+P 3600 2350
+AR Path="/5D1BB1FB/5D333FC2" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D333FC2" Ref="C?"  Part="1" 
+F 0 "C?" H 3715 2396 50  0000 L CNN
+F 1 "C0.1uF" H 3450 2250 50  0001 C CNN
+F 2 "" H 3600 2350 50  0001 C CNN
+F 3 "" H 3600 2350 50  0001 C CNN
+F 4 "0.1uF" H 3715 2305 50  0000 L CNN "Capacitance"
+	1    3600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D333FC9
+P 3150 2350
+AR Path="/5D1BB1FB/5D333FC9" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D333FC9" Ref="C?"  Part="1" 
+F 0 "C?" H 3265 2396 50  0000 L CNN
+F 1 "C0.1uF" H 3000 2250 50  0001 C CNN
+F 2 "" H 3150 2350 50  0001 C CNN
+F 3 "" H 3150 2350 50  0001 C CNN
+F 4 "0.1uF" H 3265 2305 50  0000 L CNN "Capacitance"
+	1    3150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D333FD0
+P 2700 2350
+AR Path="/5D1BB1FB/5D333FD0" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D333FD0" Ref="C?"  Part="1" 
+F 0 "C?" H 2815 2396 50  0000 L CNN
+F 1 "C0.1uF" H 2550 2250 50  0001 C CNN
+F 2 "" H 2700 2350 50  0001 C CNN
+F 3 "" H 2700 2350 50  0001 C CNN
+F 4 "0.1uF" H 2815 2305 50  0000 L CNN "Capacitance"
+	1    2700 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2150 2700 2200
+Wire Wire Line
+	2700 2150 3150 2150
+Wire Wire Line
+	2700 2050 2700 2150
+Connection ~ 2700 2150
+Wire Wire Line
+	3150 2200 3150 2150
+Connection ~ 3150 2150
+Wire Wire Line
+	3150 2150 3600 2150
+Wire Wire Line
+	3600 2200 3600 2150
+Connection ~ 3600 2150
+Wire Wire Line
+	3600 2150 4050 2150
+Wire Wire Line
+	4050 2200 4050 2150
+Connection ~ 4050 2150
+Wire Wire Line
+	4050 2150 4450 2150
+Wire Wire Line
+	4050 2500 4050 2550
+Wire Wire Line
+	4050 2550 3600 2550
+Wire Wire Line
+	2700 2550 2700 2500
+Connection ~ 4050 2550
+Wire Wire Line
+	4050 2550 4050 2600
+Wire Wire Line
+	3150 2500 3150 2550
+Connection ~ 3150 2550
+Wire Wire Line
+	3150 2550 2700 2550
+Wire Wire Line
+	3600 2500 3600 2550
+Connection ~ 3600 2550
+Wire Wire Line
+	3600 2550 3150 2550
+Wire Wire Line
+	11550 2200 11400 2200
+Wire Wire Line
+	11550 2500 11400 2500
+Wire Wire Line
+	11400 2500 11400 2400
+Connection ~ 11400 2200
+Wire Wire Line
+	11550 2400 11400 2400
+Connection ~ 11400 2400
+Wire Wire Line
+	11400 2400 11400 2300
+Wire Wire Line
+	11550 2300 11400 2300
+Connection ~ 11400 2300
+Wire Wire Line
+	11400 2300 11400 2200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D339A47
+P 9650 2100
+AR Path="/5D1BB1FB/5D339A47" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5D339A47" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9650 1950 50  0001 C CNN
+F 1 "+3V3" H 9665 2273 50  0000 C CNN
+F 2 "" H 9650 2100 50  0001 C CNN
+F 3 "" H 9650 2100 50  0001 C CNN
+	1    9650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D339A4D
+P 11000 2650
+AR Path="/5D1BB1FB/5D339A4D" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5D339A4D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11000 2400 50  0001 C CNN
+F 1 "GND" H 11005 2477 50  0000 C CNN
+F 2 "" H 11000 2650 50  0001 C CNN
+F 3 "" H 11000 2650 50  0001 C CNN
+	1    11000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D339A54
+P 11000 2400
+AR Path="/5D1BB1FB/5D339A54" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D339A54" Ref="C?"  Part="1" 
+F 0 "C?" H 11115 2446 50  0000 L CNN
+F 1 "C0.1uF" H 10850 2300 50  0001 C CNN
+F 2 "" H 11000 2400 50  0001 C CNN
+F 3 "" H 11000 2400 50  0001 C CNN
+F 4 "0.1uF" H 11115 2355 50  0000 L CNN "Capacitance"
+	1    11000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D339A5B
+P 10550 2400
+AR Path="/5D1BB1FB/5D339A5B" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D339A5B" Ref="C?"  Part="1" 
+F 0 "C?" H 10665 2446 50  0000 L CNN
+F 1 "C0.1uF" H 10400 2300 50  0001 C CNN
+F 2 "" H 10550 2400 50  0001 C CNN
+F 3 "" H 10550 2400 50  0001 C CNN
+F 4 "0.1uF" H 10665 2355 50  0000 L CNN "Capacitance"
+	1    10550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D339A62
+P 10100 2400
+AR Path="/5D1BB1FB/5D339A62" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D339A62" Ref="C?"  Part="1" 
+F 0 "C?" H 10215 2446 50  0000 L CNN
+F 1 "C0.1uF" H 9950 2300 50  0001 C CNN
+F 2 "" H 10100 2400 50  0001 C CNN
+F 3 "" H 10100 2400 50  0001 C CNN
+F 4 "0.1uF" H 10215 2355 50  0000 L CNN "Capacitance"
+	1    10100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D339A69
+P 9650 2400
+AR Path="/5D1BB1FB/5D339A69" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D339A69" Ref="C?"  Part="1" 
+F 0 "C?" H 9765 2446 50  0000 L CNN
+F 1 "C0.1uF" H 9500 2300 50  0001 C CNN
+F 2 "" H 9650 2400 50  0001 C CNN
+F 3 "" H 9650 2400 50  0001 C CNN
+F 4 "0.1uF" H 9765 2355 50  0000 L CNN "Capacitance"
+	1    9650 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 2200 9650 2250
+Wire Wire Line
+	9650 2200 10100 2200
+Wire Wire Line
+	9650 2100 9650 2200
+Connection ~ 9650 2200
+Wire Wire Line
+	10100 2250 10100 2200
+Connection ~ 10100 2200
+Wire Wire Line
+	10100 2200 10550 2200
+Wire Wire Line
+	10550 2250 10550 2200
+Connection ~ 10550 2200
+Wire Wire Line
+	10550 2200 11000 2200
+Wire Wire Line
+	11000 2250 11000 2200
+Connection ~ 11000 2200
+Wire Wire Line
+	11000 2200 11400 2200
+Wire Wire Line
+	11000 2550 11000 2600
+Wire Wire Line
+	11000 2600 10550 2600
+Wire Wire Line
+	9650 2600 9650 2550
+Connection ~ 11000 2600
+Wire Wire Line
+	11000 2600 11000 2650
+Wire Wire Line
+	10100 2550 10100 2600
+Connection ~ 10100 2600
+Wire Wire Line
+	10100 2600 9650 2600
+Wire Wire Line
+	10550 2550 10550 2600
+Connection ~ 10550 2600
+Wire Wire Line
+	10550 2600 10100 2600
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D33E082
+P 4050 3550
+AR Path="/5D1BB1FB/5D33E082" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D33E082" Ref="C?"  Part="1" 
+F 0 "C?" H 4165 3596 50  0000 L CNN
+F 1 "C0.1uF" H 3900 3450 50  0001 C CNN
+F 2 "" H 4050 3550 50  0001 C CNN
+F 3 "" H 4050 3550 50  0001 C CNN
+F 4 "0.1uF" H 4165 3505 50  0000 L CNN "Capacitance"
+	1    4050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5D33E088
+P 3600 3250
+AR Path="/5D1BB1FB/5D33E088" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5D33E088" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3600 3100 50  0001 C CNN
+F 1 "+1V2" H 3615 3423 50  0000 C CNN
+F 2 "" H 3600 3250 50  0001 C CNN
+F 3 "" H 3600 3250 50  0001 C CNN
+	1    3600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C10uF C?
+U 1 1 5D33E08F
+P 3600 3550
+AR Path="/5D1BB1FB/5D33E08F" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5D33E08F" Ref="C?"  Part="1" 
+F 0 "C?" H 3715 3596 50  0000 L CNN
+F 1 "C10uF" H 3450 3450 50  0001 C CNN
+F 2 "" V 3600 3550 50  0001 C CNN
+F 3 "" H 3600 3550 50  0001 C CNN
+F 4 "10uF" H 3715 3505 50  0000 L CNN "Capacitance"
+	1    3600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3350 4050 3350
+Wire Wire Line
+	3600 3350 3600 3400
+Wire Wire Line
+	4050 3350 4050 3400
+Connection ~ 4050 3350
+Wire Wire Line
+	4050 3350 3600 3350
+Wire Wire Line
+	3600 3250 3600 3350
+Connection ~ 3600 3350
+Wire Wire Line
+	4550 3750 4050 3750
+Wire Wire Line
+	3600 3750 3600 3700
+Wire Wire Line
+	4050 3700 4050 3750
+Connection ~ 4050 3750
+Wire Wire Line
+	4050 3750 3600 3750
+Wire Wire Line
+	4600 3450 4550 3450
+Wire Wire Line
+	4550 3450 4550 3750
+$EndSCHEMATC

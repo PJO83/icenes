@@ -1,0 +1,1373 @@
+EESchema Schematic File Version 4
+LIBS:icenes-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L icenes-library:NES-Connector-72pin J?
+U 1 1 5D3C0750
+P 8900 1600
+F 0 "J?" H 8925 1715 50  0000 C CNN
+F 1 "NES-Connector-72pin" H 8925 1624 50  0000 C CNN
+F 2 "" H 8900 1600 50  0001 C CNN
+F 3 "" H 8900 1600 50  0001 C CNN
+	1    8900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D3C6708
+P 7950 1700
+F 0 "#PWR?" H 7950 1550 50  0001 C CNN
+F 1 "+5V" H 7965 1873 50  0000 C CNN
+F 2 "" H 7950 1700 50  0001 C CNN
+F 3 "" H 7950 1700 50  0001 C CNN
+	1    7950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D3CA571
+P 10000 1600
+F 0 "#PWR?" H 10000 1350 50  0001 C CNN
+F 1 "GND" H 10005 1427 50  0000 C CNN
+F 2 "" H 10000 1600 50  0001 C CNN
+F 3 "" H 10000 1600 50  0001 C CNN
+	1    10000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D3CC41F
+P 7950 5400
+F 0 "#PWR?" H 7950 5150 50  0001 C CNN
+F 1 "GND" H 7955 5227 50  0000 C CNN
+F 2 "" H 7950 5400 50  0001 C CNN
+F 3 "" H 7950 5400 50  0001 C CNN
+	1    7950 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:74ALVC164245 U?
+U 1 1 5D3D5A69
+P 2250 850
+F 0 "U?" H 2250 965 50  0000 C CNN
+F 1 "74ALVC164245" H 2250 874 50  0000 C CNN
+F 2 "" H 2250 850 50  0001 C CNN
+F 3 "https://www.idt.com/document/dst/74alvc164245-datasheet" H 2250 850 50  0001 C CNN
+	1    2250 850 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D3DB5F1
+P 2950 950
+F 0 "#PWR?" H 2950 800 50  0001 C CNN
+F 1 "+5V" H 2965 1123 50  0000 C CNN
+F 2 "" H 2950 950 50  0001 C CNN
+F 3 "" H 2950 950 50  0001 C CNN
+	1    2950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D3DCB82
+P 1550 950
+F 0 "#PWR?" H 1550 800 50  0001 C CNN
+F 1 "+3V3" H 1565 1123 50  0000 C CNN
+F 2 "" H 1550 950 50  0001 C CNN
+F 3 "" H 1550 950 50  0001 C CNN
+	1    1550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D3DE516
+P 2950 3350
+F 0 "#PWR?" H 2950 3100 50  0001 C CNN
+F 1 "GND" H 2955 3177 50  0000 C CNN
+F 2 "" H 2950 3350 50  0001 C CNN
+F 3 "" H 2950 3350 50  0001 C CNN
+	1    2950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D3DEF02
+P 1550 3350
+F 0 "#PWR?" H 1550 3100 50  0001 C CNN
+F 1 "GND" H 1555 3177 50  0000 C CNN
+F 2 "" H 1550 3350 50  0001 C CNN
+F 3 "" H 1550 3350 50  0001 C CNN
+	1    1550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3000 1550 3000
+Wire Wire Line
+	1550 3000 1550 3100
+Wire Wire Line
+	1650 3100 1550 3100
+Connection ~ 1550 3100
+Wire Wire Line
+	1550 3100 1550 3200
+Wire Wire Line
+	1650 3200 1550 3200
+Connection ~ 1550 3200
+Wire Wire Line
+	1550 3200 1550 3300
+Wire Wire Line
+	1650 3300 1550 3300
+Connection ~ 1550 3300
+Wire Wire Line
+	1550 3300 1550 3350
+Wire Wire Line
+	2850 3000 2950 3000
+Wire Wire Line
+	2950 3000 2950 3100
+Wire Wire Line
+	2850 3100 2950 3100
+Connection ~ 2950 3100
+Wire Wire Line
+	2950 3100 2950 3200
+Wire Wire Line
+	2850 3200 2950 3200
+Connection ~ 2950 3200
+Wire Wire Line
+	2950 3200 2950 3300
+Wire Wire Line
+	2850 3300 2950 3300
+Connection ~ 2950 3300
+Wire Wire Line
+	2950 3300 2950 3350
+Wire Wire Line
+	1650 1000 1550 1000
+Wire Wire Line
+	1550 1000 1550 950 
+Wire Wire Line
+	1650 1100 1550 1100
+Wire Wire Line
+	1550 1100 1550 1000
+Connection ~ 1550 1000
+Wire Wire Line
+	2850 1000 2950 1000
+Wire Wire Line
+	2950 1000 2950 950 
+Wire Wire Line
+	2850 1100 2950 1100
+Wire Wire Line
+	2950 1100 2950 1000
+Connection ~ 2950 1000
+Wire Wire Line
+	2850 2900 2950 2900
+Wire Wire Line
+	1650 1300 1550 1300
+Wire Wire Line
+	1650 1400 1550 1400
+Wire Wire Line
+	1650 1500 1550 1500
+Wire Wire Line
+	1650 1600 1550 1600
+Wire Wire Line
+	1650 1700 1550 1700
+Wire Wire Line
+	1650 1800 1550 1800
+Wire Wire Line
+	1650 1900 1550 1900
+Wire Wire Line
+	1650 2000 1550 2000
+Wire Wire Line
+	1650 2100 1550 2100
+Wire Wire Line
+	1650 2200 1550 2200
+Wire Wire Line
+	1650 2300 1550 2300
+Wire Wire Line
+	1650 2400 1550 2400
+Wire Wire Line
+	1650 2500 1550 2500
+Wire Wire Line
+	1650 2600 1550 2600
+Wire Wire Line
+	8050 5300 7950 5300
+Wire Wire Line
+	7950 5300 7950 5400
+Wire Wire Line
+	8050 1800 7950 1800
+Wire Wire Line
+	7950 1800 7950 1700
+Wire Wire Line
+	9800 1800 9900 1800
+$Comp
+L power:+5V #PWR?
+U 1 1 5D541C7B
+P 5900 950
+F 0 "#PWR?" H 5900 800 50  0001 C CNN
+F 1 "+5V" H 5915 1123 50  0000 C CNN
+F 2 "" H 5900 950 50  0001 C CNN
+F 3 "" H 5900 950 50  0001 C CNN
+	1    5900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D541C81
+P 4500 950
+F 0 "#PWR?" H 4500 800 50  0001 C CNN
+F 1 "+3V3" H 4515 1123 50  0000 C CNN
+F 2 "" H 4500 950 50  0001 C CNN
+F 3 "" H 4500 950 50  0001 C CNN
+	1    4500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D541C87
+P 5900 3350
+F 0 "#PWR?" H 5900 3100 50  0001 C CNN
+F 1 "GND" H 5905 3177 50  0000 C CNN
+F 2 "" H 5900 3350 50  0001 C CNN
+F 3 "" H 5900 3350 50  0001 C CNN
+	1    5900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D541C8D
+P 4500 3350
+F 0 "#PWR?" H 4500 3100 50  0001 C CNN
+F 1 "GND" H 4505 3177 50  0000 C CNN
+F 2 "" H 4500 3350 50  0001 C CNN
+F 3 "" H 4500 3350 50  0001 C CNN
+	1    4500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3000 4500 3000
+Wire Wire Line
+	4500 3000 4500 3100
+Wire Wire Line
+	4600 3100 4500 3100
+Connection ~ 4500 3100
+Wire Wire Line
+	4500 3100 4500 3200
+Wire Wire Line
+	4600 3200 4500 3200
+Connection ~ 4500 3200
+Wire Wire Line
+	4500 3200 4500 3300
+Wire Wire Line
+	4600 3300 4500 3300
+Connection ~ 4500 3300
+Wire Wire Line
+	4500 3300 4500 3350
+Wire Wire Line
+	5800 3000 5900 3000
+Wire Wire Line
+	5900 3000 5900 3100
+Wire Wire Line
+	5800 3100 5900 3100
+Connection ~ 5900 3100
+Wire Wire Line
+	5900 3100 5900 3200
+Wire Wire Line
+	5800 3200 5900 3200
+Connection ~ 5900 3200
+Wire Wire Line
+	5900 3200 5900 3300
+Wire Wire Line
+	5800 3300 5900 3300
+Connection ~ 5900 3300
+Wire Wire Line
+	5900 3300 5900 3350
+Wire Wire Line
+	4600 1000 4500 1000
+Wire Wire Line
+	4500 1000 4500 950 
+Wire Wire Line
+	4600 1100 4500 1100
+Wire Wire Line
+	4500 1100 4500 1000
+Connection ~ 4500 1000
+Wire Wire Line
+	5800 1000 5900 1000
+Wire Wire Line
+	5900 1000 5900 950 
+Wire Wire Line
+	5800 1100 5900 1100
+Wire Wire Line
+	5900 1100 5900 1000
+Connection ~ 5900 1000
+Wire Wire Line
+	5800 2900 5900 2900
+Wire Wire Line
+	4600 1300 4500 1300
+Wire Wire Line
+	4600 1400 4500 1400
+Wire Wire Line
+	4600 1500 4500 1500
+Wire Wire Line
+	4600 1600 4500 1600
+Wire Wire Line
+	4600 1700 4500 1700
+Wire Wire Line
+	4600 1800 4500 1800
+Wire Wire Line
+	4600 1900 4500 1900
+Wire Wire Line
+	4600 2000 4500 2000
+Wire Wire Line
+	4600 2100 4500 2100
+Wire Wire Line
+	4600 2200 4500 2200
+Wire Wire Line
+	4600 2300 4500 2300
+Wire Wire Line
+	4600 2400 4500 2400
+Wire Wire Line
+	4600 2500 4500 2500
+Wire Wire Line
+	4600 2600 4500 2600
+Wire Wire Line
+	4600 2700 4500 2700
+$Comp
+L icenes-library:74ALVC164245 U?
+U 1 1 5D68366B
+P 2250 3850
+F 0 "U?" H 2250 3965 50  0000 C CNN
+F 1 "74ALVC164245" H 2250 3874 50  0000 C CNN
+F 2 "" H 2250 3850 50  0001 C CNN
+F 3 "https://www.idt.com/document/dst/74alvc164245-datasheet" H 2250 3850 50  0001 C CNN
+	1    2250 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D683671
+P 2950 3950
+F 0 "#PWR?" H 2950 3800 50  0001 C CNN
+F 1 "+5V" H 2965 4123 50  0000 C CNN
+F 2 "" H 2950 3950 50  0001 C CNN
+F 3 "" H 2950 3950 50  0001 C CNN
+	1    2950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D683677
+P 1550 3950
+F 0 "#PWR?" H 1550 3800 50  0001 C CNN
+F 1 "+3V3" H 1565 4123 50  0000 C CNN
+F 2 "" H 1550 3950 50  0001 C CNN
+F 3 "" H 1550 3950 50  0001 C CNN
+	1    1550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D68367D
+P 2950 6350
+F 0 "#PWR?" H 2950 6100 50  0001 C CNN
+F 1 "GND" H 2955 6177 50  0000 C CNN
+F 2 "" H 2950 6350 50  0001 C CNN
+F 3 "" H 2950 6350 50  0001 C CNN
+	1    2950 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D683683
+P 1550 6350
+F 0 "#PWR?" H 1550 6100 50  0001 C CNN
+F 1 "GND" H 1555 6177 50  0000 C CNN
+F 2 "" H 1550 6350 50  0001 C CNN
+F 3 "" H 1550 6350 50  0001 C CNN
+	1    1550 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6000 1550 6000
+Wire Wire Line
+	1550 6000 1550 6100
+Wire Wire Line
+	1650 6100 1550 6100
+Connection ~ 1550 6100
+Wire Wire Line
+	1550 6100 1550 6200
+Wire Wire Line
+	1650 6200 1550 6200
+Connection ~ 1550 6200
+Wire Wire Line
+	1550 6200 1550 6300
+Wire Wire Line
+	1650 6300 1550 6300
+Connection ~ 1550 6300
+Wire Wire Line
+	1550 6300 1550 6350
+Wire Wire Line
+	2850 6000 2950 6000
+Wire Wire Line
+	2950 6000 2950 6100
+Wire Wire Line
+	2850 6100 2950 6100
+Connection ~ 2950 6100
+Wire Wire Line
+	2950 6100 2950 6200
+Wire Wire Line
+	2850 6200 2950 6200
+Connection ~ 2950 6200
+Wire Wire Line
+	2950 6200 2950 6300
+Wire Wire Line
+	2850 6300 2950 6300
+Connection ~ 2950 6300
+Wire Wire Line
+	2950 6300 2950 6350
+Wire Wire Line
+	1650 4000 1550 4000
+Wire Wire Line
+	1550 4000 1550 3950
+Wire Wire Line
+	1650 4100 1550 4100
+Wire Wire Line
+	1550 4100 1550 4000
+Connection ~ 1550 4000
+Wire Wire Line
+	2850 4000 2950 4000
+Wire Wire Line
+	2950 4000 2950 3950
+Wire Wire Line
+	2850 4100 2950 4100
+Wire Wire Line
+	2950 4100 2950 4000
+Connection ~ 2950 4000
+Wire Wire Line
+	2850 5900 2950 5900
+Wire Wire Line
+	1650 4300 1550 4300
+Wire Wire Line
+	1650 4400 1550 4400
+Wire Wire Line
+	1650 4500 1550 4500
+Wire Wire Line
+	1650 4600 1550 4600
+Wire Wire Line
+	1650 4700 1550 4700
+Wire Wire Line
+	1650 4800 1550 4800
+Wire Wire Line
+	1650 4900 1550 4900
+Wire Wire Line
+	1650 5000 1550 5000
+Wire Wire Line
+	1650 5100 1550 5100
+Wire Wire Line
+	1650 5200 1550 5200
+Wire Wire Line
+	1650 5300 1550 5300
+Wire Wire Line
+	1650 5400 1550 5400
+Wire Wire Line
+	1650 5500 1550 5500
+Wire Wire Line
+	1650 5600 1550 5600
+Wire Wire Line
+	1650 5700 1550 5700
+Wire Wire Line
+	1550 5800 1650 5800
+Text GLabel 2950 1150 2    50   Input ~ 0
+PPU_ADDR_DIR
+Text GLabel 2950 2900 2    50   Input ~ 0
+PPU_ADDR_DIR
+Text GLabel 1500 3000 0    50   Input ~ 0
+~PPU_ADDR_OE
+Text GLabel 1550 2600 0    50   Input ~ 0
+FPGA_PPU_A13
+Text GLabel 1550 2500 0    50   Input ~ 0
+FPGA_PPU_A12
+Text GLabel 1550 2400 0    50   Input ~ 0
+FPGA_PPU_A11
+Text GLabel 1550 2300 0    50   Input ~ 0
+FPGA_PPU_A10
+Text GLabel 1550 2200 0    50   Input ~ 0
+FPGA_PPU_A9
+Text GLabel 1550 2100 0    50   Input ~ 0
+FPGA_PPU_A8
+Text GLabel 1550 2000 0    50   Input ~ 0
+FPGA_PPU_A7
+Text GLabel 1550 1900 0    50   Input ~ 0
+FPGA_PPU_A6
+Text GLabel 1550 1800 0    50   Input ~ 0
+FPGA_PPU_A5
+Text GLabel 1550 1700 0    50   Input ~ 0
+FPGA_PPU_A4
+Text GLabel 1550 1600 0    50   Input ~ 0
+FPGA_PPU_A3
+Text GLabel 1550 1400 0    50   Input ~ 0
+FPGA_PPU_A1
+Text GLabel 1550 1300 0    50   Input ~ 0
+FPGA_PPU_A0
+Text GLabel 1550 1150 0    50   Input ~ 0
+~PPU_ADDR_OE
+Text GLabel 1550 1500 0    50   Input ~ 0
+FPGA_PPU_A2
+Text GLabel 4500 1150 0    50   Input ~ 0
+~CPU_ADDR_OE
+Text GLabel 4500 1300 0    50   Input ~ 0
+FPGA_CPU_A0
+Text GLabel 4500 1400 0    50   Input ~ 0
+FPGA_CPU_A1
+Text GLabel 4500 1500 0    50   Input ~ 0
+FPGA_CPU_A2
+Text GLabel 4500 1600 0    50   Input ~ 0
+FPGA_CPU_A3
+Text GLabel 4500 1700 0    50   Input ~ 0
+FPGA_CPU_A4
+Text GLabel 4500 1800 0    50   Input ~ 0
+FPGA_CPU_A5
+Text GLabel 4500 1900 0    50   Input ~ 0
+FPGA_CPU_A6
+Text GLabel 4500 2000 0    50   Input ~ 0
+FPGA_CPU_A7
+Text GLabel 4500 2100 0    50   Input ~ 0
+FPGA_CPU_A8
+Text GLabel 4500 2200 0    50   Input ~ 0
+FPGA_CPU_A9
+Text GLabel 4500 2300 0    50   Input ~ 0
+FPGA_CPU_A10
+Text GLabel 4500 2400 0    50   Input ~ 0
+FPGA_CPU_A11
+Text GLabel 4500 2500 0    50   Input ~ 0
+FPGA_CPU_A12
+Text GLabel 4500 2600 0    50   Input ~ 0
+FPGA_CPU_A13
+Text GLabel 4500 2700 0    50   Input ~ 0
+FPGA_CPU_A14
+Text GLabel 4500 2950 0    50   Input ~ 0
+~CPU_ADDR_OE
+Text GLabel 5900 1150 2    50   Input ~ 0
+CPU_ADDR_DIR
+Text GLabel 5900 2900 2    50   Input ~ 0
+CPU_ADDR_DIR
+Text GLabel 1550 4150 0    50   Input ~ 0
+~CPU_DATA_OE
+Text GLabel 1550 4400 0    50   BiDi ~ 0
+FPGA_CPU_D1
+Text GLabel 1550 4500 0    50   BiDi ~ 0
+FPGA_CPU_D2
+Text GLabel 1550 4600 0    50   BiDi ~ 0
+FPGA_CPU_D3
+Text GLabel 1550 4700 0    50   BiDi ~ 0
+FPGA_CPU_D4
+Text GLabel 1550 4800 0    50   BiDi ~ 0
+FPGA_CPU_D5
+Text GLabel 1550 4900 0    50   BiDi ~ 0
+FPGA_CPU_D6
+Text GLabel 1550 5000 0    50   BiDi ~ 0
+FPGA_CPU_D7
+Text GLabel 1550 5100 0    50   BiDi ~ 0
+FPGA_PPU_D0
+Text GLabel 1550 5200 0    50   BiDi ~ 0
+FPGA_PPU_D1
+Text GLabel 1550 5300 0    50   BiDi ~ 0
+FPGA_PPU_D2
+Text GLabel 1550 5400 0    50   BiDi ~ 0
+FPGA_PPU_D3
+Text GLabel 1550 5500 0    50   BiDi ~ 0
+FPGA_PPU_D4
+Text GLabel 1550 5600 0    50   BiDi ~ 0
+FPGA_PPU_D5
+Text GLabel 1550 5700 0    50   BiDi ~ 0
+FPGA_PPU_D6
+Text GLabel 1550 5800 0    50   BiDi ~ 0
+FPGA_CPU_D7
+Text GLabel 1550 5950 0    50   Input ~ 0
+~PPU_DATA_OE
+Text GLabel 2950 4150 2    50   Input ~ 0
+CPU_DATA_DIR
+Text GLabel 2950 5900 2    50   Input ~ 0
+PPU_DATA_DIR
+Text GLabel 1550 4300 0    50   BiDi ~ 0
+FPGA_CPU_D0
+Wire Wire Line
+	2850 1200 2900 1200
+Wire Wire Line
+	2900 1200 2900 1150
+Wire Wire Line
+	2900 1150 2950 1150
+Wire Wire Line
+	2850 1300 3450 1300
+Wire Wire Line
+	2850 1400 3450 1400
+Wire Wire Line
+	2850 1500 3450 1500
+Wire Wire Line
+	2850 1600 3450 1600
+Wire Wire Line
+	2850 1700 3450 1700
+Wire Wire Line
+	2850 1800 3450 1800
+Wire Wire Line
+	2850 1900 3450 1900
+Wire Wire Line
+	2850 2000 3450 2000
+Wire Wire Line
+	2850 2100 3450 2100
+Wire Wire Line
+	2850 2200 3450 2200
+Wire Wire Line
+	2850 2300 3450 2300
+Wire Wire Line
+	2850 2400 3450 2400
+Wire Wire Line
+	2850 2500 3450 2500
+Wire Wire Line
+	2850 2600 3450 2600
+Wire Wire Line
+	2850 2700 3450 2700
+Wire Wire Line
+	8050 2500 7450 2500
+Wire Wire Line
+	7450 2600 8050 2600
+Wire Wire Line
+	7450 2700 8050 2700
+Wire Wire Line
+	7450 2800 8050 2800
+Wire Wire Line
+	7450 2900 8050 2900
+Wire Wire Line
+	7450 3000 8050 3000
+Wire Wire Line
+	7450 3100 8050 3100
+Wire Wire Line
+	9800 2500 10450 2500
+Wire Wire Line
+	9800 2600 10450 2600
+Wire Wire Line
+	9800 2700 10450 2700
+Wire Wire Line
+	9800 2800 10450 2800
+Wire Wire Line
+	9800 2900 10450 2900
+Wire Wire Line
+	9800 3000 10450 3000
+Wire Wire Line
+	9800 3100 10450 3100
+Wire Wire Line
+	9800 3200 10450 3200
+Wire Wire Line
+	5800 1300 6450 1300
+Wire Wire Line
+	5800 1200 5850 1200
+Wire Wire Line
+	5850 1200 5850 1150
+Wire Wire Line
+	5850 1150 5900 1150
+Wire Wire Line
+	5800 1400 6450 1400
+Wire Wire Line
+	5800 1500 6450 1500
+Wire Wire Line
+	5800 1600 6450 1600
+Wire Wire Line
+	5800 1700 6450 1700
+Wire Wire Line
+	5800 1800 6450 1800
+Text Label 6450 1800 2    50   ~ 0
+NES_CPU_A5
+Text Label 6450 1700 2    50   ~ 0
+NES_CPU_A4
+Text Label 6450 1600 2    50   ~ 0
+NES_CPU_A3
+Text Label 6450 1500 2    50   ~ 0
+NES_CPU_A2
+Text Label 6450 1400 2    50   ~ 0
+NES_CPU_A1
+Text Label 6450 1900 2    50   ~ 0
+NES_CPU_A6
+Wire Wire Line
+	5800 1900 6450 1900
+Text Label 6450 2000 2    50   ~ 0
+NES_CPU_A7
+Wire Wire Line
+	5800 2000 6450 2000
+Text Label 6450 2100 2    50   ~ 0
+NES_CPU_A8
+Wire Wire Line
+	5800 2100 6450 2100
+Text Label 6450 2200 2    50   ~ 0
+NES_CPU_A9
+Wire Wire Line
+	5800 2200 6450 2200
+Text Label 6450 2300 2    50   ~ 0
+NES_CPU_A10
+Wire Wire Line
+	5800 2300 6450 2300
+Text Label 6450 2400 2    50   ~ 0
+NES_CPU_A11
+Wire Wire Line
+	5800 2400 6450 2400
+Text Label 6450 2500 2    50   ~ 0
+NES_CPU_A12
+Wire Wire Line
+	5800 2500 6450 2500
+Text Label 6450 2600 2    50   ~ 0
+NES_CPU_A13
+Wire Wire Line
+	5800 2600 6450 2600
+Text Label 6450 2700 2    50   ~ 0
+NES_CPU_A14
+Wire Wire Line
+	5800 2700 6450 2700
+Text Label 6450 1300 2    50   ~ 0
+NES_CPU_A0
+Text Label 3450 1300 2    50   ~ 0
+NES_PPU_A0
+Text Label 3450 1400 2    50   ~ 0
+NES_PPU_A1
+Text Label 3450 1500 2    50   ~ 0
+NES_PPU_A2
+Text Label 3450 1600 2    50   ~ 0
+NES_PPU_A3
+Text Label 3450 1700 2    50   ~ 0
+NES_PPU_A4
+Text Label 3450 1800 2    50   ~ 0
+NES_PPU_A5
+Text Label 3450 1900 2    50   ~ 0
+NES_PPU_A6
+Text Label 3450 2000 2    50   ~ 0
+NES_PPU_A7
+Text Label 3450 2100 2    50   ~ 0
+NES_PPU_A8
+Text Label 3450 2200 2    50   ~ 0
+NES_PPU_A9
+Text Label 3450 2300 2    50   ~ 0
+NES_PPU_A10
+Text Label 3450 2400 2    50   ~ 0
+NES_PPU_A11
+Text Label 3450 2500 2    50   ~ 0
+NES_PPU_A12
+Text Label 3450 2600 2    50   ~ 0
+NES_PPU_A13
+Text Label 3450 2700 2    50   ~ 0
+~NES_PPU_A13
+Text Label 7450 2500 0    50   ~ 0
+NES_PPU_A0
+Text Label 7450 2600 0    50   ~ 0
+NES_PPU_A1
+Text Label 7450 2700 0    50   ~ 0
+NES_PPU_A2
+Text Label 7450 2800 0    50   ~ 0
+NES_PPU_A3
+Text Label 7450 2900 0    50   ~ 0
+NES_PPU_A4
+Text Label 7450 3000 0    50   ~ 0
+NES_PPU_A5
+Text Label 7450 3100 0    50   ~ 0
+NES_PPU_A6
+Text Label 10450 2500 2    50   ~ 0
+NES_PPU_A13
+Text Label 10450 2600 2    50   ~ 0
+NES_PPU_A12
+Text Label 10450 2700 2    50   ~ 0
+NES_PPU_A10
+Text Label 10450 2800 2    50   ~ 0
+NES_PPU_A11
+Text Label 10450 2900 2    50   ~ 0
+NES_PPU_A9
+Text Label 10450 3000 2    50   ~ 0
+NES_PPU_A8
+Text Label 10450 3100 2    50   ~ 0
+NES_PPU_A7
+Text Label 10450 3200 2    50   ~ 0
+~NES_PPU_A13
+Text Label 7450 5200 0    50   ~ 0
+NES_CPU_A11
+Text Label 7450 5100 0    50   ~ 0
+NES_CPU_A10
+Text Label 7450 5000 0    50   ~ 0
+NES_CPU_A9
+Text Label 7450 4900 0    50   ~ 0
+NES_CPU_A8
+Text Label 7450 4800 0    50   ~ 0
+NES_CPU_A7
+Text Label 7450 4700 0    50   ~ 0
+NES_CPU_A6
+Text Label 7450 4600 0    50   ~ 0
+NES_CPU_A5
+Text Label 7450 4500 0    50   ~ 0
+NES_CPU_A4
+Text Label 7450 4400 0    50   ~ 0
+NES_CPU_A3
+Text Label 7450 4300 0    50   ~ 0
+NES_CPU_A2
+Text Label 7450 4200 0    50   ~ 0
+NES_CPU_A1
+Text Label 7450 4100 0    50   ~ 0
+NES_CPU_A0
+Text Label 10450 5100 2    50   ~ 0
+NES_CPU_A12
+Wire Wire Line
+	9800 5100 10450 5100
+Text Label 10450 5000 2    50   ~ 0
+NES_CPU_A13
+Wire Wire Line
+	9800 5000 10450 5000
+Text Label 10450 4900 2    50   ~ 0
+NES_CPU_A14
+Wire Wire Line
+	9800 4900 10450 4900
+Text Label 3450 4300 2    50   ~ 0
+NES_CPU_D0
+Wire Wire Line
+	2850 4300 3450 4300
+Wire Wire Line
+	2850 4200 2900 4200
+Wire Wire Line
+	2900 4200 2900 4150
+Wire Wire Line
+	2900 4150 2950 4150
+Text Label 3450 4400 2    50   ~ 0
+NES_CPU_D1
+Wire Wire Line
+	2850 4400 3450 4400
+Text Label 3450 4500 2    50   ~ 0
+NES_CPU_D2
+Wire Wire Line
+	2850 4500 3450 4500
+Text Label 3450 4600 2    50   ~ 0
+NES_CPU_D3
+Wire Wire Line
+	2850 4600 3450 4600
+Text Label 3450 4700 2    50   ~ 0
+NES_CPU_D4
+Wire Wire Line
+	2850 4700 3450 4700
+Text Label 3450 4800 2    50   ~ 0
+NES_CPU_D5
+Wire Wire Line
+	2850 4800 3450 4800
+Text Label 3450 4900 2    50   ~ 0
+NES_CPU_D6
+Wire Wire Line
+	2850 4900 3450 4900
+Text Label 3450 5000 2    50   ~ 0
+NES_CPU_D7
+Wire Wire Line
+	2850 5000 3450 5000
+Text Label 3450 5100 2    50   ~ 0
+NES_PPU_D0
+Wire Wire Line
+	2850 5100 3450 5100
+Text Label 3450 5200 2    50   ~ 0
+NES_PPU_D1
+Wire Wire Line
+	2850 5200 3450 5200
+Text Label 3450 5300 2    50   ~ 0
+NES_PPU_D2
+Wire Wire Line
+	2850 5300 3450 5300
+Text Label 3450 5400 2    50   ~ 0
+NES_PPU_D3
+Wire Wire Line
+	2850 5400 3450 5400
+Text Label 3450 5500 2    50   ~ 0
+NES_PPU_D4
+Wire Wire Line
+	2850 5500 3450 5500
+Text Label 3450 5600 2    50   ~ 0
+NES_PPU_D5
+Wire Wire Line
+	2850 5600 3450 5600
+Text Label 3450 5700 2    50   ~ 0
+NES_PPU_D6
+Wire Wire Line
+	2850 5700 3450 5700
+Text Label 3450 5800 2    50   ~ 0
+NES_CPU_D7
+Wire Wire Line
+	2850 5800 3450 5800
+Text Label 7450 2400 0    50   ~ 0
+NES_PPU_D0
+Wire Wire Line
+	7450 2400 8050 2400
+Text Label 7450 2300 0    50   ~ 0
+NES_PPU_D1
+Wire Wire Line
+	7450 2300 8050 2300
+Text Label 7450 2200 0    50   ~ 0
+NES_PPU_D2
+Wire Wire Line
+	7450 2200 8050 2200
+Text Label 7450 2100 0    50   ~ 0
+NES_PPU_D3
+Wire Wire Line
+	7450 2100 8050 2100
+Text Label 10450 2100 2    50   ~ 0
+NES_PPU_D4
+Wire Wire Line
+	9800 2100 10450 2100
+Text Label 10450 2200 2    50   ~ 0
+NES_PPU_D5
+Wire Wire Line
+	9800 2200 10450 2200
+Text Label 10450 2300 2    50   ~ 0
+NES_PPU_D6
+Wire Wire Line
+	9800 2300 10450 2300
+Text Label 10450 2400 2    50   ~ 0
+NES_PPU_D7
+Wire Wire Line
+	9800 2400 10450 2400
+Text Label 10450 4100 2    50   ~ 0
+NES_CPU_D0
+Wire Wire Line
+	9800 4100 10450 4100
+Text Label 10450 4200 2    50   ~ 0
+NES_CPU_D1
+Wire Wire Line
+	9800 4200 10450 4200
+Text Label 10450 4300 2    50   ~ 0
+NES_CPU_D2
+Wire Wire Line
+	9800 4300 10450 4300
+Text Label 10450 4400 2    50   ~ 0
+NES_CPU_D3
+Wire Wire Line
+	9800 4400 10450 4400
+Text Label 10450 4500 2    50   ~ 0
+NES_CPU_D4
+Wire Wire Line
+	9800 4500 10450 4500
+Text Label 10450 4600 2    50   ~ 0
+NES_CPU_D5
+Wire Wire Line
+	9800 4600 10450 4600
+Text Label 10450 4700 2    50   ~ 0
+NES_CPU_D6
+Wire Wire Line
+	9800 4700 10450 4700
+Text Label 10450 4800 2    50   ~ 0
+NES_CPU_D7
+Wire Wire Line
+	9800 4800 10450 4800
+$Comp
+L icenes-library:74ALVC164245 U?
+U 1 1 5E46613B
+P 5200 3850
+F 0 "U?" H 5200 3965 50  0000 C CNN
+F 1 "74ALVC164245" H 5200 3874 50  0000 C CNN
+F 2 "" H 5200 3850 50  0001 C CNN
+F 3 "https://www.idt.com/document/dst/74alvc164245-datasheet" H 5200 3850 50  0001 C CNN
+	1    5200 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E466141
+P 5900 3950
+F 0 "#PWR?" H 5900 3800 50  0001 C CNN
+F 1 "+5V" H 5915 4123 50  0000 C CNN
+F 2 "" H 5900 3950 50  0001 C CNN
+F 3 "" H 5900 3950 50  0001 C CNN
+	1    5900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E466147
+P 4500 3950
+F 0 "#PWR?" H 4500 3800 50  0001 C CNN
+F 1 "+3V3" H 4515 4123 50  0000 C CNN
+F 2 "" H 4500 3950 50  0001 C CNN
+F 3 "" H 4500 3950 50  0001 C CNN
+	1    4500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E46614D
+P 5900 6350
+F 0 "#PWR?" H 5900 6100 50  0001 C CNN
+F 1 "GND" H 5905 6177 50  0000 C CNN
+F 2 "" H 5900 6350 50  0001 C CNN
+F 3 "" H 5900 6350 50  0001 C CNN
+	1    5900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E466153
+P 4500 6350
+F 0 "#PWR?" H 4500 6100 50  0001 C CNN
+F 1 "GND" H 4505 6177 50  0000 C CNN
+F 2 "" H 4500 6350 50  0001 C CNN
+F 3 "" H 4500 6350 50  0001 C CNN
+	1    4500 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6000 4500 6000
+Wire Wire Line
+	4500 6000 4500 6100
+Wire Wire Line
+	4600 6100 4500 6100
+Connection ~ 4500 6100
+Wire Wire Line
+	4500 6100 4500 6200
+Wire Wire Line
+	4600 6200 4500 6200
+Connection ~ 4500 6200
+Wire Wire Line
+	4500 6200 4500 6300
+Wire Wire Line
+	4600 6300 4500 6300
+Connection ~ 4500 6300
+Wire Wire Line
+	4500 6300 4500 6350
+Wire Wire Line
+	5800 6000 5900 6000
+Wire Wire Line
+	5900 6000 5900 6100
+Wire Wire Line
+	5800 6100 5900 6100
+Connection ~ 5900 6100
+Wire Wire Line
+	5900 6100 5900 6200
+Wire Wire Line
+	5800 6200 5900 6200
+Connection ~ 5900 6200
+Wire Wire Line
+	5900 6200 5900 6300
+Wire Wire Line
+	5800 6300 5900 6300
+Connection ~ 5900 6300
+Wire Wire Line
+	5900 6300 5900 6350
+Wire Wire Line
+	4600 4000 4500 4000
+Wire Wire Line
+	4500 4000 4500 3950
+Wire Wire Line
+	4600 4100 4500 4100
+Wire Wire Line
+	4500 4100 4500 4000
+Connection ~ 4500 4000
+Wire Wire Line
+	5800 4000 5900 4000
+Wire Wire Line
+	5900 4000 5900 3950
+Wire Wire Line
+	5800 4100 5900 4100
+Wire Wire Line
+	5900 4100 5900 4000
+Connection ~ 5900 4000
+Wire Wire Line
+	5800 5900 5900 5900
+Wire Wire Line
+	4600 4300 4500 4300
+Wire Wire Line
+	4600 4400 4500 4400
+Wire Wire Line
+	4600 4800 4500 4800
+Wire Wire Line
+	4600 4900 4500 4900
+Wire Wire Line
+	4600 5200 4500 5200
+Wire Wire Line
+	4600 5400 4500 5400
+Wire Wire Line
+	4600 5600 4500 5600
+Text GLabel 4500 4400 0    50   Input ~ 0
+FPGA_M2
+Text GLabel 4500 4800 0    50   Input ~ 0
+FPGA_CIC_CLK
+Text GLabel 4500 4900 0    50   Input ~ 0
+FPGA_CICtoPak
+Text GLabel 4500 5200 0    50   Output ~ 0
+FPGA_CICtoMB
+Text GLabel 4500 5400 0    50   Output ~ 0
+~FPGA_IRQ
+Text GLabel 4500 5600 0    50   Output ~ 0
+~FPGA_CIRAM_CE
+Text GLabel 4500 5800 0    50   Output ~ 0
+FPGA_CIRAM_A10
+Text GLabel 4500 5950 0    50   Input ~ 0
+~MISC_OE2
+Text GLabel 5900 4150 2    50   Input ~ 0
+MISC_DIR1
+Text GLabel 5900 5900 2    50   Input ~ 0
+MISC_DIR2
+Text GLabel 4500 4300 0    50   Input ~ 0
+FPGA_SYSTEM_CLK
+Text Label 6400 4300 2    50   ~ 0
+NES_SYSTEM_CLK
+Wire Wire Line
+	5800 4300 6400 4300
+Wire Wire Line
+	5800 4200 5850 4200
+Wire Wire Line
+	5850 4200 5850 4150
+Wire Wire Line
+	5850 4150 5900 4150
+Text Label 6400 4400 2    50   ~ 0
+NES_M2
+Wire Wire Line
+	5800 4400 6400 4400
+Text Label 6400 4600 2    50   ~ 0
+~NES_PPU_RD
+Wire Wire Line
+	5800 4600 6400 4600
+Text Label 6400 4700 2    50   ~ 0
+~NES_ROMSEL
+Wire Wire Line
+	5800 4700 6400 4700
+Text Label 6400 4800 2    50   ~ 0
+NES_CIC_CLK
+Wire Wire Line
+	5800 4800 6400 4800
+Wire Wire Line
+	5800 4900 6400 4900
+Text Label 6400 5000 2    50   ~ 0
+~NES_CIC_RST
+Wire Wire Line
+	5800 5000 6400 5000
+Text Label 6400 5200 2    50   ~ 0
+NES_CICtoMB
+Wire Wire Line
+	5800 5200 6400 5200
+Text Label 6400 5400 2    50   ~ 0
+~NES_IRQ
+Wire Wire Line
+	5800 5400 6400 5400
+Text Label 6400 5600 2    50   ~ 0
+~NES_CIRAM_CE
+Wire Wire Line
+	5800 5600 6400 5600
+Text Label 6400 5800 2    50   ~ 0
+NES_CIRAM_A10
+Wire Wire Line
+	5800 5800 6400 5800
+Wire Wire Line
+	4600 2800 4500 2800
+Text GLabel 4500 2800 0    50   Input ~ 0
+FPGA_CPU_RW
+Wire Wire Line
+	4550 2900 4600 2900
+Wire Wire Line
+	4550 2900 4550 2950
+Wire Wire Line
+	4550 2950 4500 2950
+Text Label 6450 2800 2    50   ~ 0
+NES_CPU_RW
+Wire Wire Line
+	5800 2800 6450 2800
+Text Label 7450 4000 0    50   ~ 0
+NES_CPU_RW
+Wire Wire Line
+	4600 1200 4550 1200
+Wire Wire Line
+	4550 1200 4550 1150
+Wire Wire Line
+	4550 1150 4500 1150
+Wire Wire Line
+	9800 3400 10450 3400
+Text Label 10450 3400 2    50   ~ 0
+~NES_PPU_WR
+Text Label 3450 2800 2    50   ~ 0
+~NES_PPU_WR
+Wire Wire Line
+	2850 2800 3450 2800
+Wire Wire Line
+	1650 2800 1550 2800
+Text GLabel 1500 2850 0    50   Input ~ 0
+~FPGA_PPU_WR
+Wire Wire Line
+	1550 2800 1550 2850
+Wire Wire Line
+	1500 2900 1500 3000
+Wire Wire Line
+	1500 2900 1650 2900
+Wire Wire Line
+	1550 2850 1500 2850
+Text GLabel 4500 5025 0    50   Input ~ 0
+~FPGA_CIC_RST
+Wire Wire Line
+	1600 4200 1650 4200
+Wire Wire Line
+	1600 4200 1600 4150
+Wire Wire Line
+	1600 4150 1550 4150
+Wire Wire Line
+	1650 5900 1600 5900
+Wire Wire Line
+	1600 5900 1600 5950
+Wire Wire Line
+	1600 5950 1550 5950
+Text GLabel 4500 4150 0    50   Input ~ 0
+~MISC_OE1
+Wire Wire Line
+	4600 4200 4550 4200
+Wire Wire Line
+	4550 4200 4550 4150
+Wire Wire Line
+	4550 4150 4500 4150
+Text GLabel 4500 4525 0    50   Input ~ 0
+~FPGA_PPU_RD
+Text GLabel 4500 4675 0    50   Input ~ 0
+~FPGA_ROMSEL
+Text Label 6400 4900 2    50   ~ 0
+NES_CICtoPak
+Wire Wire Line
+	4600 5800 4500 5800
+Wire Wire Line
+	4600 5900 4550 5900
+Wire Wire Line
+	4550 5900 4550 5950
+Wire Wire Line
+	4550 5950 4500 5950
+Wire Wire Line
+	4600 5000 4550 5000
+Wire Wire Line
+	4550 4600 4600 4600
+Wire Wire Line
+	4550 4600 4550 4525
+Wire Wire Line
+	4550 4525 4500 4525
+Wire Wire Line
+	4600 4700 4550 4700
+Wire Wire Line
+	4550 4700 4550 4675
+Wire Wire Line
+	4550 4675 4500 4675
+NoConn ~ 4600 4500
+NoConn ~ 4600 5100
+NoConn ~ 4600 5300
+NoConn ~ 4600 5500
+NoConn ~ 4600 5700
+Wire Wire Line
+	4550 5000 4550 5025
+Wire Wire Line
+	4550 5025 4500 5025
+NoConn ~ 5800 4500
+NoConn ~ 5800 5100
+NoConn ~ 5800 5300
+NoConn ~ 5800 5500
+NoConn ~ 5800 5700
+Wire Wire Line
+	9800 5200 10450 5200
+Wire Wire Line
+	9800 5300 10450 5300
+Text Label 10450 5200 2    50   ~ 0
+NES_M2
+Text Label 10450 5300 2    50   ~ 0
+NES_SYSTEM_CLK
+Wire Wire Line
+	9800 4000 10450 4000
+Text Label 10450 4000 2    50   ~ 0
+~NES_ROMSEL
+Text Label 7450 3900 0    50   ~ 0
+~NES_IRQ
+Wire Wire Line
+	7450 3200 8050 3200
+Text Label 7450 3200 0    50   ~ 0
+NES_CIRAM_A10
+Wire Wire Line
+	7450 3300 8050 3300
+Text Label 7450 3300 0    50   ~ 0
+~NES_PPU_RD
+Wire Wire Line
+	9800 3300 10450 3300
+Text Label 10450 3300 2    50   ~ 0
+~NES_CIRAM_CE
+Wire Wire Line
+	7450 2000 8050 2000
+Text Label 7450 2000 0    50   ~ 0
+NES_CICtoPak
+Wire Wire Line
+	7450 1900 8050 1900
+Text Label 7450 1900 0    50   ~ 0
+NES_CICtoMB
+Wire Wire Line
+	9800 2000 10450 2000
+Text Label 10450 2000 2    50   ~ 0
+~NES_CIC_RST
+Wire Wire Line
+	9800 1900 10450 1900
+Text Label 10450 1900 2    50   ~ 0
+NES_CIC_CLK
+Wire Wire Line
+	9900 1600 10000 1600
+Wire Wire Line
+	9900 1600 9900 1800
+NoConn ~ 9800 3500
+NoConn ~ 9800 3600
+NoConn ~ 9800 3700
+NoConn ~ 9800 3800
+NoConn ~ 9800 3900
+NoConn ~ 8050 3400
+NoConn ~ 8050 3500
+NoConn ~ 8050 3600
+NoConn ~ 8050 3700
+NoConn ~ 8050 3800
+Wire Wire Line
+	8050 3900 7450 3900
+Wire Wire Line
+	8050 4000 7450 4000
+Wire Wire Line
+	8050 4100 7450 4100
+Wire Wire Line
+	8050 4200 7450 4200
+Wire Wire Line
+	7450 4300 8050 4300
+Wire Wire Line
+	8050 4400 7450 4400
+Wire Wire Line
+	7450 4500 8050 4500
+Wire Wire Line
+	8050 4600 7450 4600
+Wire Wire Line
+	7450 4700 8050 4700
+Wire Wire Line
+	8050 4800 7450 4800
+Wire Wire Line
+	7450 4900 8050 4900
+Wire Wire Line
+	8050 5000 7450 5000
+Wire Wire Line
+	7450 5100 8050 5100
+Wire Wire Line
+	8050 5200 7450 5200
+Wire Wire Line
+	1600 1200 1650 1200
+Wire Wire Line
+	1600 1200 1600 1150
+Wire Wire Line
+	1600 1150 1550 1150
+Wire Wire Line
+	1550 2700 1650 2700
+Text GLabel 1550 2700 0    50   Input ~ 0
+~FPGA_PPU_A13
+$Comp
+L icenes-library:74ALVC164245 U?
+U 1 1 5D541C75
+P 5200 850
+F 0 "U?" H 5200 965 50  0000 C CNN
+F 1 "74ALVC164245" H 5200 874 50  0000 C CNN
+F 2 "" H 5200 850 50  0001 C CNN
+F 3 "https://www.idt.com/document/dst/74alvc164245-datasheet" H 5200 850 50  0001 C CNN
+	1    5200 850 
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

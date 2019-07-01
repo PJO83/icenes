@@ -1,0 +1,359 @@
+EESchema Schematic File Version 4
+LIBS:icenes-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L icenes-library:iCE40HX8K-CT256 U?
+U 3 1 5D1C7CDB
+P 4700 2450
+AR Path="/5D1C7CDB" Ref="U?"  Part="3" 
+AR Path="/5D1BB1FB/5D1C7CDB" Ref="U?"  Part="3" 
+F 0 "U?" H 4650 2565 50  0000 C CNN
+F 1 "iCE40HX8K-CT256" H 4650 2474 50  0000 C CNN
+F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 4700 2450 50  0001 C CNN
+F 3 "" H 4700 2450 50  0001 C CNN
+	3    4700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:iCE40HX8K-CT256 U?
+U 4 1 5D1CC34E
+P 11100 2400
+AR Path="/5D1CC34E" Ref="U?"  Part="4" 
+AR Path="/5D1BB1FB/5D1CC34E" Ref="U?"  Part="4" 
+F 0 "U?" H 11050 2515 50  0000 C CNN
+F 1 "iCE40HX8K-CT256" H 11050 2424 50  0000 C CNN
+F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 11100 2400 50  0001 C CNN
+F 3 "" H 11100 2400 50  0001 C CNN
+	4    11100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2650 3850 2650
+Wire Wire Line
+	4000 2950 3850 2950
+Wire Wire Line
+	3850 2950 3850 2850
+Connection ~ 3850 2650
+Wire Wire Line
+	4000 2850 3850 2850
+Connection ~ 3850 2850
+Wire Wire Line
+	3850 2850 3850 2750
+Wire Wire Line
+	4000 2750 3850 2750
+Connection ~ 3850 2750
+Wire Wire Line
+	3850 2750 3850 2650
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D2FE82F
+P 2100 2550
+F 0 "#PWR?" H 2100 2400 50  0001 C CNN
+F 1 "+3V3" H 2115 2723 50  0000 C CNN
+F 2 "" H 2100 2550 50  0001 C CNN
+F 3 "" H 2100 2550 50  0001 C CNN
+	1    2100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D3005C9
+P 3450 3100
+F 0 "#PWR?" H 3450 2850 50  0001 C CNN
+F 1 "GND" H 3455 2927 50  0000 C CNN
+F 2 "" H 3450 3100 50  0001 C CNN
+F 3 "" H 3450 3100 50  0001 C CNN
+	1    3450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D302246
+P 3450 2850
+F 0 "C?" H 3565 2896 50  0000 L CNN
+F 1 "C0.1uF" H 3300 2750 50  0001 C CNN
+F 2 "" H 3450 2850 50  0001 C CNN
+F 3 "" H 3450 2850 50  0001 C CNN
+F 4 "0.1uF" H 3565 2805 50  0000 L CNN "Capacitance"
+	1    3450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D303F4A
+P 3000 2850
+F 0 "C?" H 3115 2896 50  0000 L CNN
+F 1 "C0.1uF" H 2850 2750 50  0001 C CNN
+F 2 "" H 3000 2850 50  0001 C CNN
+F 3 "" H 3000 2850 50  0001 C CNN
+F 4 "0.1uF" H 3115 2805 50  0000 L CNN "Capacitance"
+	1    3000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D30560F
+P 2550 2850
+F 0 "C?" H 2665 2896 50  0000 L CNN
+F 1 "C0.1uF" H 2400 2750 50  0001 C CNN
+F 2 "" H 2550 2850 50  0001 C CNN
+F 3 "" H 2550 2850 50  0001 C CNN
+F 4 "0.1uF" H 2665 2805 50  0000 L CNN "Capacitance"
+	1    2550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D30632C
+P 2100 2850
+F 0 "C?" H 2215 2896 50  0000 L CNN
+F 1 "C0.1uF" H 1950 2750 50  0001 C CNN
+F 2 "" H 2100 2850 50  0001 C CNN
+F 3 "" H 2100 2850 50  0001 C CNN
+F 4 "0.1uF" H 2215 2805 50  0000 L CNN "Capacitance"
+	1    2100 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2650 2100 2700
+Wire Wire Line
+	2100 2650 2550 2650
+Wire Wire Line
+	2100 2550 2100 2650
+Connection ~ 2100 2650
+Wire Wire Line
+	2550 2700 2550 2650
+Connection ~ 2550 2650
+Wire Wire Line
+	2550 2650 3000 2650
+Wire Wire Line
+	3000 2700 3000 2650
+Connection ~ 3000 2650
+Wire Wire Line
+	3000 2650 3450 2650
+Wire Wire Line
+	3450 2700 3450 2650
+Connection ~ 3450 2650
+Wire Wire Line
+	3450 2650 3850 2650
+Wire Wire Line
+	3450 3000 3450 3050
+Wire Wire Line
+	3450 3050 3000 3050
+Wire Wire Line
+	2100 3050 2100 3000
+Connection ~ 3450 3050
+Wire Wire Line
+	3450 3050 3450 3100
+Wire Wire Line
+	2550 3000 2550 3050
+Connection ~ 2550 3050
+Wire Wire Line
+	2550 3050 2100 3050
+Wire Wire Line
+	3000 3000 3000 3050
+Connection ~ 3000 3050
+Wire Wire Line
+	3000 3050 2550 3050
+Wire Wire Line
+	10400 2600 10250 2600
+Wire Wire Line
+	10400 2900 10250 2900
+Wire Wire Line
+	10250 2900 10250 2800
+Connection ~ 10250 2600
+Wire Wire Line
+	10400 2800 10250 2800
+Connection ~ 10250 2800
+Wire Wire Line
+	10250 2800 10250 2700
+Wire Wire Line
+	10400 2700 10250 2700
+Connection ~ 10250 2700
+Wire Wire Line
+	10250 2700 10250 2600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D30FC3B
+P 8500 2500
+F 0 "#PWR?" H 8500 2350 50  0001 C CNN
+F 1 "+3V3" H 8515 2673 50  0000 C CNN
+F 2 "" H 8500 2500 50  0001 C CNN
+F 3 "" H 8500 2500 50  0001 C CNN
+	1    8500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D30FC41
+P 9850 3050
+F 0 "#PWR?" H 9850 2800 50  0001 C CNN
+F 1 "GND" H 9855 2877 50  0000 C CNN
+F 2 "" H 9850 3050 50  0001 C CNN
+F 3 "" H 9850 3050 50  0001 C CNN
+	1    9850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D30FC48
+P 9850 2800
+F 0 "C?" H 9965 2846 50  0000 L CNN
+F 1 "C0.1uF" H 9700 2700 50  0001 C CNN
+F 2 "" H 9850 2800 50  0001 C CNN
+F 3 "" H 9850 2800 50  0001 C CNN
+F 4 "0.1uF" H 9965 2755 50  0000 L CNN "Capacitance"
+	1    9850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D30FC4F
+P 9400 2800
+F 0 "C?" H 9515 2846 50  0000 L CNN
+F 1 "C0.1uF" H 9250 2700 50  0001 C CNN
+F 2 "" H 9400 2800 50  0001 C CNN
+F 3 "" H 9400 2800 50  0001 C CNN
+F 4 "0.1uF" H 9515 2755 50  0000 L CNN "Capacitance"
+	1    9400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D30FC56
+P 8950 2800
+F 0 "C?" H 9065 2846 50  0000 L CNN
+F 1 "C0.1uF" H 8800 2700 50  0001 C CNN
+F 2 "" H 8950 2800 50  0001 C CNN
+F 3 "" H 8950 2800 50  0001 C CNN
+F 4 "0.1uF" H 9065 2755 50  0000 L CNN "Capacitance"
+	1    8950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D30FC5D
+P 8500 2800
+F 0 "C?" H 8615 2846 50  0000 L CNN
+F 1 "C0.1uF" H 8350 2700 50  0001 C CNN
+F 2 "" H 8500 2800 50  0001 C CNN
+F 3 "" H 8500 2800 50  0001 C CNN
+F 4 "0.1uF" H 8615 2755 50  0000 L CNN "Capacitance"
+	1    8500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2600 8500 2650
+Wire Wire Line
+	8500 2600 8950 2600
+Wire Wire Line
+	8500 2500 8500 2600
+Connection ~ 8500 2600
+Wire Wire Line
+	8950 2650 8950 2600
+Connection ~ 8950 2600
+Wire Wire Line
+	8950 2600 9400 2600
+Wire Wire Line
+	9400 2650 9400 2600
+Connection ~ 9400 2600
+Wire Wire Line
+	9400 2600 9850 2600
+Wire Wire Line
+	9850 2650 9850 2600
+Connection ~ 9850 2600
+Wire Wire Line
+	9850 2600 10250 2600
+Wire Wire Line
+	9850 2950 9850 3000
+Wire Wire Line
+	9850 3000 9400 3000
+Wire Wire Line
+	8500 3000 8500 2950
+Connection ~ 9850 3000
+Wire Wire Line
+	9850 3000 9850 3050
+Wire Wire Line
+	8950 2950 8950 3000
+Connection ~ 8950 3000
+Wire Wire Line
+	8950 3000 8500 3000
+Wire Wire Line
+	9400 2950 9400 3000
+Connection ~ 9400 3000
+Wire Wire Line
+	9400 3000 8950 3000
+$Comp
+L icenes-library:C0.1uF C?
+U 1 1 5D312028
+P 3450 4050
+F 0 "C?" H 3565 4096 50  0000 L CNN
+F 1 "C0.1uF" H 3300 3950 50  0001 C CNN
+F 2 "" H 3450 4050 50  0001 C CNN
+F 3 "" H 3450 4050 50  0001 C CNN
+F 4 "0.1uF" H 3565 4005 50  0000 L CNN "Capacitance"
+	1    3450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5D312958
+P 3000 3750
+F 0 "#PWR?" H 3000 3600 50  0001 C CNN
+F 1 "+1V2" H 3015 3923 50  0000 C CNN
+F 2 "" H 3000 3750 50  0001 C CNN
+F 3 "" H 3000 3750 50  0001 C CNN
+	1    3000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C10uF C?
+U 1 1 5D3138FC
+P 3000 4050
+F 0 "C?" H 3115 4096 50  0000 L CNN
+F 1 "C10uF" H 2850 3950 50  0001 C CNN
+F 2 "" V 3000 4050 50  0001 C CNN
+F 3 "" H 3000 4050 50  0001 C CNN
+F 4 "10uF" H 3115 4005 50  0000 L CNN "Capacitance"
+	1    3000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3850 3450 3850
+Wire Wire Line
+	3000 3850 3000 3900
+Wire Wire Line
+	3450 3850 3450 3900
+Connection ~ 3450 3850
+Wire Wire Line
+	3450 3850 3000 3850
+Wire Wire Line
+	3000 3750 3000 3850
+Connection ~ 3000 3850
+Wire Wire Line
+	3950 4250 3450 4250
+Wire Wire Line
+	3000 4250 3000 4200
+Wire Wire Line
+	3450 4200 3450 4250
+Connection ~ 3450 4250
+Wire Wire Line
+	3450 4250 3000 4250
+Wire Wire Line
+	3950 3950 3950 4250
+Wire Wire Line
+	3950 3950 4000 3950
+$EndSCHEMATC
