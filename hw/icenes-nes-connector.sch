@@ -591,7 +591,7 @@ FPGA_PPU_D5
 Text GLabel 1550 5700 0    50   BiDi ~ 0
 FPGA_PPU_D6
 Text GLabel 1550 5800 0    50   BiDi ~ 0
-FPGA_CPU_D7
+FPGA_PPU_D7
 Text GLabel 1550 5950 0    50   Input ~ 0
 ~PPU_DATA_OE
 Text GLabel 2950 4150 2    50   Input ~ 0
@@ -895,7 +895,7 @@ NES_PPU_D6
 Wire Wire Line
 	2850 5700 3450 5700
 Text Label 3450 5800 2    50   ~ 0
-NES_CPU_D7
+NES_PPU_D7
 Wire Wire Line
 	2850 5800 3450 5800
 Text Label 7450 2400 0    50   ~ 0
