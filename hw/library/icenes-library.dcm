@@ -18,15 +18,97 @@ K NOR-Flash SPI 4Mbit
 F https://www.adestotech.com/wp-content/uploads/DS-AT25SF041_044.pdf
 $ENDCMP
 #
+$CMP C0.1uF
+D 0.1uF, 10VDC, +-10%, 0603, X7R
+$ENDCMP
+#
+$CMP C10uF
+D 10uF, 10VDC, +-10%, 0603, X5R
+$ENDCMP
+#
+$CMP C1uF
+D 1uF, 10VDC, +-10%, 0603, X5R
+$ENDCMP
+#
+$CMP C22uF
+D 22uF, 10VDC, +-20%, 0603, X5R
+$ENDCMP
+#
+$CMP C4.7uF
+D 4.7uF, 10VDC, +-10%, 0603, X5R
+$ENDCMP
+#
+$CMP C6.8pF
+D 6.8pF, 10VDC, +-0.5pF, 0603, C0G
+$ENDCMP
+#
+$CMP CDBU0520
+D Schottky Diode, VR=20V, IO=500mA
+$ENDCMP
+#
 $CMP DSC1001DI2-012.0000
 D 12MHz MEMS Oscillator Microchip
 K 12MHz Oscillator Microchip
 F https://ww1.microchip.com/downloads/en/DeviceDoc/20005529B.pdf
 $ENDCMP
 #
+$CMP L10uH
+D 10nH, +-5%, 1A, 80mOhms, 1206
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
 $CMP NES-Connector-72pin
 D NES 72 pin cartridge connector
 K NES 72 pin cartridge connector
+$ENDCMP
+#
+$CMP R0
+D 0Ohms, +-1%, 125mW, 150V, 0805
+$ENDCMP
+#
+$CMP R10K
+D 10kOhms, +-1%, 100mW, 75V, 0603
+$ENDCMP
+#
+$CMP R12K
+D 12kOhms, +-1%, 100mW, 75V, 0603
+$ENDCMP
+#
+$CMP R1M
+D 1MOhms, +-1%, 100mW, 75V, 0603
+$ENDCMP
+#
+$CMP R2.2K
+D 2.2kOhms, +-1%, 100mW, 75V, 0603
+$ENDCMP
+#
+$CMP R360K
+D 360kOhms, +-1%, 100mW, 75V, 0603
+$ENDCMP
+#
+$CMP R510K
+D 510kOhms, +-1%, 100mW, 75V, 0603
+$ENDCMP
+#
+$CMP R820K
+D 820kOhms, +-1%, 100mW, 75V, 0603
+$ENDCMP
+#
+$CMP R91K
+D 91kOhms, +-1%, 100mW, 75V, 0603
+$ENDCMP
+#
+$CMP TPS62050
+D Switching adjustable voltage regulator. Output 0.7V-6V 800mA, Input 2.7V-10V. Switching frequency 850kHz.
+K Switching adjustable voltage regulator.
+F http://www.ti.com/lit/ds/symlink/tps62050.pdf
+$ENDCMP
+#
+$CMP TPS62056
+D Switching 3.3V voltage regulator. Output 3.3V 800mA, Input 2.7V-10V. Switching frequency 850kHz.
+K Switching 3.3V regulator.
+F http://www.ti.com/lit/ds/symlink/tps62050.pdf
 $ENDCMP
 #
 $CMP iCE40HX8K-CT256

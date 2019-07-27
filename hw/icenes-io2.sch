@@ -91,9 +91,11 @@ AR Path="/5D1BB1FB/5D333FBB" Ref="C?"  Part="1"
 AR Path="/5D1BB49B/5D333FBB" Ref="C?"  Part="1" 
 F 0 "C?" H 4165 2396 50  0000 L CNN
 F 1 "C0.1uF" H 3900 2250 50  0001 C CNN
-F 2 "" H 4050 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 2350 50  0001 C CNN
 F 3 "" H 4050 2350 50  0001 C CNN
 F 4 "0.1uF" H 4165 2305 50  0000 L CNN "Capacitance"
+F 5 "Wurth" H 4050 2350 50  0001 C CNN "Manufacturer"
+F 6 "885012206020 " H 4050 2350 50  0001 C CNN "Part number"
 	1    4050 2350
 	1    0    0    -1  
 $EndComp
@@ -105,9 +107,11 @@ AR Path="/5D1BB1FB/5D333FC2" Ref="C?"  Part="1"
 AR Path="/5D1BB49B/5D333FC2" Ref="C?"  Part="1" 
 F 0 "C?" H 3715 2396 50  0000 L CNN
 F 1 "C0.1uF" H 3450 2250 50  0001 C CNN
-F 2 "" H 3600 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 2350 50  0001 C CNN
 F 3 "" H 3600 2350 50  0001 C CNN
 F 4 "0.1uF" H 3715 2305 50  0000 L CNN "Capacitance"
+F 5 "Wurth" H 3600 2350 50  0001 C CNN "Manufacturer"
+F 6 "885012206020 " H 3600 2350 50  0001 C CNN "Part number"
 	1    3600 2350
 	1    0    0    -1  
 $EndComp
@@ -119,9 +123,11 @@ AR Path="/5D1BB1FB/5D333FC9" Ref="C?"  Part="1"
 AR Path="/5D1BB49B/5D333FC9" Ref="C?"  Part="1" 
 F 0 "C?" H 3265 2396 50  0000 L CNN
 F 1 "C0.1uF" H 3000 2250 50  0001 C CNN
-F 2 "" H 3150 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 2350 50  0001 C CNN
 F 3 "" H 3150 2350 50  0001 C CNN
 F 4 "0.1uF" H 3265 2305 50  0000 L CNN "Capacitance"
+F 5 "Wurth" H 3150 2350 50  0001 C CNN "Manufacturer"
+F 6 "885012206020 " H 3150 2350 50  0001 C CNN "Part number"
 	1    3150 2350
 	1    0    0    -1  
 $EndComp
@@ -133,9 +139,11 @@ AR Path="/5D1BB1FB/5D333FD0" Ref="C?"  Part="1"
 AR Path="/5D1BB49B/5D333FD0" Ref="C?"  Part="1" 
 F 0 "C?" H 2815 2396 50  0000 L CNN
 F 1 "C0.1uF" H 2550 2250 50  0001 C CNN
-F 2 "" H 2700 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2700 2350 50  0001 C CNN
 F 3 "" H 2700 2350 50  0001 C CNN
 F 4 "0.1uF" H 2815 2305 50  0000 L CNN "Capacitance"
+F 5 "Wurth" H 2700 2350 50  0001 C CNN "Manufacturer"
+F 6 "885012206020 " H 2700 2350 50  0001 C CNN "Part number"
 	1    2700 2350
 	1    0    0    -1  
 $EndComp
@@ -231,9 +239,11 @@ AR Path="/5D1BB1FB/5D339A54" Ref="C?"  Part="1"
 AR Path="/5D1BB49B/5D339A54" Ref="C?"  Part="1" 
 F 0 "C?" H 11115 2446 50  0000 L CNN
 F 1 "C0.1uF" H 10850 2300 50  0001 C CNN
-F 2 "" H 11000 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11000 2400 50  0001 C CNN
 F 3 "" H 11000 2400 50  0001 C CNN
 F 4 "0.1uF" H 11115 2355 50  0000 L CNN "Capacitance"
+F 5 "Wurth" H 11000 2400 50  0001 C CNN "Manufacturer"
+F 6 "885012206020 " H 11000 2400 50  0001 C CNN "Part number"
 	1    11000 2400
 	1    0    0    -1  
 $EndComp
@@ -245,9 +255,11 @@ AR Path="/5D1BB1FB/5D339A5B" Ref="C?"  Part="1"
 AR Path="/5D1BB49B/5D339A5B" Ref="C?"  Part="1" 
 F 0 "C?" H 10665 2446 50  0000 L CNN
 F 1 "C0.1uF" H 10400 2300 50  0001 C CNN
-F 2 "" H 10550 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10550 2400 50  0001 C CNN
 F 3 "" H 10550 2400 50  0001 C CNN
 F 4 "0.1uF" H 10665 2355 50  0000 L CNN "Capacitance"
+F 5 "Wurth" H 10550 2400 50  0001 C CNN "Manufacturer"
+F 6 "885012206020 " H 10550 2400 50  0001 C CNN "Part number"
 	1    10550 2400
 	1    0    0    -1  
 $EndComp
@@ -259,9 +271,11 @@ AR Path="/5D1BB1FB/5D339A62" Ref="C?"  Part="1"
 AR Path="/5D1BB49B/5D339A62" Ref="C?"  Part="1" 
 F 0 "C?" H 10215 2446 50  0000 L CNN
 F 1 "C0.1uF" H 9950 2300 50  0001 C CNN
-F 2 "" H 10100 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10100 2400 50  0001 C CNN
 F 3 "" H 10100 2400 50  0001 C CNN
 F 4 "0.1uF" H 10215 2355 50  0000 L CNN "Capacitance"
+F 5 "Wurth" H 10100 2400 50  0001 C CNN "Manufacturer"
+F 6 "885012206020 " H 10100 2400 50  0001 C CNN "Part number"
 	1    10100 2400
 	1    0    0    -1  
 $EndComp
@@ -273,9 +287,11 @@ AR Path="/5D1BB1FB/5D339A69" Ref="C?"  Part="1"
 AR Path="/5D1BB49B/5D339A69" Ref="C?"  Part="1" 
 F 0 "C?" H 9765 2446 50  0000 L CNN
 F 1 "C0.1uF" H 9500 2300 50  0001 C CNN
-F 2 "" H 9650 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9650 2400 50  0001 C CNN
 F 3 "" H 9650 2400 50  0001 C CNN
 F 4 "0.1uF" H 9765 2355 50  0000 L CNN "Capacitance"
+F 5 "Wurth" H 9650 2400 50  0001 C CNN "Manufacturer"
+F 6 "885012206020 " H 9650 2400 50  0001 C CNN "Part number"
 	1    9650 2400
 	1    0    0    -1  
 $EndComp
@@ -328,9 +344,11 @@ AR Path="/5D1BB1FB/5D33E082" Ref="C?"  Part="1"
 AR Path="/5D1BB49B/5D33E082" Ref="C?"  Part="1" 
 F 0 "C?" H 4165 3596 50  0000 L CNN
 F 1 "C0.1uF" H 3900 3450 50  0001 C CNN
-F 2 "" H 4050 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 3550 50  0001 C CNN
 F 3 "" H 4050 3550 50  0001 C CNN
 F 4 "0.1uF" H 4165 3505 50  0000 L CNN "Capacitance"
+F 5 "Wurth" H 4050 3550 50  0001 C CNN "Manufacturer"
+F 6 "885012206020 " H 4050 3550 50  0001 C CNN "Part number"
 	1    4050 3550
 	1    0    0    -1  
 $EndComp
@@ -353,11 +371,14 @@ U 1 1 5D33E08F
 P 3600 3550
 AR Path="/5D1BB1FB/5D33E08F" Ref="C?"  Part="1" 
 AR Path="/5D1BB49B/5D33E08F" Ref="C?"  Part="1" 
+AR Path="/5D33E08F" Ref="C?"  Part="1" 
 F 0 "C?" H 3715 3596 50  0000 L CNN
 F 1 "C10uF" H 3450 3450 50  0001 C CNN
-F 2 "" V 3600 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3600 3550 50  0001 C CNN
 F 3 "" H 3600 3550 50  0001 C CNN
 F 4 "10uF" H 3715 3505 50  0000 L CNN "Capacitance"
+F 5 "Murata" H 3600 3550 50  0001 C CNN "Manufacturer"
+F 6 "GRM188R61A106KE69D " H 3600 3550 50  0001 C CNN "Part number"
 	1    3600 3550
 	1    0    0    -1  
 $EndComp
@@ -386,4 +407,44 @@ Wire Wire Line
 	4600 3450 4550 3450
 Wire Wire Line
 	4550 3450 4550 3750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D1F4C80
+P 3425 4750
+AR Path="/5D1BB1FB/5D1F4C80" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5D1F4C80" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3425 4600 50  0001 C CNN
+F 1 "+3V3" H 3440 4923 50  0000 C CNN
+F 2 "" H 3425 4750 50  0001 C CNN
+F 3 "" H 3425 4750 50  0001 C CNN
+	1    3425 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:R10K R?
+U 1 1 5D1F5A80
+P 3425 4950
+F 0 "R?" V 3379 5020 50  0000 L CNN
+F 1 "R10K" H 3425 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3425 4950 50  0001 C CNN
+F 3 "" V 3425 4950 50  0001 C CNN
+F 4 "10K" V 3470 5020 50  0000 L CNN "Resistance"
+F 5 "Yageo" H 3425 4950 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0710KL" H 3425 4950 50  0001 C CNN "Part number"
+	1    3425 4950
+	0    1    1    0   
+$EndComp
+Text GLabel 3250 5450 0    50   Input ~ 0
+iCE_CREST
+Wire Wire Line
+	4600 5450 3425 5450
+Connection ~ 3425 5450
+Wire Wire Line
+	3425 5450 3250 5450
+Wire Wire Line
+	3425 4800 3425 4750
+Text GLabel 3250 5350 0    50   BiDi ~ 0
+iCE_DONE
+Wire Wire Line
+	3425 5100 3425 5450
 $EndSCHEMATC

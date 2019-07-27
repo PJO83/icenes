@@ -26,6 +26,23 @@ X ~ 3 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_USB_B_Micro
 #
 DEF Connector_USB_B_Micro J 0 40 Y Y 1 F N
@@ -277,9 +294,11 @@ ENDDEF
 DEF icenes-library_C0.1uF C 0 40 N N 1 F N
 F0 "C" 100 100 50 H V C CNN
 F1 "icenes-library_C0.1uF" -150 -100 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "0.1uF" 150 -100 50 H V C CNN "Capacitance"
+F5 "Wurth" 0 0 50 H I C CNN "Manufacturer"
+F6 "885012206020 " 0 0 50 H I C CNN "Part number"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -293,9 +312,29 @@ ENDDEF
 DEF icenes-library_C10uF C 0 40 N N 1 F N
 F0 "C" 100 100 50 H V C CNN
 F1 "icenes-library_C10uF" -150 -100 50 H I C CNN
-F2 "" 0 0 50 V I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10uF" 150 -100 50 H V C CNN "Capacitance"
+F5 "GRM188R61A106KE69D " 0 0 50 H I C CNN "Part number"
+F6 "Murata" 0 0 50 H I C CNN "Manufacturer"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_C22uF
+#
+DEF icenes-library_C22uF C 0 40 N N 1 F N
+F0 "C" 100 100 50 H V C CNN
+F1 "icenes-library_C22uF" -150 -100 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "22uF" 150 -100 50 H V C CNN "Capacitance"
+F5 "Murata" 0 0 50 H I C CNN "Manufacturer"
+F6 "GRM188R61A226ME15D " 0 0 50 H I C CNN "Part number"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -309,9 +348,29 @@ ENDDEF
 DEF icenes-library_C4.7uF C 0 40 N N 1 F N
 F0 "C" 100 100 50 H V C CNN
 F1 "icenes-library_C4.7uF" -200 -100 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "4.7uF" 150 -100 50 H V C CNN "Capacitance"
+F5 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer"
+F6 "LMK107BJ475KA-T" 0 0 50 H I C CNN "Part number"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_C6.8pF
+#
+DEF icenes-library_C6.8pF C 0 40 N N 1 F N
+F0 "C" 100 100 50 H V C CNN
+F1 "icenes-library_C6.8pF" -150 -100 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "6.8pF" 150 -100 50 H V C CNN "Capacitance"
+F5 "Vishay" 0 0 50 H I C CNN "Manufacturer"
+F6 "VJ0603A6R8DXQCW1BC" 0 0 50 H I C CNN "Part number"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -325,8 +384,10 @@ ENDDEF
 DEF icenes-library_CDBU0520 D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "icenes-library_CDBU0520" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "Comchip" 0 0 50 H I C CNN "Manufacturer"
+F5 "CDBU0520" 0 0 50 H I C CNN "Part number"
 DRAW
 P 2 1 1 0 50 0 -50 0 N
 P 4 1 1 8 50 50 50 -50 -50 0 50 50 N
@@ -349,6 +410,32 @@ X STANDBY# 1 -500 -100 150 R 50 50 1 1 I
 X GND 2 -500 -300 150 R 50 50 1 1 W
 X OUT 3 450 -300 150 L 50 50 1 1 O
 X VDD 4 450 -100 150 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# icenes-library_L10uH
+#
+DEF icenes-library_L10uH L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "icenes-library_L10uH" 75 0 50 V I C CNN
+F2 "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10uH" 100 0 50 V V C CNN "Inductance"
+F5 "Pulse " 0 0 50 H I C CNN "Manufacturer"
+F6 "PE-1206CD100JTT " 0 0 50 H I C CNN "Part number"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -436,14 +523,16 @@ X GND 72 900 -200 150 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# icenes-library_R10K
+# icenes-library_R0
 #
-DEF icenes-library_R10K R 0 40 N N 1 F N
+DEF icenes-library_R0 R 0 40 N N 1 F N
 F0 "R" 0 0 50 H V C CNN
-F1 "icenes-library_R10K" 0 -100 50 H I C CNN
-F2 "" 0 0 50 V I C CNN
+F1 "icenes-library_R0" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "10K" 0 100 50 H V C CNN "Resistance"
+F4 "0" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0805FR-070RL" 0 0 50 H I C CNN "Part number"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -451,14 +540,50 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icenes-library_R12K@1%
+# icenes-library_R10K
 #
-DEF icenes-library_R12K@1% R 0 40 N N 1 F N
+DEF icenes-library_R10K R 0 40 N N 1 F N
 F0 "R" 0 0 50 H V C CNN
-F1 "icenes-library_R12K@1%" 0 -100 50 H I C CNN
-F2 "" 0 100 50 H I C CNN
+F1 "icenes-library_R10K" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "10K" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-0710KL" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R12K
+#
+DEF icenes-library_R12K R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R12K" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 F4 "12K" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-0712KL" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R1M
+#
+DEF icenes-library_R1M R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R1M" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "1M" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-071ML" 0 0 50 H I C CNN "Part number"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -471,13 +596,127 @@ ENDDEF
 DEF icenes-library_R2.2K R 0 40 N N 1 F N
 F0 "R" 0 0 50 H V C CNN
 F1 "icenes-library_R2.2K" 0 -100 50 H I C CNN
-F2 "" 0 0 50 V I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 F4 "2.2K" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-072K2L" 0 0 50 H I C CNN "Part number"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
 X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R360K
+#
+DEF icenes-library_R360K R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R360K" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "360K" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-07360KL" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R510K
+#
+DEF icenes-library_R510K R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R510K" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "510K" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-07510KL " 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R820K
+#
+DEF icenes-library_R820K R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R820K" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "820K" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-07820KL " 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R91K
+#
+DEF icenes-library_R91K R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R91K" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "91K" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-0791KL" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_TPS62050
+#
+DEF icenes-library_TPS62050 U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "icenes-library_TPS62050" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 -50 300 -550 0 1 0 N
+X VIN 1 -450 -100 150 R 50 50 1 1 W
+X PGND 10 450 -500 150 L 50 50 1 1 W
+X LBO 2 450 -400 150 L 50 50 1 1 O
+X GND 3 -450 -500 150 R 50 50 1 1 W
+X PG 4 450 -300 150 L 50 50 1 1 O
+X FB 5 450 -200 150 L 50 50 1 1 I
+X LBI 6 -450 -300 150 R 50 50 1 1 I
+X SYNC 7 -450 -400 150 R 50 50 1 1 I
+X EN 8 -450 -200 150 R 50 50 1 1 I
+X SW 9 450 -100 150 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# icenes-library_TPS62056
+#
+DEF icenes-library_TPS62056 U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "icenes-library_TPS62056" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 -50 300 -550 0 1 0 N
+X VIN 1 -450 -100 150 R 50 50 1 1 W
+X PGND 10 450 -500 150 L 50 50 1 1 W
+X LBO 2 450 -400 150 L 50 50 1 1 O
+X GND 3 -450 -500 150 R 50 50 1 1 W
+X PG 4 450 -300 150 L 50 50 1 1 O
+X FB 5 450 -200 150 L 50 50 1 1 I
+X LBI 6 -450 -300 150 R 50 50 1 1 I
+X SYNC 7 -450 -400 150 R 50 50 1 1 I
+X EN 8 -450 -200 150 R 50 50 1 1 I
+X SW 9 450 -100 150 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
