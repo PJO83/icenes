@@ -447,4 +447,372 @@ Text GLabel 3250 5350 0    50   BiDi ~ 0
 iCE_DONE
 Wire Wire Line
 	3425 5100 3425 5450
+Wire Wire Line
+	5900 2150 6500 2150
+Text Label 6500 2150 2    50   ~ 0
+GPIO_N6
+Wire Wire Line
+	5900 2250 6500 2250
+Text Label 6500 2250 2    50   ~ 0
+GPIO_T1
+Wire Wire Line
+	5900 2350 6500 2350
+Wire Wire Line
+	5900 2450 6500 2450
+Text Label 6500 2450 2    50   ~ 0
+GPIO_R2
+Wire Wire Line
+	5900 2550 6500 2550
+Text Label 6500 2550 2    50   ~ 0
+GPIO_N5
+Wire Wire Line
+	5900 2650 6500 2650
+Text Label 6500 2650 2    50   ~ 0
+GPIO_T2
+Wire Wire Line
+	5900 2750 6500 2750
+Text Label 6500 2750 2    50   ~ 0
+GPIO_P5
+Wire Wire Line
+	5900 2850 6500 2850
+Text Label 6500 2850 2    50   ~ 0
+GPIO_R3
+Wire Wire Line
+	5900 2950 6500 2950
+Text Label 6500 2950 2    50   ~ 0
+GPIO_R5
+Wire Wire Line
+	5900 3050 6500 3050
+Text Label 6500 3050 2    50   ~ 0
+GPIO_T3
+Wire Wire Line
+	5900 3150 6500 3150
+Text Label 6500 3150 2    50   ~ 0
+GPIO_R4
+Wire Wire Line
+	5900 3250 6500 3250
+Text Label 6500 3250 2    50   ~ 0
+GPIO_M7
+Wire Wire Line
+	5900 3350 6500 3350
+Text Label 6500 3350 2    50   ~ 0
+GPIO_N7
+Wire Wire Line
+	5900 3450 6500 3450
+Text Label 6500 3450 2    50   ~ 0
+GPIO_P6
+Wire Wire Line
+	5900 3550 6500 3550
+Text Label 6500 3550 2    50   ~ 0
+GPIO_M8
+Wire Wire Line
+	5900 3650 6500 3650
+Text Label 6500 3650 2    50   ~ 0
+GPIO_T5
+Wire Wire Line
+	5900 3750 6500 3750
+Text Label 6500 3750 2    50   ~ 0
+GPIO_R6
+Wire Wire Line
+	5900 3850 6500 3850
+Text Label 6500 3850 2    50   ~ 0
+GPIO_P8
+Wire Wire Line
+	5900 3950 6500 3950
+Text Label 6500 3950 2    50   ~ 0
+GPIO_T6
+Wire Wire Line
+	5900 4050 6500 4050
+Text Label 6500 4050 2    50   ~ 0
+GPIO_L9
+Wire Wire Line
+	5900 4150 6500 4150
+Text Label 6500 4150 2    50   ~ 0
+GPIO_T7
+Wire Wire Line
+	5900 4250 6500 4250
+Text Label 6500 4250 2    50   ~ 0
+GPIO_T8
+Wire Wire Line
+	5900 4350 6500 4350
+Text Label 6500 4350 2    50   ~ 0
+GPIO_P7
+Wire Wire Line
+	5900 4450 6500 4450
+Text Label 6500 4450 2    50   ~ 0
+GPIO_N9
+Wire Wire Line
+	5900 4550 6500 4550
+Text Label 6500 4550 2    50   ~ 0
+GPIO_T9
+Wire Wire Line
+	5900 4650 6500 4650
+Text Label 6500 4650 2    50   ~ 0
+GPIO_M9
+Wire Wire Line
+	5900 4750 6500 4750
+Text Label 6500 4750 2    50   ~ 0
+GPIO_P9
+Wire Wire Line
+	5900 4850 6500 4850
+Text Label 6500 4850 2    50   ~ 0
+GPIO_R10
+Wire Wire Line
+	5900 4950 6500 4950
+Text Label 6500 4950 2    50   ~ 0
+GPIO_L10
+Wire Wire Line
+	5900 5050 6500 5050
+Text Label 6500 5050 2    50   ~ 0
+GPIO_P10
+Wire Wire Line
+	5900 5150 6500 5150
+Text Label 6500 5150 2    50   ~ 0
+GPIO_N10
+Wire Wire Line
+	5900 5250 6500 5250
+Text Label 6500 5250 2    50   ~ 0
+GPIO_T10
+Wire Wire Line
+	5900 5350 6500 5350
+Text Label 6500 5350 2    50   ~ 0
+GPIO_T11
+Wire Wire Line
+	5900 5450 6500 5450
+Text Label 6500 5450 2    50   ~ 0
+GPIO_T15
+Wire Wire Line
+	5900 5550 6500 5550
+Text Label 6500 5550 2    50   ~ 0
+GPIO_T14
+Wire Wire Line
+	5900 5650 6500 5650
+Text Label 6500 5650 2    50   ~ 0
+GPIO_M11
+Wire Wire Line
+	5900 5750 6500 5750
+Text Label 6500 5750 2    50   ~ 0
+GPIO_T13
+Wire Wire Line
+	5900 5850 6500 5850
+Text Label 6500 5850 2    50   ~ 0
+GPIO_N12
+Wire Wire Line
+	5900 5950 6500 5950
+Text Label 6500 5950 2    50   ~ 0
+GPIO_L11
+Wire Wire Line
+	5900 6050 6500 6050
+Text Label 6500 6050 2    50   ~ 0
+GPIO_T16
+Wire Wire Line
+	5900 6150 6500 6150
+Text Label 6500 6150 2    50   ~ 0
+GPIO_M12
+Wire Wire Line
+	5900 6250 6500 6250
+Text Label 6500 6250 2    50   ~ 0
+GPIO_R16
+Wire Wire Line
+	12850 2200 13450 2200
+Text Label 13450 2200 2    50   ~ 0
+GPIO_E4
+Wire Wire Line
+	12850 2300 13450 2300
+Text Label 13450 2300 2    50   ~ 0
+GPIO_B2
+Wire Wire Line
+	12850 2400 13450 2400
+Text Label 13450 2400 2    50   ~ 0
+GPIO_F5
+Wire Wire Line
+	12850 2500 13450 2500
+Text Label 13450 2500 2    50   ~ 0
+GPIO_B1
+Wire Wire Line
+	12850 2600 13450 2600
+Text Label 13450 2600 2    50   ~ 0
+GPIO_C1
+Wire Wire Line
+	12850 2700 13450 2700
+Text Label 13450 2700 2    50   ~ 0
+GPIO_C2
+Wire Wire Line
+	12850 2800 13450 2800
+Text Label 13450 2800 2    50   ~ 0
+GPIO_F4
+Wire Wire Line
+	12850 2900 13450 2900
+Text Label 13450 2900 2    50   ~ 0
+GPIO_D2
+Wire Wire Line
+	12850 3000 13450 3000
+Text Label 13450 3000 2    50   ~ 0
+GPIO_G5
+Wire Wire Line
+	12850 3100 13450 3100
+Text Label 13450 3100 2    50   ~ 0
+GPIO_D1
+Wire Wire Line
+	12850 3200 13450 3200
+Text Label 13450 3200 2    50   ~ 0
+GPIO_G4
+Wire Wire Line
+	12850 3300 13450 3300
+Text Label 13450 3300 2    50   ~ 0
+GPIO_E3
+Wire Wire Line
+	12850 3400 13450 3400
+Text Label 13450 3400 2    50   ~ 0
+GPIO_H5
+Wire Wire Line
+	12850 3500 13450 3500
+Text Label 13450 3500 2    50   ~ 0
+GPIO_E2
+Wire Wire Line
+	12850 3600 13450 3600
+Text Label 13450 3600 2    50   ~ 0
+GPIO_G3
+Wire Wire Line
+	12850 3700 13450 3700
+Text Label 13450 3700 2    50   ~ 0
+GPIO_F3
+Wire Wire Line
+	12850 3800 13450 3800
+Text Label 13450 3800 2    50   ~ 0
+GPIO_H3
+Wire Wire Line
+	12850 3900 13450 3900
+Text Label 13450 3900 2    50   ~ 0
+GPIO_F2
+Wire Wire Line
+	12850 4000 13450 4000
+Text Label 13450 4000 2    50   ~ 0
+GPIO_H6
+Wire Wire Line
+	12850 4100 13450 4100
+Text Label 13450 4100 2    50   ~ 0
+GPIO_F1
+Wire Wire Line
+	12850 4200 13450 4200
+Text Label 13450 4200 2    50   ~ 0
+GPIO_H4
+Wire Wire Line
+	12850 4300 13450 4300
+Text Label 13450 4300 2    50   ~ 0
+GPIO_G2
+Wire Wire Line
+	12850 4400 13450 4400
+Text Label 13450 4400 2    50   ~ 0
+GPIO_J4
+Wire Wire Line
+	12850 4500 13450 4500
+Text Label 13450 4500 2    50   ~ 0
+GPIO_H2
+Wire Wire Line
+	12850 4600 13450 4600
+Text Label 13450 4600 2    50   ~ 0
+GPIO_J5
+Wire Wire Line
+	12850 4700 13450 4700
+Text Label 13450 4700 2    50   ~ 0
+GPIO_H1
+Wire Wire Line
+	12850 4800 13450 4800
+Text Label 13450 4800 2    50   ~ 0
+GPIO_J2
+Wire Wire Line
+	12850 4900 13450 4900
+Text Label 13450 4900 2    50   ~ 0
+GPIO_J1
+Wire Wire Line
+	12850 5000 13450 5000
+Text Label 13450 5000 2    50   ~ 0
+GPIO_K1
+Wire Wire Line
+	12850 5100 13450 5100
+Text Label 13450 5100 2    50   ~ 0
+GPIO_K3
+Wire Wire Line
+	12850 5200 13450 5200
+Text Label 13450 5200 2    50   ~ 0
+GPIO_L4
+Wire Wire Line
+	12850 5300 13450 5300
+Text Label 13450 5300 2    50   ~ 0
+GPIO_L1
+Wire Wire Line
+	12850 5400 13450 5400
+Text Label 13450 5400 2    50   ~ 0
+GPIO_K4
+Wire Wire Line
+	12850 5500 13450 5500
+Text Label 13450 5500 2    50   ~ 0
+GPIO_M1
+Wire Wire Line
+	12850 5600 13450 5600
+Text Label 13450 5600 2    50   ~ 0
+GPIO_L6
+Wire Wire Line
+	12850 5700 13450 5700
+Text Label 13450 5700 2    50   ~ 0
+GPIO_L3
+Wire Wire Line
+	12850 5800 13450 5800
+Text Label 13450 5800 2    50   ~ 0
+GPIO_K5
+Wire Wire Line
+	12850 5900 13450 5900
+Text Label 13450 5900 2    50   ~ 0
+GPIO_M2
+Wire Wire Line
+	12850 6000 13450 6000
+Text Label 13450 6000 2    50   ~ 0
+GPIO_L7
+Wire Wire Line
+	12850 6100 13450 6100
+Text Label 13450 6100 2    50   ~ 0
+GPIO_N2
+Wire Wire Line
+	12850 6200 13450 6200
+Text Label 13450 6200 2    50   ~ 0
+GPIO_M6
+Wire Wire Line
+	12850 6300 13450 6300
+Text Label 13450 6300 2    50   ~ 0
+GPIO_M3
+Wire Wire Line
+	12850 6400 13450 6400
+Text Label 13450 6400 2    50   ~ 0
+GPIO_L5
+Wire Wire Line
+	12850 6500 13450 6500
+Text Label 13450 6500 2    50   ~ 0
+GPIO_N3
+Wire Wire Line
+	12850 6600 13450 6600
+Text Label 13450 6600 2    50   ~ 0
+GPIO_P1
+Wire Wire Line
+	12850 6700 13450 6700
+Text Label 13450 6700 2    50   ~ 0
+GPIO_M4
+Wire Wire Line
+	12850 6800 13450 6800
+Text Label 13450 6800 2    50   ~ 0
+GPIO_P2
+Wire Wire Line
+	12850 6900 13450 6900
+Text Label 13450 6900 2    50   ~ 0
+GPIO_M5
+Wire Wire Line
+	12850 7000 13450 7000
+Text Label 13450 7000 2    50   ~ 0
+GPIO_R1
+Wire Wire Line
+	12850 7100 13450 7100
+Text Label 13450 7100 2    50   ~ 0
+GPIO_N4
+Text Label 6500 2350 2    50   ~ 0
+GPIO_P4
 $EndSCHEMATC
