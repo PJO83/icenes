@@ -1128,4 +1128,88 @@ F 6 "RC0603FR-0712KL" H 5450 4550 50  0001 C CNN "Part number"
 	1    5450 4550
 	1    0    0    -1  
 $EndComp
+$Comp
+L icenes-library:+3V3_FTDI #PWR?
+U 1 1 5D3F4BF6
+P 2175 1225
+F 0 "#PWR?" H 2175 1225 50  0001 C CNN
+F 1 "+3V3_FTDI" H 2160 1248 50  0000 C CNN
+F 2 "" H 2175 1225 50  0001 C CNN
+F 3 "" H 2175 1225 50  0001 C CNN
+	1    2175 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 1425 1825 1500
+Wire Wire Line
+	1425 1500 1475 1500
+Wire Wire Line
+	1425 1425 1425 1500
+Wire Wire Line
+	1775 1500 1825 1500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D3FF502
+P 1825 1425
+AR Path="/5D3FF502" Ref="TP?"  Part="1" 
+AR Path="/5D1BAC88/5D3FF502" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1900 1625 50  0000 R CNN
+F 1 "TestPoint" H 1767 1542 50  0001 R CNN
+F 2 "" H 2025 1425 50  0001 C CNN
+F 3 "~" H 2025 1425 50  0001 C CNN
+	1    1825 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:R0 R?
+U 1 1 5D3FF50B
+P 1625 1500
+AR Path="/5D3FF50B" Ref="R?"  Part="1" 
+AR Path="/5D1BAC88/5D3FF50B" Ref="R?"  Part="1" 
+F 0 "R?" H 1625 1707 50  0000 C CNN
+F 1 "R0" H 1625 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1625 1500 50  0001 C CNN
+F 3 "" V 1625 1500 50  0001 C CNN
+F 4 "0" H 1625 1616 50  0000 C CNN "Resistance"
+F 5 "Yageo" H 1625 1500 50  0001 C CNN "Manufacturer"
+F 6 "RC0805FR-070RL" H 1625 1500 50  0001 C CNN "Part number"
+	1    1625 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D3FF511
+P 1425 1425
+AR Path="/5D3FF511" Ref="TP?"  Part="1" 
+AR Path="/5D1BAC88/5D3FF511" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1500 1625 50  0000 R CNN
+F 1 "TestPoint" H 1367 1542 50  0001 R CNN
+F 2 "" H 1625 1425 50  0001 C CNN
+F 3 "~" H 1625 1425 50  0001 C CNN
+	1    1425 1425
+	1    0    0    -1  
+$EndComp
+Connection ~ 1425 1500
+Wire Wire Line
+	1825 1500 2175 1500
+Wire Wire Line
+	2175 1500 2175 1375
+Connection ~ 1825 1500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D3FF4F2
+P 1075 1375
+AR Path="/5D3FF4F2" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BAC88/5D3FF4F2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1075 1225 50  0001 C CNN
+F 1 "+3V3" H 1090 1548 50  0000 C CNN
+F 2 "" H 1075 1375 50  0001 C CNN
+F 3 "" H 1075 1375 50  0001 C CNN
+	1    1075 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1075 1500 1075 1375
+Wire Wire Line
+	1075 1500 1425 1500
 $EndSCHEMATC

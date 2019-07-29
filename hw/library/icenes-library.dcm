@@ -46,6 +46,18 @@ $CMP CDBU0520
 D Schottky Diode, VR=20V, IO=500mA
 $ENDCMP
 #
+$CMP Conn_02x11_Odd_Even
+D Generic connector, double row, 02x11, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x31_Odd_Even
+D Generic connector, double row, 02x31, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP DSC1001DI2-012.0000
 D 12MHz MEMS Oscillator Microchip
 K 12MHz Oscillator Microchip

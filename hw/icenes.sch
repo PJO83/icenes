@@ -1132,4 +1132,426 @@ Wire Wire Line
 Wire Wire Line
 	3250 4875 3500 4875
 Connection ~ 3250 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5D4453CF
+P 9300 5700
+F 0 "#PWR?" H 9300 5450 50  0001 C CNN
+F 1 "GND" H 9305 5527 50  0000 C CNN
+F 2 "" H 9300 5700 50  0001 C CNN
+F 3 "" H 9300 5700 50  0001 C CNN
+	1    9300 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 5150 7950 5150
+Wire Wire Line
+	9300 5150 9300 5250
+Wire Wire Line
+	9300 5550 9300 5650
+Wire Wire Line
+	9300 5650 8850 5650
+Wire Wire Line
+	7500 5650 7500 5550
+Wire Wire Line
+	7500 5250 7500 5150
+Wire Wire Line
+	7950 5150 7950 5250
+Connection ~ 7950 5150
+Wire Wire Line
+	7950 5150 8400 5150
+Wire Wire Line
+	8400 5250 8400 5150
+Connection ~ 8400 5150
+Wire Wire Line
+	8400 5150 8850 5150
+Wire Wire Line
+	8850 5250 8850 5150
+Connection ~ 8850 5150
+Wire Wire Line
+	8850 5150 9300 5150
+Wire Wire Line
+	8850 5550 8850 5650
+Connection ~ 8850 5650
+Wire Wire Line
+	8850 5650 8400 5650
+Wire Wire Line
+	8400 5550 8400 5650
+Connection ~ 8400 5650
+Wire Wire Line
+	8400 5650 7950 5650
+Wire Wire Line
+	7950 5550 7950 5650
+Connection ~ 7950 5650
+Wire Wire Line
+	7950 5650 7500 5650
+Wire Wire Line
+	9300 5650 9300 5700
+Connection ~ 9300 5650
+Wire Wire Line
+	7500 5150 7500 5100
+Connection ~ 7500 5150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D45248D
+P 7500 5100
+F 0 "#PWR?" H 7500 4950 50  0001 C CNN
+F 1 "+3V3" H 7515 5273 50  0000 C CNN
+F 2 "" H 7500 5100 50  0001 C CNN
+F 3 "" H 7500 5100 50  0001 C CNN
+	1    7500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D45F97F
+P 7500 5400
+F 0 "C?" H 7615 5446 50  0000 L CNN
+F 1 "C1uF" H 7350 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7500 5400 50  0001 C CNN
+F 3 "" H 7500 5400 50  0001 C CNN
+F 4 "1uF" H 7615 5355 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 7500 5400 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 7500 5400 50  0001 C CNN "Part number"
+	1    7500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D4614CB
+P 7950 5400
+F 0 "C?" H 8065 5446 50  0000 L CNN
+F 1 "C1uF" H 7800 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 5400 50  0001 C CNN
+F 3 "" H 7950 5400 50  0001 C CNN
+F 4 "1uF" H 8065 5355 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 7950 5400 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 7950 5400 50  0001 C CNN "Part number"
+	1    7950 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D46DE12
+P 8400 5400
+F 0 "C?" H 8515 5446 50  0000 L CNN
+F 1 "C1uF" H 8250 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 5400 50  0001 C CNN
+F 3 "" H 8400 5400 50  0001 C CNN
+F 4 "1uF" H 8515 5355 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 8400 5400 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 8400 5400 50  0001 C CNN "Part number"
+	1    8400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D47A5F3
+P 8850 5400
+F 0 "C?" H 8965 5446 50  0000 L CNN
+F 1 "C1uF" H 8700 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8850 5400 50  0001 C CNN
+F 3 "" H 8850 5400 50  0001 C CNN
+F 4 "1uF" H 8965 5355 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 8850 5400 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 8850 5400 50  0001 C CNN "Part number"
+	1    8850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D4871C5
+P 9300 5400
+F 0 "C?" H 9415 5446 50  0000 L CNN
+F 1 "C1uF" H 9150 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9300 5400 50  0001 C CNN
+F 3 "" H 9300 5400 50  0001 C CNN
+F 4 "1uF" H 9415 5355 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 9300 5400 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 9300 5400 50  0001 C CNN "Part number"
+	1    9300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D496BD2
+P 9300 4050
+F 0 "#PWR?" H 9300 3800 50  0001 C CNN
+F 1 "GND" H 9305 3877 50  0000 C CNN
+F 2 "" H 9300 4050 50  0001 C CNN
+F 3 "" H 9300 4050 50  0001 C CNN
+	1    9300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3500 7950 3500
+Wire Wire Line
+	9300 3500 9300 3600
+Wire Wire Line
+	9300 3900 9300 4000
+Wire Wire Line
+	9300 4000 8850 4000
+Wire Wire Line
+	7500 4000 7500 3900
+Wire Wire Line
+	7500 3600 7500 3500
+Wire Wire Line
+	7950 3500 7950 3600
+Connection ~ 7950 3500
+Wire Wire Line
+	7950 3500 8400 3500
+Wire Wire Line
+	8400 3600 8400 3500
+Connection ~ 8400 3500
+Wire Wire Line
+	8400 3500 8850 3500
+Wire Wire Line
+	8850 3600 8850 3500
+Connection ~ 8850 3500
+Wire Wire Line
+	8850 3500 9300 3500
+Wire Wire Line
+	8850 3900 8850 4000
+Connection ~ 8850 4000
+Wire Wire Line
+	8850 4000 8400 4000
+Wire Wire Line
+	8400 3900 8400 4000
+Connection ~ 8400 4000
+Wire Wire Line
+	8400 4000 7950 4000
+Wire Wire Line
+	7950 3900 7950 4000
+Connection ~ 7950 4000
+Wire Wire Line
+	7950 4000 7500 4000
+Wire Wire Line
+	9300 4000 9300 4050
+Connection ~ 9300 4000
+Wire Wire Line
+	7500 3500 7500 3450
+Connection ~ 7500 3500
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D496BFD
+P 7500 3750
+F 0 "C?" H 7615 3796 50  0000 L CNN
+F 1 "C1uF" H 7350 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7500 3750 50  0001 C CNN
+F 3 "" H 7500 3750 50  0001 C CNN
+F 4 "1uF" H 7615 3705 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 7500 3750 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 7500 3750 50  0001 C CNN "Part number"
+	1    7500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D496C06
+P 7950 3750
+F 0 "C?" H 8065 3796 50  0000 L CNN
+F 1 "C1uF" H 7800 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 3750 50  0001 C CNN
+F 3 "" H 7950 3750 50  0001 C CNN
+F 4 "1uF" H 8065 3705 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 7950 3750 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 7950 3750 50  0001 C CNN "Part number"
+	1    7950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D496C0F
+P 8400 3750
+F 0 "C?" H 8515 3796 50  0000 L CNN
+F 1 "C1uF" H 8250 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 3750 50  0001 C CNN
+F 3 "" H 8400 3750 50  0001 C CNN
+F 4 "1uF" H 8515 3705 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 8400 3750 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 8400 3750 50  0001 C CNN "Part number"
+	1    8400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D496C18
+P 8850 3750
+F 0 "C?" H 8965 3796 50  0000 L CNN
+F 1 "C1uF" H 8700 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8850 3750 50  0001 C CNN
+F 3 "" H 8850 3750 50  0001 C CNN
+F 4 "1uF" H 8965 3705 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 8850 3750 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 8850 3750 50  0001 C CNN "Part number"
+	1    8850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D496C21
+P 9300 3750
+F 0 "C?" H 9415 3796 50  0000 L CNN
+F 1 "C1uF" H 9150 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9300 3750 50  0001 C CNN
+F 3 "" H 9300 3750 50  0001 C CNN
+F 4 "1uF" H 9415 3705 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 9300 3750 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 9300 3750 50  0001 C CNN "Part number"
+	1    9300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4A89CD
+P 9300 2300
+F 0 "#PWR?" H 9300 2050 50  0001 C CNN
+F 1 "GND" H 9305 2127 50  0000 C CNN
+F 2 "" H 9300 2300 50  0001 C CNN
+F 3 "" H 9300 2300 50  0001 C CNN
+	1    9300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1750 7950 1750
+Wire Wire Line
+	9300 1750 9300 1850
+Wire Wire Line
+	9300 2150 9300 2250
+Wire Wire Line
+	9300 2250 8850 2250
+Wire Wire Line
+	7500 2250 7500 2150
+Wire Wire Line
+	7500 1850 7500 1750
+Wire Wire Line
+	7950 1750 7950 1850
+Connection ~ 7950 1750
+Wire Wire Line
+	7950 1750 8400 1750
+Wire Wire Line
+	8400 1850 8400 1750
+Connection ~ 8400 1750
+Wire Wire Line
+	8400 1750 8850 1750
+Wire Wire Line
+	8850 1850 8850 1750
+Connection ~ 8850 1750
+Wire Wire Line
+	8850 1750 9300 1750
+Wire Wire Line
+	8850 2150 8850 2250
+Connection ~ 8850 2250
+Wire Wire Line
+	8850 2250 8400 2250
+Wire Wire Line
+	8400 2150 8400 2250
+Connection ~ 8400 2250
+Wire Wire Line
+	8400 2250 7950 2250
+Wire Wire Line
+	7950 2150 7950 2250
+Connection ~ 7950 2250
+Wire Wire Line
+	7950 2250 7500 2250
+Wire Wire Line
+	9300 2250 9300 2300
+Connection ~ 9300 2250
+Wire Wire Line
+	7500 1750 7500 1700
+Connection ~ 7500 1750
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D4A89F8
+P 7500 2000
+F 0 "C?" H 7615 2046 50  0000 L CNN
+F 1 "C1uF" H 7350 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7500 2000 50  0001 C CNN
+F 3 "" H 7500 2000 50  0001 C CNN
+F 4 "1uF" H 7615 1955 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 7500 2000 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 7500 2000 50  0001 C CNN "Part number"
+	1    7500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D4A8A01
+P 7950 2000
+F 0 "C?" H 8065 2046 50  0000 L CNN
+F 1 "C1uF" H 7800 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 2000 50  0001 C CNN
+F 3 "" H 7950 2000 50  0001 C CNN
+F 4 "1uF" H 8065 1955 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 7950 2000 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 7950 2000 50  0001 C CNN "Part number"
+	1    7950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D4A8A0A
+P 8400 2000
+F 0 "C?" H 8515 2046 50  0000 L CNN
+F 1 "C1uF" H 8250 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8400 2000 50  0001 C CNN
+F 3 "" H 8400 2000 50  0001 C CNN
+F 4 "1uF" H 8515 1955 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 8400 2000 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 8400 2000 50  0001 C CNN "Part number"
+	1    8400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D4A8A13
+P 8850 2000
+F 0 "C?" H 8965 2046 50  0000 L CNN
+F 1 "C1uF" H 8700 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8850 2000 50  0001 C CNN
+F 3 "" H 8850 2000 50  0001 C CNN
+F 4 "1uF" H 8965 1955 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 8850 2000 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 8850 2000 50  0001 C CNN "Part number"
+	1    8850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C1uF C?
+U 1 1 5D4A8A1C
+P 9300 2000
+F 0 "C?" H 9415 2046 50  0000 L CNN
+F 1 "C1uF" H 9150 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9300 2000 50  0001 C CNN
+F 3 "" H 9300 2000 50  0001 C CNN
+F 4 "1uF" H 9415 1955 50  0000 L CNN "Capacitance"
+F 5 "KEMET" H 9300 2000 50  0001 C CNN "Manufacturer"
+F 6 "C0603C105K8PACTU" H 9300 2000 50  0001 C CNN "Part number"
+	1    9300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5D4B9E35
+P 7500 3450
+F 0 "#PWR?" H 7500 3300 50  0001 C CNN
+F 1 "+1V2" H 7515 3623 50  0000 C CNN
+F 2 "" H 7500 3450 50  0001 C CNN
+F 3 "" H 7500 3450 50  0001 C CNN
+	1    7500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D4CB0FC
+P 7500 1700
+AR Path="/5D3BF9A4/5D4CB0FC" Ref="#PWR?"  Part="1" 
+AR Path="/5D4CB0FC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7500 1550 50  0001 C CNN
+F 1 "+5V" H 7515 1873 50  0000 C CNN
+F 2 "" H 7500 1700 50  0001 C CNN
+F 3 "" H 7500 1700 50  0001 C CNN
+	1    7500 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
