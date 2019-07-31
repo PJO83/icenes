@@ -182,6 +182,8 @@ F 0 "U?" H 13300 1640 50  0000 C CNN
 F 1 "iCE40HX8K-CT256" H 13300 1549 50  0000 C CNN
 F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 13300 1525 50  0001 C CNN
 F 3 "" H 13300 1525 50  0001 C CNN
+F 4 "Lattice" H 13300 1525 50  0001 C CNN "Manufacturer"
+F 5 "iCE40HX8K-CT256" H 13300 1525 50  0001 C CNN "Part number"
 	1    13300 1525
 	1    0    0    -1  
 $EndComp
@@ -356,8 +358,10 @@ U 1 1 5D450CD7
 P 4450 4775
 F 0 "U?" H 4450 4850 50  0000 C CNN
 F 1 "TPS62056" H 4450 4775 50  0000 C CNN
-F 2 "" H 4450 4775 50  0001 C CNN
+F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 4450 4775 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps62050.pdf" H 4450 4775 50  0001 C CNN
+F 4 "Texas Instruments" H 4450 4775 50  0001 C CNN "Manufacturer"
+F 5 "TPS62056DGSR " H 4450 4775 50  0001 C CNN "Part number"
 	1    4450 4775
 	1    0    0    -1  
 $EndComp
@@ -800,8 +804,10 @@ U 1 1 5D3F28FE
 P 4450 3200
 F 0 "U?" H 4450 3275 50  0000 C CNN
 F 1 "TPS62050" H 4450 3200 50  0000 C CNN
-F 2 "" H 4450 3200 50  0001 C CNN
+F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 4450 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps62050.pdf" H 4450 3200 50  0001 C CNN
+F 4 "Texas Instruments " H 4450 3200 50  0001 C CNN "Manufacturer"
+F 5 "TPS62050DGSR" H 4450 3200 50  0001 C CNN "Part number"
 	1    4450 3200
 	1    0    0    -1  
 $EndComp
@@ -1105,8 +1111,10 @@ U 1 1 5D23EFBB
 P 4450 1450
 F 0 "U?" H 4450 1525 50  0000 C CNN
 F 1 "TPS62050" H 4450 1450 50  0000 C CNN
-F 2 "" H 4450 1450 50  0001 C CNN
+F 2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" H 4450 1450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps62050.pdf" H 4450 1450 50  0001 C CNN
+F 4 "Texas Instruments " H 4450 1450 50  0001 C CNN "Manufacturer"
+F 5 "TPS62050DGSR" H 4450 1450 50  0001 C CNN "Part number"
 	1    4450 1450
 	1    0    0    -1  
 $EndComp

@@ -64,6 +64,12 @@ K 12MHz Oscillator Microchip
 F https://ww1.microchip.com/downloads/en/DeviceDoc/20005529B.pdf
 $ENDCMP
 #
+$CMP FT2232H
+D FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64
+K USB Double UART FIFO
+F http://www.ftdichip.com/Products/ICs/FT2232H.html
+$ENDCMP
+#
 $CMP Green_LED
 D Green Light emitting diode, 570nm, 40mcd, Vf=1.9V, If=2mA, 0805
 K Freen LED diode

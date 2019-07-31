@@ -24,6 +24,8 @@ F 0 "U?" H 11250 2200 50  0000 C CNN
 F 1 "iCE40HX8K-CT256" H 11250 1600 50  0000 C CNN
 F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 11250 2200 50  0001 C CNN
 F 3 "" H 11250 2200 50  0001 C CNN
+F 4 "Lattice" H 11250 2200 50  0001 C CNN "Manufacturer"
+F 5 "iCE40HX8K-CT256" H 11250 2200 50  0001 C CNN "Part number"
 	2    11250 2200
 	1    0    0    -1  
 $EndComp
@@ -79,17 +81,6 @@ Wire Wire Line
 	6500 7500 6300 7500
 Wire Wire Line
 	6300 7350 6300 7500
-$Comp
-L Interface_USB:FT2232H U?
-U 1 1 5D1FBC59
-P 6900 5150
-F 0 "U?" H 6000 7400 50  0000 C CNN
-F 1 "FT2232H" H 6000 7300 50  0000 C CNN
-F 2 "" H 6900 5150 50  0001 C CNN
-F 3 "http://www.ftdichip.com/Products/ICs/FT2232H.html" H 6900 5150 50  0001 C CNN
-	1    6900 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 2650 7400 2750
 Wire Wire Line
@@ -339,8 +330,10 @@ U 1 1 5D0E3F4B
 P 1850 5750
 F 0 "U?" H 1850 5750 50  0000 C CNN
 F 1 "93LC56C-I_SN" H 1850 5250 50  0000 C CNN
-F 2 "" H 1850 5750 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1850 5750 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21794G.pdf" H 1850 5750 50  0001 C CNN
+F 4 "Microchip " H 1850 5750 50  0001 C CNN "Manufacturer"
+F 5 "93LC56C-I/SN " H 1850 5750 50  0001 C CNN "Part number"
 	1    1850 5750
 	-1   0    0    -1  
 $EndComp
@@ -513,8 +506,10 @@ U 1 1 5D2B4CA9
 P 3150 6850
 F 0 "X?" H 3150 6850 50  0000 C CNN
 F 1 "DSC1001DI2-012.0000" H 3150 6450 50  0000 C CNN
-F 2 "" H 3250 6900 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 3250 6900 50  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/20005529B.pdf" H 3250 6900 50  0001 C CNN
+F 4 "Microchip" H 3150 6850 50  0001 C CNN "Manufacturer"
+F 5 "DSC1001DI2-012.0000T" H 3150 6850 50  0001 C CNN "Part number"
 	1    3150 6850
 	1    0    0    -1  
 $EndComp
@@ -805,8 +800,10 @@ U 1 1 5D106624
 P 13350 3350
 F 0 "U?" H 13350 3350 50  0000 C CNN
 F 1 "AT25SF041-SSHD" H 13350 2750 50  0000 C CNN
-F 2 "" H 13350 3350 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13350 3350 50  0001 C CNN
 F 3 "https://www.adestotech.com/wp-content/uploads/DS-AT25SF041_044.pdf" H 13350 3350 50  0001 C CNN
+F 4 "Adesto Technologies " H 13350 3350 50  0001 C CNN "Manufacturer"
+F 5 "AT25SF041-SSHD-B " H 13350 3350 50  0001 C CNN "Part number"
 	1    13350 3350
 	1    0    0    -1  
 $EndComp
@@ -1212,4 +1209,17 @@ Wire Wire Line
 	1075 1500 1075 1375
 Wire Wire Line
 	1075 1500 1425 1500
+$Comp
+L icenes-library:FT2232H U?
+U 1 1 5D4C9481
+P 6900 5150
+F 0 "U?" H 6900 7531 50  0000 C CNN
+F 1 "FT2232H" H 6900 7440 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 6900 5150 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Products/ICs/FT2232H.html" H 6900 5150 50  0001 C CNN
+F 4 "FTDI" H 6900 5150 50  0001 C CNN "Manufacturer"
+F 5 "FT2232HL" H 6900 5150 50  0001 C CNN "Part number"
+	1    6900 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
