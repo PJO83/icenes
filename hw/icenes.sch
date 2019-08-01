@@ -300,17 +300,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 4875 6100 4875
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5D6A7F85
-P 6100 4800
-F 0 "TP?" H 6175 5000 50  0000 R CNN
-F 1 "TestPoint" H 6042 4917 50  0001 R CNN
-F 2 "" H 6300 4800 50  0001 C CNN
-F 3 "~" H 6300 4800 50  0001 C CNN
-	1    6100 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L icenes-library:R0 R?
 U 1 1 5D6A7F7F
 P 5900 4875
@@ -322,17 +311,6 @@ F 4 "0" H 5900 4991 50  0000 C CNN "Resistance"
 F 5 "Yageo" H 5900 4875 50  0001 C CNN "Manufacturer"
 F 6 "RC0805FR-070RL" H 5900 4875 50  0001 C CNN "Part number"
 	1    5900 4875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D6A7F78
-P 5700 4800
-F 0 "TP?" H 5775 5000 50  0000 R CNN
-F 1 "TestPoint" H 5642 4917 50  0001 R CNN
-F 2 "" H 5900 4800 50  0001 C CNN
-F 3 "~" H 5900 4800 50  0001 C CNN
-	1    5700 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -384,17 +362,6 @@ $EndComp
 Connection ~ 5375 5250
 Wire Wire Line
 	5375 5250 5375 5350
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D446D10
-P 5375 5350
-F 0 "TP?" H 5425 5575 50  0000 R CNN
-F 1 "TestPoint" H 5317 5467 50  0001 R CNN
-F 2 "" H 5575 5350 50  0001 C CNN
-F 3 "~" H 5575 5350 50  0001 C CNN
-	1    5375 5350
-	-1   0    0    1   
-$EndComp
 $Comp
 L icenes-library:R1M R?
 U 1 1 5D446D0A
@@ -524,17 +491,6 @@ Wire Wire Line
 Wire Wire Line
 	6625 3300 6675 3300
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5D56A612
-P 6675 3225
-F 0 "TP?" H 6750 3425 50  0000 R CNN
-F 1 "TestPoint" H 6617 3342 50  0001 R CNN
-F 2 "" H 6875 3225 50  0001 C CNN
-F 3 "~" H 6875 3225 50  0001 C CNN
-	1    6675 3225
-	1    0    0    -1  
-$EndComp
-$Comp
 L icenes-library:R0 R?
 U 1 1 5D56A60B
 P 6475 3300
@@ -601,33 +557,11 @@ F 6 "PE-1206CD100JTT " H 5100 3300 50  0001 C CNN "Part number"
 	1    5100 3300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D3F2982
-P 6275 3225
-F 0 "TP?" H 6350 3425 50  0000 R CNN
-F 1 "TestPoint" H 6217 3342 50  0001 R CNN
-F 2 "" H 6475 3225 50  0001 C CNN
-F 3 "~" H 6475 3225 50  0001 C CNN
-	1    6275 3225
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 4150 5700 4150
 Connection ~ 5375 3675
 Wire Wire Line
 	5375 3675 5375 3775
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D3F2979
-P 5375 3775
-F 0 "TP?" H 5425 4000 50  0000 R CNN
-F 1 "TestPoint" H 5317 3892 50  0001 R CNN
-F 2 "" H 5575 3775 50  0001 C CNN
-F 3 "~" H 5575 3775 50  0001 C CNN
-	1    5375 3775
-	-1   0    0    1   
-$EndComp
 $Comp
 L icenes-library:R1M R?
 U 1 1 5D3F2973
@@ -825,17 +759,6 @@ F 6 "RC0805FR-070RL" H 6450 1550 50  0001 C CNN "Part number"
 	1    6450 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D508640
-P 6650 1475
-F 0 "TP?" H 6725 1675 50  0000 R CNN
-F 1 "TestPoint" H 6592 1592 50  0001 R CNN
-F 2 "" H 6850 1475 50  0001 C CNN
-F 3 "~" H 6850 1475 50  0001 C CNN
-	1    6650 1475
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 1450 6900 1550
 $Comp
@@ -911,33 +834,11 @@ F 6 "PE-1206CD100JTT " H 5100 1550 50  0001 C CNN "Part number"
 $EndComp
 Wire Wire Line
 	6250 1475 6250 1550
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D3CF01A
-P 6250 1475
-F 0 "TP?" H 6325 1675 50  0000 R CNN
-F 1 "TestPoint" H 6192 1592 50  0001 R CNN
-F 2 "" H 6450 1475 50  0001 C CNN
-F 3 "~" H 6450 1475 50  0001 C CNN
-	1    6250 1475
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 2400 5700 2400
 Connection ~ 5375 1925
 Wire Wire Line
 	5375 1925 5375 2025
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D3BB92C
-P 5375 2025
-F 0 "TP?" H 5425 2250 50  0000 R CNN
-F 1 "TestPoint" H 5317 2142 50  0001 R CNN
-F 2 "" H 5575 2025 50  0001 C CNN
-F 3 "~" H 5575 2025 50  0001 C CNN
-	1    5375 2025
-	-1   0    0    1   
-$EndComp
 $Comp
 L icenes-library:R1M R?
 U 1 1 5D3B16C2
@@ -1561,5 +1462,126 @@ F 2 "" H 7500 1700 50  0001 C CNN
 F 3 "" H 7500 1700 50  0001 C CNN
 	1    7500 1700
 	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D7111E6
+P 6250 1475
+F 0 "TP?" H 6200 1675 50  0000 L CNN
+F 1 "TestPoint" H 6250 1675 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6450 1475 50  0001 C CNN
+F 3 "~" H 6450 1475 50  0001 C CNN
+	1    6250 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D712B7B
+P 6650 1475
+F 0 "TP?" H 6600 1675 50  0000 L CNN
+F 1 "TestPoint" H 6650 1675 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6850 1475 50  0001 C CNN
+F 3 "~" H 6850 1475 50  0001 C CNN
+	1    6650 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D724BBE
+P 6275 3225
+F 0 "TP?" H 6225 3425 50  0000 L CNN
+F 1 "TestPoint" H 6275 3425 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6475 3225 50  0001 C CNN
+F 3 "~" H 6475 3225 50  0001 C CNN
+	1    6275 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D735BB7
+P 6675 3225
+F 0 "TP?" H 6625 3425 50  0000 L CNN
+F 1 "TestPoint" H 6675 3425 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6875 3225 50  0001 C CNN
+F 3 "~" H 6875 3225 50  0001 C CNN
+	1    6675 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D746D9B
+P 5700 4800
+F 0 "TP?" H 5650 5000 50  0000 L CNN
+F 1 "TestPoint" H 5700 5000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5900 4800 50  0001 C CNN
+F 3 "~" H 5900 4800 50  0001 C CNN
+	1    5700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D758010
+P 6100 4800
+F 0 "TP?" H 6050 5000 50  0000 L CNN
+F 1 "TestPoint" H 6100 5000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6300 4800 50  0001 C CNN
+F 3 "~" H 6300 4800 50  0001 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D7877EF
+P 3250 1550
+F 0 "#FLG?" H 3250 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3250 1723 50  0000 C CNN
+F 2 "" H 3250 1550 50  0001 C CNN
+F 3 "~" H 3250 1550 50  0001 C CNN
+	1    3250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D7882E7
+P 2425 1750
+F 0 "#FLG?" H 2425 1825 50  0001 C CNN
+F 1 "PWR_FLAG" V 2425 1878 50  0000 L CNN
+F 2 "" H 2425 1750 50  0001 C CNN
+F 3 "~" H 2425 1750 50  0001 C CNN
+	1    2425 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D825FFB
+P 5375 5350
+F 0 "TP?" H 5325 5550 50  0000 L CNN
+F 1 "TestPoint" H 5375 5550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5575 5350 50  0001 C CNN
+F 3 "~" H 5575 5350 50  0001 C CNN
+	1    5375 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D8379DB
+P 5375 3775
+F 0 "TP?" H 5325 3975 50  0000 L CNN
+F 1 "TestPoint" H 5375 3975 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5575 3775 50  0001 C CNN
+F 3 "~" H 5575 3775 50  0001 C CNN
+	1    5375 3775
+	-1   0    0    1   
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D848D12
+P 5375 2025
+F 0 "TP?" H 5325 2225 50  0000 L CNN
+F 1 "TestPoint" H 5375 2225 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5575 2025 50  0001 C CNN
+F 3 "~" H 5575 2025 50  0001 C CNN
+	1    5375 2025
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

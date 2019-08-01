@@ -1145,19 +1145,6 @@ Wire Wire Line
 Wire Wire Line
 	1775 1500 1825 1500
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5D3FF502
-P 1825 1425
-AR Path="/5D3FF502" Ref="TP?"  Part="1" 
-AR Path="/5D1BAC88/5D3FF502" Ref="TP?"  Part="1" 
-F 0 "TP?" H 1900 1625 50  0000 R CNN
-F 1 "TestPoint" H 1767 1542 50  0001 R CNN
-F 2 "" H 2025 1425 50  0001 C CNN
-F 3 "~" H 2025 1425 50  0001 C CNN
-	1    1825 1425
-	1    0    0    -1  
-$EndComp
-$Comp
 L icenes-library:R0 R?
 U 1 1 5D3FF50B
 P 1625 1500
@@ -1171,19 +1158,6 @@ F 4 "0" H 1625 1616 50  0000 C CNN "Resistance"
 F 5 "Yageo" H 1625 1500 50  0001 C CNN "Manufacturer"
 F 6 "RC0805FR-070RL" H 1625 1500 50  0001 C CNN "Part number"
 	1    1625 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D3FF511
-P 1425 1425
-AR Path="/5D3FF511" Ref="TP?"  Part="1" 
-AR Path="/5D1BAC88/5D3FF511" Ref="TP?"  Part="1" 
-F 0 "TP?" H 1500 1625 50  0000 R CNN
-F 1 "TestPoint" H 1367 1542 50  0001 R CNN
-F 2 "" H 1625 1425 50  0001 C CNN
-F 3 "~" H 1625 1425 50  0001 C CNN
-	1    1425 1425
 	1    0    0    -1  
 $EndComp
 Connection ~ 1425 1500
@@ -1213,13 +1187,39 @@ $Comp
 L icenes-library:FT2232H U?
 U 1 1 5D4C9481
 P 6900 5150
-F 0 "U?" H 6900 7531 50  0000 C CNN
-F 1 "FT2232H" H 6900 7440 50  0000 C CNN
+F 0 "U?" H 5950 7325 50  0000 C CNN
+F 1 "FT2232H" H 6075 7250 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 6900 5150 50  0001 C CNN
 F 3 "http://www.ftdichip.com/Products/ICs/FT2232H.html" H 6900 5150 50  0001 C CNN
 F 4 "FTDI" H 6900 5150 50  0001 C CNN "Manufacturer"
 F 5 "FT2232HL" H 6900 5150 50  0001 C CNN "Part number"
 	1    6900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D76AD94
+P 1425 1425
+AR Path="/5D76AD94" Ref="TP?"  Part="1" 
+AR Path="/5D1BAC88/5D76AD94" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1375 1625 50  0000 L CNN
+F 1 "TestPoint" H 1425 1625 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1625 1425 50  0001 C CNN
+F 3 "~" H 1625 1425 50  0001 C CNN
+	1    1425 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:TestPoint TP?
+U 1 1 5D773D53
+P 1825 1425
+AR Path="/5D773D53" Ref="TP?"  Part="1" 
+AR Path="/5D1BAC88/5D773D53" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1775 1625 50  0000 L CNN
+F 1 "TestPoint" H 1825 1625 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2025 1425 50  0001 C CNN
+F 3 "~" H 2025 1425 50  0001 C CNN
+	1    1825 1425
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

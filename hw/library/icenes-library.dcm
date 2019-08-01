@@ -139,6 +139,12 @@ K Switching 3.3V regulator.
 F http://www.ti.com/lit/ds/symlink/tps62050.pdf
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
 $CMP iCE40HX8K-CT256
 D Lattice FPGA iCE40HX8K-CT256
 K Lattice FPGA iCE40HX8K-CT256
