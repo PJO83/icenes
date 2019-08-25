@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 21.47727MHz
+D Two pin crystal, f=21.47727 MHz, Fundamental, Parallel resonant, CL=18pF, C0=7pF Max
+K quartz ceramic resonator oscillator
+F http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_AT/HC-49_U-S_E.pdf
+$ENDCMP
+#
+$CMP 26.601712MHz
+D Two pin crystal, f=26.601712 MHz, Fundamental, Parallel resonant, CL=20pF, C0=?pF Max
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
 $CMP 74ALVC164245
 D Bus Transceiver 16-bit 3.3V-to-5V
 K Bus Transceiver 16-bit 3.3V-to-5V
@@ -18,50 +30,96 @@ K NOR-Flash SPI 4Mbit
 F https://www.adestotech.com/wp-content/uploads/DS-AT25SF041_044.pdf
 $ENDCMP
 #
+$CMP Barrel_Jack_Switch
+D DC Barrel Jack with an internal switch
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
 $CMP C0.1uF
 D 0.1uF, 10VDC, +-10%, 0603, X7R
+F https://www.mouser.se/datasheet/2/445/885012206020-554242.pdf
 $ENDCMP
 #
 $CMP C10uF
 D 10uF, 10VDC, +-10%, 0603, X5R
+F https://www.mouser.se/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf
 $ENDCMP
 #
 $CMP C1uF
 D 1uF, 10VDC, +-10%, 0603, X5R
+F https://www.mouser.se/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf
+$ENDCMP
+#
+$CMP C22pF
+D 22pF, 50VDC, +-1%, 0603, C0G
+F https://www.mouser.se/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf
 $ENDCMP
 #
 $CMP C22uF
 D 22uF, 10VDC, +-20%, 0603, X5R
+F https://www.mouser.se/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf
+$ENDCMP
+#
+$CMP C36pF
+D 36pF, 50VDC, +-1%, 0603, C0G
+F https://www.mouser.se/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf
+$ENDCMP
+#
+$CMP C39pF
+D 39pF, 50VDC, +-1%, 0603, C0G
+F https://www.mouser.se/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf
 $ENDCMP
 #
 $CMP C4.7uF
 D 4.7uF, 10VDC, +-10%, 0603, X5R
+F https://www.mouser.se/datasheet/2/396/mlcc02_e-1307760.pdf
 $ENDCMP
 #
 $CMP C6.8pF
 D 6.8pF, 10VDC, +-0.5pF, 0603, C0G
+F https://www.mouser.se/datasheet/2/427/vjw1bcbascomseries-223529.pdf
 $ENDCMP
 #
 $CMP CDBU0520
 D Schottky Diode, VR=20V, IO=500mA
+F https://www.mouser.se/datasheet/2/80/CDBU0520-HF-RevA797161-1481024.pdf
 $ENDCMP
 #
 $CMP Conn_02x11_Odd_Even
 D Generic connector, double row, 02x11, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
-F ~
+F https://www.mouser.se/datasheet/2/527/ssq_th-1370157.pdf
 $ENDCMP
 #
 $CMP Conn_02x31_Odd_Even
 D Generic connector, double row, 02x31, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
-F ~
+F https://www.mouser.se/datasheet/2/445/6130xx21821-537816.pdf
+$ENDCMP
+#
+$CMP DSC1001BI2-133.0000T
+D 133MHz MEMS Oscillator Microchip
+K 133MHz Oscillator Microchip
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005529B.pdf
 $ENDCMP
 #
 $CMP DSC1001DI2-012.0000
 D 12MHz MEMS Oscillator Microchip
 K 12MHz Oscillator Microchip
 F https://ww1.microchip.com/downloads/en/DeviceDoc/20005529B.pdf
+$ENDCMP
+#
+$CMP FB110_4100mA_0603
+D Ferrite bead. 110Ohm @ 100MHz, 4100mA, Rdc 20mOhm, 0603
+K L ferrite bead inductor filter
+F https://www.mouser.se/datasheet/2/445/74279228111-516387.pdf
+$ENDCMP
+#
+$CMP FB600_500mA_0603
+D Ferrite bead. 600Ohm @ 100MHz, 500mA, Rdc 400mOhm, 0603
+K L ferrite bead inductor filter
+F https://www.mouser.se/datasheet/2/400/eads_automotive_signal_kmz1608-hr_en-1108686.pdf
 $ENDCMP
 #
 $CMP FT2232H
@@ -73,13 +131,13 @@ $ENDCMP
 $CMP Green_LED
 D Green Light emitting diode, 570nm, 40mcd, Vf=1.9V, If=2mA, 0805
 K Freen LED diode
-F ~
+F https://www.mouser.se/datasheet/2/216/APTD2012LCGCK-1102037.pdf
 $ENDCMP
 #
 $CMP L10uH
 D 10nH, +-5%, 1A, 80mOhms, 1206
 K inductor choke coil reactor magnetic
-F ~
+F https://www.mouser.se/datasheet/2/336/-514303.pdf
 $ENDCMP
 #
 $CMP NES-Connector-72pin
@@ -89,42 +147,86 @@ $ENDCMP
 #
 $CMP R0
 D 0Ohms, +-1%, 125mW, 150V, 0805
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
+$ENDCMP
+#
+$CMP R0_0603
+D 0 Ohms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
 $CMP R10K
 D 10kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
 $CMP R12K
 D 12kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
+$ENDCMP
+#
+$CMP R150
+D 150Ohms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
 $CMP R1M
 D 1MOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
 $CMP R2.2K
 D 2.2kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
+$ENDCMP
+#
+$CMP R2.2M
+D 2.2MOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
+$ENDCMP
+#
+$CMP R200
+D 200Ohms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
 $CMP R360K
 D 360kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
+$ENDCMP
+#
+$CMP R4.7K
+D 4.7kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
 $CMP R510K
 D 510kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
 $CMP R698
 D 698Ohms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
 $CMP R820K
 D 820kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
 $CMP R91K
 D 91kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
+$ENDCMP
+#
+$CMP R_TBD
+D TBD Ohms, +-1%, 100mW, 75V, 0603
+$ENDCMP
+#
+$CMP SN74LVC1404
+D Clock Drivers & Distribution
+F http://www.ti.com/lit/ds/symlink/sn74lvc1404.pdf
 $ENDCMP
 #
 $CMP TPS62050
@@ -145,9 +247,16 @@ K test point tp
 F ~
 $ENDCMP
 #
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F https://www.mouser.se/datasheet/2/206/MB-0187-2E_DX4-221395.pdf
+$ENDCMP
+#
 $CMP iCE40HX8K-CT256
 D Lattice FPGA iCE40HX8K-CT256
 K Lattice FPGA iCE40HX8K-CT256
+F https://www.mouser.se/datasheet/2/225/FPGA-DS-02029-3-5-iCE40-LP-HX-Family-Data-Sheet-1022803.pdf
 $ENDCMP
 #
 #End Doc Library

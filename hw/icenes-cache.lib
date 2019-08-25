@@ -1,67 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Barrel_Jack_Switch
-#
-DEF Connector_Barrel_Jack_Switch J 0 20 Y N 1 F N
-F0 "J" 0 210 50 H V C CNN
-F1 "Connector_Barrel_Jack_Switch" 0 -200 50 H V C CNN
-F2 "" 50 -40 50 H I C CNN
-F3 "" 50 -40 50 H I C CNN
-$FPLIST
- BarrelJack*
-$ENDFPLIST
-DRAW
-A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
-A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
-S -200 150 200 -150 0 1 10 f
-S 145 125 -130 75 0 1 10 F
-P 2 0 1 10 50 -90 75 -65 N
-P 2 0 1 10 200 100 150 100 N
-P 4 0 1 10 200 0 50 0 50 -90 25 -65 N
-P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
-X ~ 1 300 100 100 L 50 50 1 1 P
-X ~ 2 300 -100 100 L 50 50 1 1 P
-X ~ 3 300 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_USB_B_Micro
-#
-DEF Connector_USB_B_Micro J 0 40 Y Y 1 F N
-F0 "J" -200 450 50 H V L CNN
-F1 "Connector_USB_B_Micro" -200 350 50 H V L CNN
-F2 "" 150 -50 50 H I C CNN
-F3 "" 150 -50 50 H I C CNN
-ALIAS USB_B_Mini
-$FPLIST
- USB*
-$ENDFPLIST
-DRAW
-C -150 85 25 0 1 10 F
-C -25 135 15 0 1 10 F
-S -200 -300 200 300 0 1 10 f
-S -5 -300 5 -270 0 1 0 N
-S 10 50 -20 20 0 1 10 F
-S 200 -205 170 -195 0 1 0 N
-S 200 -105 170 -95 0 1 0 N
-S 200 -5 170 5 0 1 0 N
-S 200 195 170 205 0 1 0 N
-P 2 0 1 10 -75 85 25 85 N
-P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
-P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
-P 4 0 1 10 25 110 25 60 75 85 25 110 F
-P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
-P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
-X VBUS 1 300 200 100 L 50 50 1 1 w
-X D- 2 300 -100 100 L 50 50 1 1 P
-X D+ 3 300 0 100 L 50 50 1 1 P
-X ID 4 300 -200 100 L 50 50 1 1 P
-X GND 5 0 -400 100 U 50 50 1 1 w
-X Shield 6 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # icenes-library_+1V8_FTDI
 #
 DEF icenes-library_+1V8_FTDI #PWR 0 40 Y Y 1 F P
@@ -89,6 +28,52 @@ P 2 1 1 0 -30 -100 0 -50 N
 P 2 1 1 0 0 -150 0 -50 N
 P 2 1 1 0 0 -50 30 -100 N
 X +3V3_FTDI 1 0 -150 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# icenes-library_21.47727MHz
+#
+DEF icenes-library_21.47727MHz Y 0 40 N N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "icenes-library_21.47727MHz" 0 -150 50 H V C CNN
+F2 "Crystal:Crystal_HC49-4H_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Citizen" 0 0 50 H I C CNN "Manufacturer"
+F5 "HC-49/U-S21477270ABJB " 0 0 50 H I C CNN "Part number"
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_26.601712MHz
+#
+DEF icenes-library_26.601712MHz Y 0 40 N N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "icenes-library_26.601712MHz" 0 -150 50 H V C CNN
+F2 "Crystal:Crystal_HC49-4H_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "?" 0 0 50 H I C CNN "Manufacturer"
+F5 "?" 0 0 50 H I C CNN "Part number"
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -198,6 +183,31 @@ X VCC 8 500 -150 150 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# icenes-library_Barrel_Jack_Switch
+#
+DEF icenes-library_Barrel_Jack_Switch J 0 20 Y N 1 F N
+F0 "J" 0 210 50 H V C CNN
+F1 "icenes-library_Barrel_Jack_Switch" 0 -200 50 H V C CNN
+F2 "" 50 -40 50 H I C CNN
+F3 "" 50 -40 50 H I C CNN
+$FPLIST
+ BarrelJack*
+$ENDFPLIST
+DRAW
+A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
+A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
+S -200 150 200 -150 0 1 10 f
+S 145 125 -130 75 0 1 10 F
+P 2 0 1 10 50 -90 75 -65 N
+P 2 0 1 10 200 100 150 100 N
+P 4 0 1 10 200 0 50 0 50 -90 25 -65 N
+P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
+X ~ 1 300 100 100 L 50 50 1 1 P
+X ~ 2 300 -100 100 L 50 50 1 1 P
+X ~ 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # icenes-library_C0.1uF
 #
 DEF icenes-library_C0.1uF C 0 40 N N 1 F N
@@ -262,6 +272,42 @@ F3 "" 0 0 50 H I C CNN
 F4 "22uF" 150 -100 50 H V C CNN "Capacitance"
 F5 "Murata" 0 0 50 H I C CNN "Manufacturer"
 F6 "GRM188R61A226ME15D " 0 0 50 H I C CNN "Part number"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_C36pF
+#
+DEF icenes-library_C36pF C 0 40 N N 1 F N
+F0 "C" 100 100 50 H V C CNN
+F1 "icenes-library_C36pF" -150 -100 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "36pF" 150 -100 50 H V C CNN "Capacitance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "CC0603FRNPO9BN360" 0 0 50 H I C CNN "Part number"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_C39pF
+#
+DEF icenes-library_C39pF C 0 40 N N 1 F N
+F0 "C" 100 100 50 H V C CNN
+F1 "icenes-library_C39pF" -150 -100 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "39pF" 150 -100 50 H V C CNN "Capacitance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "CC0603FRNPO9BN390" 0 0 50 H I C CNN "Part number"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -526,6 +572,24 @@ X Pin_9 9 -200 1100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# icenes-library_DSC1001BI2-133.0000T
+#
+DEF icenes-library_DSC1001BI2-133.0000T X 0 40 Y Y 1 F N
+F0 "X" -50 100 50 H V C CNN
+F1 "icenes-library_DSC1001BI2-133.0000T" 0 0 50 H V C CNN
+F2 "icenes-library:MEMS_Microship_Ocillator_SMD_CDFN-4_5.0x3.2mm" 100 50 50 H I C CNN
+F3 "" 100 50 50 H I C CNN
+F4 "Microchip" 0 0 50 H I C CNN "Manufacturer"
+F5 "DSC1001BI2-133.0000T" 0 0 50 H I C CNN "Part number"
+DRAW
+S -350 -50 300 -350 0 1 0 N
+X STANDBY# 1 -500 -100 150 R 50 50 1 1 I
+X GND 2 -500 -300 150 R 50 50 1 1 W
+X OUT 3 450 -300 150 L 50 50 1 1 O
+X VDD 4 450 -100 150 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # icenes-library_DSC1001DI2-012.0000
 #
 DEF icenes-library_DSC1001DI2-012.0000 X 0 40 Y Y 1 F N
@@ -541,6 +605,54 @@ X STANDBY# 1 -500 -100 150 R 50 50 1 1 I
 X GND 2 -500 -300 150 R 50 50 1 1 W
 X OUT 3 450 -300 150 L 50 50 1 1 O
 X VDD 4 450 -100 150 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# icenes-library_FB110_4100mA_0603
+#
+DEF icenes-library_FB110_4100mA_0603 FB 0 0 N Y 1 F N
+F0 "FB" -150 25 50 V V C CNN
+F1 "icenes-library_FB110_4100mA_0603" 150 0 50 V I C CNN
+F2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "110 Ohm @ 100MHz" 150 0 50 V V C CNN "Impedance"
+F5 "Wurth Elektronik " 0 0 50 H I C CNN "Manufacturer"
+F6 "74279228111" 0 0 50 H I C CNN "Part number"
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -48 N
+P 2 0 1 0 0 50 0 51 N
+P 5 0 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_FB600_500mA_0603
+#
+DEF icenes-library_FB600_500mA_0603 FB 0 0 N Y 1 F N
+F0 "FB" -150 25 50 V V C CNN
+F1 "icenes-library_FB600_500mA_0603" 150 0 50 V I C CNN
+F2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "600 Ohm @ 100MHz" 150 0 50 V V C CNN "Impedance"
+F5 "TDK" 0 0 50 H I C CNN "Manufacturer"
+F6 "KMZ1608BHR601CTDH5" 0 0 50 H I C CNN "Part number"
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -48 N
+P 2 0 1 0 0 50 0 51 N
+P 5 0 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -812,6 +924,23 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# icenes-library_R150
+#
+DEF icenes-library_R150 R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R150" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "150" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-07150RL" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # icenes-library_R1M
 #
 DEF icenes-library_R1M R 0 40 N N 1 F N
@@ -846,6 +975,40 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# icenes-library_R2.2M
+#
+DEF icenes-library_R2.2M R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R2.2M" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "2.2M" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-072M2L" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R200
+#
+DEF icenes-library_R200 R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R200" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "200" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-07200RL" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # icenes-library_R360K
 #
 DEF icenes-library_R360K R 0 40 N N 1 F N
@@ -856,6 +1019,23 @@ F3 "" 0 0 50 V I C CNN
 F4 "360K" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0603FR-07360KL" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R4.7K
+#
+DEF icenes-library_R4.7K R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R4.7K" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "4.7K" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-072K2L" 0 0 50 H I C CNN "Part number"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -931,6 +1111,42 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# icenes-library_R_TBD
+#
+DEF icenes-library_R_TBD R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R_TBD" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_SN74LVC1404
+#
+DEF icenes-library_SN74LVC1404 U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "icenes-library_SN74LVC1404" 0 0 50 H V C CNN
+F2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Texas Instruments " 0 0 50 H I C CNN "Manufacturer"
+F5 "SN74LVC1404DCUR " 0 0 50 H I C CNN "Part number"
+DRAW
+S -350 -50 350 -450 0 1 0 N
+X CTRL 1 -500 -100 150 R 50 50 1 1 I
+X XOUT 2 -500 -200 150 R 50 50 1 1 I
+X XIN 3 -500 -300 150 R 50 50 1 1 I
+X GND 4 -500 -400 150 R 50 50 1 1 w
+X Y 5 500 -400 150 L 50 50 1 1 O
+X A 6 500 -300 150 L 50 50 1 1 I
+X OSCOUT 7 500 -200 150 L 50 50 1 1 O
+X VCC 8 500 -100 150 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # icenes-library_TPS62050
 #
 DEF icenes-library_TPS62050 U 0 40 Y Y 1 F N
@@ -993,6 +1209,58 @@ $ENDFPLIST
 DRAW
 C 0 130 30 0 1 0 N
 X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_USB_B_Micro
+#
+DEF icenes-library_USB_B_Micro J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "icenes-library_USB_B_Micro" -200 350 50 H V L CNN
+F2 "icenes-library:USB_Micro-B" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
+F4 "JAE Electronics" 0 0 50 H I C CNN "Manufacturer"
+F5 "DX4R005JJ2R1800" 0 0 50 H I C CNN "Part number"
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -205 170 -195 0 1 0 N
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 2 0 1 10 -75 85 25 85 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
+P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X ID 4 300 -200 100 L 50 50 1 1 P
+X GND 5 0 -400 100 U 50 50 1 1 w
+X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_USB_VBUS
+#
+DEF icenes-library_USB_VBUS #PWR 0 40 Y Y 1 F P
+F0 "#PWR" 0 0 50 H I C CNN
+F1 "icenes-library_USB_VBUS" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -30 -100 0 -50 N
+P 2 1 1 0 0 -150 0 -50 N
+P 2 1 1 0 0 -50 30 -100 N
+X +3V3_FTDI 1 0 -150 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
