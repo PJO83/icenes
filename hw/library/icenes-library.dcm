@@ -33,7 +33,7 @@ $ENDCMP
 $CMP Barrel_Jack_Switch
 D DC Barrel Jack with an internal switch
 K DC power barrel jack connector
-F ~
+F https://www.mouser.se/datasheet/2/253/KC-301287-1177723.pdf
 $ENDCMP
 #
 $CMP C0.1uF

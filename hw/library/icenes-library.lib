@@ -188,8 +188,10 @@ ENDDEF
 DEF Barrel_Jack_Switch J 0 20 Y N 1 F N
 F0 "J" 0 210 50 H V C CNN
 F1 "Barrel_Jack_Switch" 0 -200 50 H V C CNN
-F2 "" 50 -40 50 H I C CNN
+F2 "icenes-library:BarrelJack_Horizontal" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
+F4 "Kobiconn" 0 0 50 H I C CNN "Maufacturer"
+F5 "163-179PH-EX" 0 0 50 H I C CNN "Part number"
 $FPLIST
  BarrelJack*
 $ENDFPLIST

@@ -1622,8 +1622,10 @@ U 1 1 5DF266DD
 P 2075 1650
 F 0 "J?" H 2132 1967 50  0000 C CNN
 F 1 "Barrel_Jack_Switch" H 2132 1876 50  0000 C CNN
-F 2 "" H 2125 1610 50  0001 C CNN
-F 3 "~" H 2125 1610 50  0001 C CNN
+F 2 "icenes-library:BarrelJack_Horizontal" H 2125 1610 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/253/KC-301287-1177723.pdf" H 2125 1610 50  0001 C CNN
+F 4 "Kobiconn" H 2075 1650 50  0001 C CNN "Maufacturer"
+F 5 "163-179PH-EX" H 2075 1650 50  0001 C CNN "Part number"
 	1    2075 1650
 	1    0    0    -1  
 $EndComp
