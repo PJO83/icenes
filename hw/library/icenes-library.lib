@@ -788,11 +788,11 @@ ENDDEF
 DEF L10uH L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "L10uH" 75 0 50 V I C CNN
-F2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" 0 0 50 H I C CNN
+F2 "icenes-library:Sumida_L_7.5x7.5_H4.5" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "10uH" 100 0 50 V V C CNN "Inductance"
-F5 "Coilcraft " 0 0 50 H I C CNN "Manufacturer"
-F6 "1812PS-103JLB" 0 0 50 H I C CNN "Part number"
+F5 "Sumida " 0 0 50 H I C CNN "Manufacturer"
+F6 "CDRH74NP-100MC-B" 0 0 50 H I C CNN "Part number"
 $FPLIST
  Choke_*
  *Coil*

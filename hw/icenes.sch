@@ -306,11 +306,11 @@ U 1 1 5D446D23
 P 5125 5000
 F 0 "L3" V 5315 5000 50  0000 C CNN
 F 1 "L10uH" V 5200 5000 50  0001 C CNN
-F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 5125 5000 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/597/1812ps-270619.pdf" H 5125 5000 50  0001 C CNN
+F 2 "icenes-library:Sumida_L_7.5x7.5_H4.5" H 5125 5000 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/390/CDRH74-514269.pdf" H 5125 5000 50  0001 C CNN
 F 4 "10uH" V 5224 5000 50  0000 C CNN "Inductance"
-F 5 "Coilcraft " H 5125 5000 50  0001 C CNN "Manufacturer"
-F 6 "1812PS-103JLB" H 5125 5000 50  0001 C CNN "Part number"
+F 5 "Sumida " H 5125 5000 50  0001 C CNN "Manufacturer"
+F 6 "CDRH74NP-100MC-B" H 5125 5000 50  0001 C CNN "Part number"
 	1    5125 5000
 	0    -1   -1   0   
 $EndComp
@@ -461,11 +461,11 @@ U 1 1 5D3F298C
 P 5100 3300
 F 0 "L2" V 5290 3300 50  0000 C CNN
 F 1 "L10uH" V 5175 3300 50  0001 C CNN
-F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 5100 3300 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/597/1812ps-270619.pdf" H 5100 3300 50  0001 C CNN
+F 2 "icenes-library:Sumida_L_7.5x7.5_H4.5" H 5100 3300 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/390/CDRH74-514269.pdf" H 5100 3300 50  0001 C CNN
 F 4 "10uH" V 5199 3300 50  0000 C CNN "Inductance"
-F 5 "Coilcraft " H 5100 3300 50  0001 C CNN "Manufacturer"
-F 6 "1812PS-103JLB" H 5100 3300 50  0001 C CNN "Part number"
+F 5 "Sumida " H 5100 3300 50  0001 C CNN "Manufacturer"
+F 6 "CDRH74NP-100MC-B" H 5100 3300 50  0001 C CNN "Part number"
 	1    5100 3300
 	0    -1   -1   0   
 $EndComp
@@ -675,11 +675,11 @@ U 1 1 5D3DBCC8
 P 5100 1550
 F 0 "L1" V 5290 1550 50  0000 C CNN
 F 1 "L10uH" V 5175 1550 50  0001 C CNN
-F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 5100 1550 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/597/1812ps-270619.pdf" H 5100 1550 50  0001 C CNN
+F 2 "icenes-library:Sumida_L_7.5x7.5_H4.5" H 5100 1550 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/390/CDRH74-514269.pdf" H 5100 1550 50  0001 C CNN
 F 4 "10uH" V 5199 1550 50  0000 C CNN "Inductance"
-F 5 "Coilcraft " H 5100 1550 50  0001 C CNN "Manufacturer"
-F 6 "1812PS-103JLB" H 5100 1550 50  0001 C CNN "Part number"
+F 5 "Sumida " H 5100 1550 50  0001 C CNN "Manufacturer"
+F 6 "CDRH74NP-100MC-B" H 5100 1550 50  0001 C CNN "Part number"
 	1    5100 1550
 	0    -1   -1   0   
 $EndComp
