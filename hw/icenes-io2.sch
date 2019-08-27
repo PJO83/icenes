@@ -425,10 +425,10 @@ F 3 "" H 2075 4025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:R10K R40
+L icenes-library:R10K R37
 U 1 1 5D1F5A80
 P 2075 4200
-F 0 "R40" V 2029 4270 50  0000 L CNN
+F 0 "R37" V 2029 4270 50  0000 L CNN
 F 1 "R10K" H 2075 4100 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2075 4200 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 2075 4200 50  0001 C CNN
@@ -2134,10 +2134,10 @@ Wire Wire Line
 	9650 6200 9850 6200
 NoConn ~ 9850 6300
 $Comp
-L icenes-library:R_TBD R39
+L icenes-library:R_TBD R36
 U 1 1 5DA26BEC
 P 1300 4200
-F 0 "R39" V 1300 4270 50  0000 L CNN
+F 0 "R36" V 1300 4270 50  0000 L CNN
 F 1 "R_TBD" H 1300 4100 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 4200 50  0001 C CNN
 F 3 "" V 1300 4200 50  0001 C CNN
@@ -2204,10 +2204,10 @@ Wire Wire Line
 Wire Wire Line
 	1300 4350 1300 4600
 $Comp
-L icenes-library:TestPoint TP20
+L icenes-library:TestPoint TP17
 U 1 1 5DCF35FF
 P 2075 4750
-F 0 "TP20" H 2025 4975 50  0000 L CNN
+F 0 "TP17" H 2025 4975 50  0000 L CNN
 F 1 "TestPoint" H 2075 4950 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2275 4750 50  0001 C CNN
 F 3 "~" H 2275 4750 50  0001 C CNN
@@ -2296,10 +2296,10 @@ ICE_CLK_133MHz
 Wire Wire Line
 	2250 5725 2250 5700
 $Comp
-L icenes-library:TestPoint TP21
+L icenes-library:TestPoint TP18
 U 1 1 5DDBB4BD
 P 2750 5400
-F 0 "TP21" H 2700 5600 50  0000 L CNN
+F 0 "TP18" H 2700 5600 50  0000 L CNN
 F 1 "TestPoint" H 2750 5600 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2950 5400 50  0001 C CNN
 F 3 "~" H 2950 5400 50  0001 C CNN
@@ -2319,10 +2319,10 @@ F 3 "" H 1900 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:TestPoint TP19
+L icenes-library:TestPoint TP16
 U 1 1 5DDC0B2C
 P 1625 4575
-F 0 "TP19" H 1575 4775 50  0000 L CNN
+F 0 "TP16" H 1575 4775 50  0000 L CNN
 F 1 "TestPoint" H 1625 4775 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1825 4575 50  0001 C CNN
 F 3 "~" H 1825 4575 50  0001 C CNN

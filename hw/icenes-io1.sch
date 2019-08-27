@@ -696,10 +696,10 @@ F 5 "APTD2012LCGCK" H 11275 7425 50  0001 C CNN "Part number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icenes-library:R698 R31
+L icenes-library:R698 R28
 U 1 1 5D435DC8
 P 11275 7075
-F 0 "R31" V 11229 7145 50  0000 L CNN
+F 0 "R28" V 11229 7145 50  0000 L CNN
 F 1 "R698" H 11275 6975 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11275 7075 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 11275 7075 50  0001 C CNN
@@ -742,10 +742,10 @@ F 5 "APTD2012LCGCK" H 11650 7425 50  0001 C CNN "Part number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icenes-library:R698 R32
+L icenes-library:R698 R29
 U 1 1 5D49EA53
 P 11650 7075
-F 0 "R32" V 11604 7145 50  0000 L CNN
+F 0 "R29" V 11604 7145 50  0000 L CNN
 F 1 "R698" H 11650 6975 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11650 7075 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 11650 7075 50  0001 C CNN
@@ -773,10 +773,10 @@ F 5 "APTD2012LCGCK" H 12025 7425 50  0001 C CNN "Part number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icenes-library:R698 R33
+L icenes-library:R698 R30
 U 1 1 5D4AAC01
 P 12025 7075
-F 0 "R33" V 11979 7145 50  0000 L CNN
+F 0 "R30" V 11979 7145 50  0000 L CNN
 F 1 "R698" H 12025 6975 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12025 7075 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 12025 7075 50  0001 C CNN
@@ -804,10 +804,10 @@ F 5 "APTD2012LCGCK" H 12400 7425 50  0001 C CNN "Part number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icenes-library:R698 R34
+L icenes-library:R698 R31
 U 1 1 5D4B0BF6
 P 12400 7075
-F 0 "R34" V 12354 7145 50  0000 L CNN
+F 0 "R31" V 12354 7145 50  0000 L CNN
 F 1 "R698" H 12400 6975 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12400 7075 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 12400 7075 50  0001 C CNN
@@ -835,10 +835,10 @@ F 5 "APTD2012LCGCK" H 12775 7425 50  0001 C CNN "Part number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icenes-library:R698 R35
+L icenes-library:R698 R32
 U 1 1 5D4B6CEA
 P 12775 7075
-F 0 "R35" V 12729 7145 50  0000 L CNN
+F 0 "R32" V 12729 7145 50  0000 L CNN
 F 1 "R698" H 12775 6975 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12775 7075 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 12775 7075 50  0001 C CNN
@@ -866,10 +866,10 @@ F 5 "APTD2012LCGCK" H 13150 7425 50  0001 C CNN "Part number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icenes-library:R698 R36
+L icenes-library:R698 R33
 U 1 1 5D4BD4B7
 P 13150 7075
-F 0 "R36" V 13104 7145 50  0000 L CNN
+F 0 "R33" V 13104 7145 50  0000 L CNN
 F 1 "R698" H 13150 6975 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13150 7075 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 13150 7075 50  0001 C CNN
@@ -908,10 +908,10 @@ F 5 "APTD2012LCGCK" H 13525 7425 50  0001 C CNN "Part number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icenes-library:R698 R37
+L icenes-library:R698 R34
 U 1 1 5D4C38D7
 P 13525 7075
-F 0 "R37" V 13479 7145 50  0000 L CNN
+F 0 "R34" V 13479 7145 50  0000 L CNN
 F 1 "R698" H 13525 6975 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13525 7075 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 13525 7075 50  0001 C CNN
@@ -950,10 +950,10 @@ F 5 "APTD2012LCGCK" H 13900 7425 50  0001 C CNN "Part number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L icenes-library:R698 R38
+L icenes-library:R698 R35
 U 1 1 5D4C971E
 P 13900 7075
-F 0 "R38" V 13854 7145 50  0000 L CNN
+F 0 "R35" V 13854 7145 50  0000 L CNN
 F 1 "R698" H 13900 6975 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13900 7075 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 13900 7075 50  0001 C CNN
@@ -1439,10 +1439,10 @@ Wire Wire Line
 Wire Wire Line
 	3125 8250 3125 8750
 $Comp
-L icenes-library:R10K R27
+L icenes-library:R10K R24
 U 1 1 5D74F353
 P 2075 8500
-F 0 "R27" V 2029 8570 50  0000 L CNN
+F 0 "R24" V 2029 8570 50  0000 L CNN
 F 1 "R10K" H 2075 8400 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2075 8500 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 2075 8500 50  0001 C CNN
@@ -1581,10 +1581,10 @@ F 6 "CC0603FRNPO9BN360" H 1950 9600 50  0001 C CNN "Part number"
 $EndComp
 Connection ~ 1950 9450
 $Comp
-L icenes-library:R200 R25
+L icenes-library:R200 R22
 U 1 1 5DA45067
 P 1050 9225
-F 0 "R25" V 975 9000 50  0000 L CNN
+F 0 "R22" V 975 9000 50  0000 L CNN
 F 1 "R200" H 1050 9125 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1050 9225 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 1050 9225 50  0001 C CNN
@@ -1595,10 +1595,10 @@ F 6 "RC0603FR-07200RL" H 1050 9225 50  0001 C CNN "Part number"
 	0    1    1    0   
 $EndComp
 $Comp
-L icenes-library:R2.2M R26
+L icenes-library:R2.2M R23
 U 1 1 5DA4708D
 P 1500 9025
-F 0 "R26" H 1500 9100 50  0000 C CNN
+F 0 "R23" H 1500 9100 50  0000 C CNN
 F 1 "R2.2M" H 1500 8925 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1500 9025 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 1500 9025 50  0001 C CNN
@@ -1612,10 +1612,10 @@ Connection ~ 3700 8850
 Wire Wire Line
 	3700 8850 4000 8850
 $Comp
-L icenes-library:TestPoint TP17
+L icenes-library:TestPoint TP14
 U 1 1 5DB07242
 P 3700 8725
-F 0 "TP17" H 3758 8797 50  0000 L CNN
+F 0 "TP14" H 3758 8797 50  0000 L CNN
 F 1 "TestPoint" H 3700 8925 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3900 8725 50  0001 C CNN
 F 3 "~" H 3900 8725 50  0001 C CNN
@@ -1684,10 +1684,10 @@ Wire Wire Line
 Wire Wire Line
 	6900 8250 6900 8750
 $Comp
-L icenes-library:R10K R30
+L icenes-library:R10K R27
 U 1 1 5DB221D0
 P 5850 8500
-F 0 "R30" V 5804 8570 50  0000 L CNN
+F 0 "R27" V 5804 8570 50  0000 L CNN
 F 1 "R10K" H 5850 8400 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5850 8500 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5850 8500 50  0001 C CNN
@@ -1779,10 +1779,10 @@ Wire Wire Line
 	4825 8850 4825 9025
 Connection ~ 4825 9025
 $Comp
-L icenes-library:R2.2M R29
+L icenes-library:R2.2M R26
 U 1 1 5DB2222B
 P 5275 9025
-F 0 "R29" H 5275 9100 50  0000 C CNN
+F 0 "R26" H 5275 9100 50  0000 C CNN
 F 1 "R2.2M" H 5275 8925 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5275 9025 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5275 9025 50  0001 C CNN
@@ -1794,10 +1794,10 @@ F 6 "RC0603FR-072M2L" H 5275 9025 50  0001 C CNN "Part number"
 $EndComp
 Connection ~ 7475 8850
 $Comp
-L icenes-library:TestPoint TP18
+L icenes-library:TestPoint TP15
 U 1 1 5DB22244
 P 7475 8725
-F 0 "TP18" H 7533 8797 50  0000 L CNN
+F 0 "TP15" H 7533 8797 50  0000 L CNN
 F 1 "TestPoint" H 7475 8925 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7675 8725 50  0001 C CNN
 F 3 "~" H 7675 8725 50  0001 C CNN
@@ -1850,10 +1850,10 @@ F 6 "CC0603FRNPO9BN390" H 5725 9600 50  0001 C CNN "Part number"
 $EndComp
 Connection ~ 5725 9450
 $Comp
-L icenes-library:R150 R28
+L icenes-library:R150 R25
 U 1 1 5DB3EF0F
 P 4825 9225
-F 0 "R28" V 4725 9000 50  0000 L CNN
+F 0 "R25" V 4725 9000 50  0000 L CNN
 F 1 "R150" H 4825 9125 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4825 9225 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 4825 9225 50  0001 C CNN

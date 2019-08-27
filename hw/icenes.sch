@@ -236,8 +236,8 @@ U 5D3BF9A4
 F0 "ICENES NES Connector" 50
 F1 "icenes-nes-connector.sch" 50
 $EndSheet
-Text Label 3000 1550 2    50   ~ 0
-Vin
+Text Label 3150 1550 2    50   ~ 0
+Vin(+5V-+10V)
 $Comp
 L power:+3V3 #PWR012
 U 1 1 5D6E69D3
@@ -267,10 +267,10 @@ Wire Wire Line
 Wire Wire Line
 	6075 5000 6125 5000
 $Comp
-L icenes-library:R0 R9
+L icenes-library:R0 R6
 U 1 1 5D6A7F7F
 P 5925 5000
-F 0 "R9" H 5900 5100 50  0000 C CNN
+F 0 "R6" H 5900 5100 50  0000 C CNN
 F 1 "R0" H 5925 4900 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5925 5000 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5925 5000 50  0001 C CNN
@@ -414,10 +414,10 @@ Wire Wire Line
 Wire Wire Line
 	6625 3300 6675 3300
 $Comp
-L icenes-library:R0 R11
+L icenes-library:R0 R8
 U 1 1 5D56A60B
 P 6475 3300
-F 0 "R11" H 6450 3400 50  0000 C CNN
+F 0 "R8" H 6450 3400 50  0000 C CNN
 F 1 "R0" H 6475 3200 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6475 3300 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 6475 3300 50  0001 C CNN
@@ -428,10 +428,10 @@ F 6 "RC0805FR-070RL" H 6475 3300 50  0001 C CNN "Part number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:R360K R8
+L icenes-library:R360K R5
 U 1 1 5D43172D
 P 5700 3950
-F 0 "R8" V 5654 4020 50  0000 L CNN
+F 0 "R5" V 5654 4020 50  0000 L CNN
 F 1 "R360K" H 5700 3850 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5700 3950 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5700 3950 50  0001 C CNN
@@ -442,10 +442,10 @@ F 6 "RC0603FR-07360KL" H 5700 3950 50  0001 C CNN "Part number"
 	0    1    1    0   
 $EndComp
 $Comp
-L icenes-library:R510K R7
+L icenes-library:R510K R4
 U 1 1 5D4301E7
 P 5700 3525
-F 0 "R7" V 5654 3595 50  0000 L CNN
+F 0 "R4" V 5654 3595 50  0000 L CNN
 F 1 "R510K" H 5700 3425 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5700 3525 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5700 3525 50  0001 C CNN
@@ -610,10 +610,10 @@ F 5 "TPS62050DGSR" H 4450 3200 50  0001 C CNN "Part number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:R0 R10
+L icenes-library:R0 R7
 U 1 1 5D4F2DE1
 P 6450 1550
-F 0 "R10" H 6425 1650 50  0000 C CNN
+F 0 "R7" H 6425 1650 50  0000 C CNN
 F 1 "R0" H 6450 1450 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6450 1550 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 6450 1550 50  0001 C CNN
@@ -715,10 +715,10 @@ Wire Wire Line
 	6075 1550 6250 1550
 Connection ~ 6075 1550
 $Comp
-L icenes-library:R820K R5
+L icenes-library:R820K R2
 U 1 1 5D37D2E8
 P 5700 1775
-F 0 "R5" V 5654 1845 50  0000 L CNN
+F 0 "R2" V 5654 1845 50  0000 L CNN
 F 1 "R820K" H 5700 1675 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5700 1775 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5700 1775 50  0001 C CNN
@@ -729,10 +729,10 @@ F 6 "RC0603FR-07820KL " H 5700 1775 50  0001 C CNN "Part number"
 	0    1    1    0   
 $EndComp
 $Comp
-L icenes-library:R91K R6
+L icenes-library:R91K R3
 U 1 1 5D37EA73
 P 5700 2200
-F 0 "R6" V 5654 2270 50  0000 L CNN
+F 0 "R3" V 5654 2270 50  0000 L CNN
 F 1 "R91K" H 5700 2100 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5700 2200 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5700 2200 50  0001 C CNN
@@ -987,10 +987,10 @@ F 3 "" H 8750 1675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:TestPoint TP8
+L icenes-library:TestPoint TP5
 U 1 1 5D7111E6
 P 6250 1475
-F 0 "TP8" H 6200 1675 50  0000 L CNN
+F 0 "TP5" H 6200 1675 50  0000 L CNN
 F 1 "TestPoint" H 6250 1675 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6450 1475 50  0001 C CNN
 F 3 "~" H 6450 1475 50  0001 C CNN
@@ -998,10 +998,10 @@ F 3 "~" H 6450 1475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:TestPoint TP10
+L icenes-library:TestPoint TP7
 U 1 1 5D712B7B
 P 6650 1475
-F 0 "TP10" H 6600 1675 50  0000 L CNN
+F 0 "TP7" H 6600 1675 50  0000 L CNN
 F 1 "TestPoint" H 6650 1675 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6850 1475 50  0001 C CNN
 F 3 "~" H 6850 1475 50  0001 C CNN
@@ -1009,10 +1009,10 @@ F 3 "~" H 6850 1475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:TestPoint TP9
+L icenes-library:TestPoint TP6
 U 1 1 5D724BBE
 P 6275 3225
-F 0 "TP9" H 6225 3425 50  0000 L CNN
+F 0 "TP6" H 6225 3425 50  0000 L CNN
 F 1 "TestPoint" H 6275 3425 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6475 3225 50  0001 C CNN
 F 3 "~" H 6475 3225 50  0001 C CNN
@@ -1020,10 +1020,10 @@ F 3 "~" H 6475 3225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:TestPoint TP11
+L icenes-library:TestPoint TP8
 U 1 1 5D735BB7
 P 6675 3225
-F 0 "TP11" H 6625 3425 50  0000 L CNN
+F 0 "TP8" H 6625 3425 50  0000 L CNN
 F 1 "TestPoint" H 6675 3425 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6875 3225 50  0001 C CNN
 F 3 "~" H 6875 3225 50  0001 C CNN
@@ -1031,10 +1031,10 @@ F 3 "~" H 6875 3225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:TestPoint TP6
+L icenes-library:TestPoint TP3
 U 1 1 5D746D9B
 P 5725 4925
-F 0 "TP6" H 5675 5125 50  0000 L CNN
+F 0 "TP3" H 5675 5125 50  0000 L CNN
 F 1 "TestPoint" H 5725 5125 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5925 4925 50  0001 C CNN
 F 3 "~" H 5925 4925 50  0001 C CNN
@@ -1042,10 +1042,10 @@ F 3 "~" H 5925 4925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:TestPoint TP7
+L icenes-library:TestPoint TP4
 U 1 1 5D758010
 P 6125 4925
-F 0 "TP7" H 6075 5125 50  0000 L CNN
+F 0 "TP4" H 6075 5125 50  0000 L CNN
 F 1 "TestPoint" H 6125 5125 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6325 4925 50  0001 C CNN
 F 3 "~" H 6325 4925 50  0001 C CNN
@@ -1233,20 +1233,17 @@ Wire Wire Line
 	8050 1550 8050 1625
 Connection ~ 8050 1550
 Connection ~ 8050 2400
-Wire Wire Line
-	7825 1475 7825 1550
 $Comp
-L icenes-library:TestPoint TP15
+L icenes-library:TestPoint TP12
 U 1 1 5D69F2EA
-P 7825 1475
-F 0 "TP15" H 7775 1675 50  0000 L CNN
-F 1 "TestPoint" H 7825 1675 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8025 1475 50  0001 C CNN
-F 3 "~" H 8025 1475 50  0001 C CNN
-	1    7825 1475
+P 7750 1475
+F 0 "TP12" H 7700 1675 50  0000 L CNN
+F 1 "TestPoint" H 7750 1675 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7950 1475 50  0001 C CNN
+F 3 "~" H 7950 1475 50  0001 C CNN
+	1    7750 1475
 	1    0    0    -1  
 $EndComp
-Connection ~ 7825 1550
 Wire Wire Line
 	6900 2400 8050 2400
 Connection ~ 6900 2400
@@ -1296,20 +1293,17 @@ Wire Wire Line
 Wire Wire Line
 	8050 3300 8050 3375
 Connection ~ 8050 3300
-Wire Wire Line
-	7825 3225 7825 3300
 $Comp
-L icenes-library:TestPoint TP16
+L icenes-library:TestPoint TP13
 U 1 1 5D7086C1
-P 7825 3225
-F 0 "TP16" H 7775 3425 50  0000 L CNN
-F 1 "TestPoint" H 7825 3425 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8025 3225 50  0001 C CNN
-F 3 "~" H 8025 3225 50  0001 C CNN
-	1    7825 3225
+P 7750 3225
+F 0 "TP13" H 7700 3425 50  0000 L CNN
+F 1 "TestPoint" H 7750 3425 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7950 3225 50  0001 C CNN
+F 3 "~" H 7950 3225 50  0001 C CNN
+	1    7750 3225
 	1    0    0    -1  
 $EndComp
-Connection ~ 7825 3300
 Wire Wire Line
 	5700 4150 6925 4150
 $Comp
@@ -1373,35 +1367,26 @@ Wire Wire Line
 Wire Wire Line
 	7500 5000 7500 5075
 Connection ~ 7500 5000
-Wire Wire Line
-	7275 4925 7275 5000
 $Comp
-L icenes-library:TestPoint TP14
+L icenes-library:TestPoint TP11
 U 1 1 5D7AD8D4
-P 7275 4925
-F 0 "TP14" H 7225 5125 50  0000 L CNN
-F 1 "TestPoint" H 7275 5125 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7475 4925 50  0001 C CNN
-F 3 "~" H 7475 4925 50  0001 C CNN
-	1    7275 4925
+P 7225 4925
+F 0 "TP11" H 7175 5125 50  0000 L CNN
+F 1 "TestPoint" H 7225 5125 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7425 4925 50  0001 C CNN
+F 3 "~" H 7425 4925 50  0001 C CNN
+	1    7225 4925
 	1    0    0    -1  
 $EndComp
-Connection ~ 7275 5000
 Wire Wire Line
 	6375 5850 7500 5850
 Connection ~ 7500 5850
 Wire Wire Line
-	7425 1550 7825 1550
-Wire Wire Line
 	7125 1550 6900 1550
 Connection ~ 6900 1550
 Wire Wire Line
-	7425 3300 7825 3300
-Wire Wire Line
 	7125 3300 6925 3300
 Connection ~ 6925 3300
-Wire Wire Line
-	6875 5000 7275 5000
 Wire Wire Line
 	6575 5000 6375 5000
 Connection ~ 6375 5000
@@ -1878,12 +1863,6 @@ Wire Wire Line
 	13800 7250 13700 7250
 Wire Wire Line
 	14300 7250 14100 7250
-Wire Wire Line
-	7275 5000 7500 5000
-Wire Wire Line
-	7825 3300 8050 3300
-Wire Wire Line
-	7825 1550 8050 1550
 $Comp
 L power:GND #PWR024
 U 1 1 5D4A89CD
@@ -1991,12 +1970,12 @@ Wire Wire Line
 Wire Wire Line
 	7100 6975 7150 6975
 $Comp
-L icenes-library:R0 R12
+L icenes-library:R0 R9
 U 1 1 5DBD6898
 P 6950 6975
-AR Path="/5DBD6898" Ref="R12"  Part="1" 
+AR Path="/5DBD6898" Ref="R9"  Part="1" 
 AR Path="/5D1BAC88/5DBD6898" Ref="R?"  Part="1" 
-F 0 "R12" H 6925 7075 50  0000 C CNN
+F 0 "R9" H 6925 7075 50  0000 C CNN
 F 1 "R0" H 6950 6875 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6950 6975 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 6950 6975 50  0001 C CNN
@@ -2030,12 +2009,12 @@ Wire Wire Line
 Wire Wire Line
 	6400 6975 6750 6975
 $Comp
-L icenes-library:TestPoint TP12
+L icenes-library:TestPoint TP9
 U 1 1 5DBD68AA
 P 6750 6900
-AR Path="/5DBD68AA" Ref="TP12"  Part="1" 
+AR Path="/5DBD68AA" Ref="TP9"  Part="1" 
 AR Path="/5D1BAC88/5DBD68AA" Ref="TP?"  Part="1" 
-F 0 "TP12" H 6700 7100 50  0000 L CNN
+F 0 "TP9" H 6700 7100 50  0000 L CNN
 F 1 "TestPoint" H 6750 7100 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6950 6900 50  0001 C CNN
 F 3 "~" H 6950 6900 50  0001 C CNN
@@ -2043,12 +2022,12 @@ F 3 "~" H 6950 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icenes-library:TestPoint TP13
+L icenes-library:TestPoint TP10
 U 1 1 5DBD68B0
 P 7150 6900
-AR Path="/5DBD68B0" Ref="TP13"  Part="1" 
+AR Path="/5DBD68B0" Ref="TP10"  Part="1" 
 AR Path="/5D1BAC88/5DBD68B0" Ref="TP?"  Part="1" 
-F 0 "TP13" H 7100 7100 50  0000 L CNN
+F 0 "TP10" H 7100 7100 50  0000 L CNN
 F 1 "TestPoint" H 7150 7100 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7350 6900 50  0001 C CNN
 F 3 "~" H 7350 6900 50  0001 C CNN
@@ -2211,4 +2190,25 @@ NoConn ~ 4900 3500
 Wire Wire Line
 	5300 5000 5725 5000
 NoConn ~ 4925 5200
+Wire Wire Line
+	7425 1550 7750 1550
+Wire Wire Line
+	7750 1475 7750 1550
+Connection ~ 7750 1550
+Wire Wire Line
+	7750 1550 8050 1550
+Wire Wire Line
+	7425 3300 7750 3300
+Wire Wire Line
+	7750 3225 7750 3300
+Connection ~ 7750 3300
+Wire Wire Line
+	7750 3300 8050 3300
+Wire Wire Line
+	6875 5000 7225 5000
+Wire Wire Line
+	7225 4925 7225 5000
+Connection ~ 7225 5000
+Wire Wire Line
+	7225 5000 7500 5000
 $EndSCHEMATC
