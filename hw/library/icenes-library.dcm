@@ -135,9 +135,9 @@ F https://www.mouser.se/datasheet/2/216/APTD2012LCGCK-1102037.pdf
 $ENDCMP
 #
 $CMP L10uH
-D 10nH, +-5%, 1A, 80mOhms, 1206
+D 10uH, +-5%, 1.7A, 170mOhms, 1812
 K inductor choke coil reactor magnetic
-F https://www.mouser.se/datasheet/2/336/-514303.pdf
+F https://www.mouser.se/datasheet/2/597/1812ps-270619.pdf
 $ENDCMP
 #
 $CMP NES-Connector-72pin
