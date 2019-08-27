@@ -238,8 +238,6 @@ F1 "icenes-nes-connector.sch" 50
 $EndSheet
 Text Label 3000 1550 2    50   ~ 0
 Vin
-Wire Wire Line
-	5400 5000 5725 5000
 $Comp
 L power:+3V3 #PWR012
 U 1 1 5D6E69D3
@@ -282,15 +280,6 @@ F 6 "RC0805FR-070RL" H 5925 5000 50  0001 C CNN "Part number"
 	1    5925 5000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 5375 5400 5375
-Wire Wire Line
-	5150 5200 4925 5200
-Wire Wire Line
-	5150 5375 5150 5200
-Connection ~ 5400 5000
-Wire Wire Line
-	5300 5000 5400 5000
 Connection ~ 5300 5000
 Wire Wire Line
 	4925 5100 5300 5100
@@ -325,25 +314,6 @@ F 6 "1812PS-103JLB" H 5125 5000 50  0001 C CNN "Part number"
 	1    5125 5000
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5400 5375
-Wire Wire Line
-	5400 5375 5400 5475
-$Comp
-L icenes-library:R1M R4
-U 1 1 5D446D0A
-P 5400 5225
-F 0 "R4" V 5354 5295 50  0000 L CNN
-F 1 "R1M" H 5400 5125 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5400 5225 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5400 5225 50  0001 C CNN
-F 4 "1M" V 5445 5295 50  0000 L CNN "Resistance"
-F 5 "Yageo" H 5400 5225 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-071ML" H 5400 5225 50  0001 C CNN "Part number"
-	1    5400 5225
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5400 5075 5400 5000
 Wire Wire Line
 	5275 5000 5300 5000
 $Comp
@@ -501,42 +471,12 @@ F 6 "1812PS-103JLB" H 5100 3300 50  0001 C CNN "Part number"
 $EndComp
 Wire Wire Line
 	4900 4150 5700 4150
-Connection ~ 5375 3675
-Wire Wire Line
-	5375 3675 5375 3775
-$Comp
-L icenes-library:R1M R3
-U 1 1 5D3F2973
-P 5375 3525
-F 0 "R3" V 5329 3595 50  0000 L CNN
-F 1 "R1M" H 5375 3425 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5375 3525 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5375 3525 50  0001 C CNN
-F 4 "1M" V 5420 3595 50  0000 L CNN "Resistance"
-F 5 "Yageo" H 5375 3525 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-071ML" H 5375 3525 50  0001 C CNN "Part number"
-	1    5375 3525
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5125 3725 5700 3725
 Wire Wire Line
 	5125 3400 5125 3725
 Wire Wire Line
 	4900 3400 5125 3400
-Wire Wire Line
-	5275 3675 5375 3675
-Wire Wire Line
-	5275 3500 5275 3675
-Wire Wire Line
-	4900 3500 5275 3500
-Wire Wire Line
-	5375 3300 5700 3300
-Connection ~ 5375 3300
-Wire Wire Line
-	5375 3375 5375 3300
-Wire Wire Line
-	5250 3300 5375 3300
 Wire Wire Line
 	6075 3725 6075 3675
 Wire Wire Line
@@ -747,42 +687,12 @@ Wire Wire Line
 	6250 1475 6250 1550
 Wire Wire Line
 	4900 2400 5700 2400
-Connection ~ 5375 1925
-Wire Wire Line
-	5375 1925 5375 2025
-$Comp
-L icenes-library:R1M R2
-U 1 1 5D3B16C2
-P 5375 1775
-F 0 "R2" V 5329 1845 50  0000 L CNN
-F 1 "R1M" H 5375 1675 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5375 1775 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 5375 1775 50  0001 C CNN
-F 4 "1M" V 5420 1845 50  0000 L CNN "Resistance"
-F 5 "Yageo" H 5375 1775 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-071ML" H 5375 1775 50  0001 C CNN "Part number"
-	1    5375 1775
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5125 1975 5700 1975
 Wire Wire Line
 	5125 1650 5125 1975
 Wire Wire Line
 	4900 1650 5125 1650
-Wire Wire Line
-	5275 1925 5375 1925
-Wire Wire Line
-	5275 1750 5275 1925
-Wire Wire Line
-	4900 1750 5275 1750
-Wire Wire Line
-	5375 1550 5700 1550
-Connection ~ 5375 1550
-Wire Wire Line
-	5375 1625 5375 1550
-Wire Wire Line
-	5250 1550 5375 1550
 Wire Wire Line
 	6075 1975 6075 1925
 Wire Wire Line
@@ -1141,39 +1051,6 @@ F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6325 4925 50  0001 C CNN
 F 3 "~" H 6325 4925 50  0001 C CNN
 	1    6125 4925
 	1    0    0    -1  
-$EndComp
-$Comp
-L icenes-library:TestPoint TP5
-U 1 1 5D825FFB
-P 5400 5475
-F 0 "TP5" H 5350 5675 50  0000 L CNN
-F 1 "TestPoint" H 5400 5675 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5600 5475 50  0001 C CNN
-F 3 "~" H 5600 5475 50  0001 C CNN
-	1    5400 5475
-	-1   0    0    1   
-$EndComp
-$Comp
-L icenes-library:TestPoint TP4
-U 1 1 5D8379DB
-P 5375 3775
-F 0 "TP4" H 5325 3975 50  0000 L CNN
-F 1 "TestPoint" H 5375 3975 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5575 3775 50  0001 C CNN
-F 3 "~" H 5575 3775 50  0001 C CNN
-	1    5375 3775
-	-1   0    0    1   
-$EndComp
-$Comp
-L icenes-library:TestPoint TP3
-U 1 1 5D848D12
-P 5375 2025
-F 0 "TP3" H 5325 2225 50  0000 L CNN
-F 1 "TestPoint" H 5375 2225 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5575 2025 50  0001 C CNN
-F 3 "~" H 5575 2025 50  0001 C CNN
-	1    5375 2025
-	-1   0    0    1   
 $EndComp
 $Comp
 L icenes-library:USB_VBUS #PWR03
@@ -2325,4 +2202,13 @@ $EndComp
 Wire Wire Line
 	13800 7100 13800 7250
 Connection ~ 13800 7250
+Wire Wire Line
+	5250 1550 5700 1550
+NoConn ~ 4900 1750
+Wire Wire Line
+	5250 3300 5700 3300
+NoConn ~ 4900 3500
+Wire Wire Line
+	5300 5000 5725 5000
+NoConn ~ 4925 5200
 $EndSCHEMATC
