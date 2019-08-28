@@ -500,7 +500,7 @@ U 1 1 5D2B4CA9
 P 3150 6850
 F 0 "X1" H 3150 6850 50  0000 C CNN
 F 1 "DSC1001DI2-012.0000" H 3150 6450 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 3250 6900 50  0001 C CNN
+F 2 "icenes-library:MEMS_Microship_Ocillator_SMD_CDFN-4_2.5x2.0mm" H 3250 6900 50  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/20005529B.pdf" H 3250 6900 50  0001 C CNN
 F 4 "Microchip" H 3150 6850 50  0001 C CNN "Manufacturer"
 F 5 "DSC1001DI2-012.0000T" H 3150 6850 50  0001 C CNN "Part number"

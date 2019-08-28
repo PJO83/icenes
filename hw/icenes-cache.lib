@@ -597,7 +597,7 @@ ENDDEF
 DEF icenes-library_DSC1001DI2-012.0000 X 0 40 Y Y 1 F N
 F0 "X" -50 100 50 H V C CNN
 F1 "icenes-library_DSC1001DI2-012.0000" 0 0 50 H V C CNN
-F2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" 100 50 50 H I C CNN
+F2 "icenes-library:MEMS_Microship_Ocillator_SMD_CDFN-4_2.5x2.0mm" 100 50 50 H I C CNN
 F3 "" 100 50 50 H I C CNN
 F4 "Microchip" 0 0 50 H I C CNN "Manufacturer"
 F5 "DSC1001DI2-012.0000T" 0 0 50 H I C CNN "Part number"

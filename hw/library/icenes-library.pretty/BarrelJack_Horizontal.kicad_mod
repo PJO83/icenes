@@ -1,4 +1,4 @@
-(module BarrelJack_Horizontal (layer F.Cu) (tedit 5D6334D8)
+(module BarrelJack_Horizontal (layer F.Cu) (tedit 5D65C6A9)
   (descr "DC Barrel Jack")
   (tags "Power Jack")
   (fp_text reference REF** (at -8.45 5.75) (layer F.SilkS)
@@ -44,5 +44,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal.step
+    (at (xyz 0 0 0))
+    (scale (xyz 0.9 1.15 0.9))
+    (rotate (xyz 0 0 90))
   )
 )
