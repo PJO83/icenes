@@ -771,8 +771,6 @@ Connection ~ 10500 1900
 Wire Wire Line
 	10500 1900 12550 1900
 Wire Wire Line
-	12850 3500 12850 2350
-Wire Wire Line
 	12850 2050 12850 1900
 Connection ~ 12850 1900
 Wire Wire Line
@@ -913,8 +911,6 @@ Text Label 8550 3450 2    50   ~ 0
 FLASH_MISO
 Text Label 8550 3650 2    50   ~ 0
 iCE_SS_B
-Text Label 12275 2650 2    50   ~ 0
-iCE_SS_B
 Text Label 12275 2450 2    50   ~ 0
 FLASH_MOSI
 Wire Wire Line
@@ -935,8 +931,6 @@ Text Label 14800 3800 2    50   ~ 0
 FLASH_MOSI
 Wire Wire Line
 	13850 3800 14800 3800
-Wire Wire Line
-	11800 2650 12275 2650
 Text GLabel 8550 5050 2    50   Output ~ 0
 RS232_RX_TTL
 Text GLabel 8550 5150 2    50   Input ~ 0
@@ -1125,4 +1119,15 @@ Wire Wire Line
 	6750 1700 6750 1750
 Wire Wire Line
 	5950 1700 5950 1750
+Text Label 12075 3500 0    50   ~ 0
+iCE_SS_B
+Wire Wire Line
+	12075 3500 12850 3500
+Connection ~ 12850 3500
+Wire Wire Line
+	12850 3500 12850 2350
+Wire Wire Line
+	11800 2650 12275 2650
+Text Label 12275 2650 2    50   ~ 0
+iCE_SS_B
 $EndSCHEMATC
