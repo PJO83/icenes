@@ -1130,4 +1130,18 @@ Wire Wire Line
 	11800 2650 12275 2650
 Text Label 12275 2650 2    50   ~ 0
 iCE_SS_B
+$Comp
+L icenes-library:TestPoint TP19
+U 1 1 5DE04EAE
+P 4450 6325
+F 0 "TP19" H 4500 6525 50  0000 R CNN
+F 1 "TestPoint" H 4450 6525 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4650 6325 50  0001 C CNN
+F 3 "~" H 4650 6325 50  0001 C CNN
+	1    4450 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 6325 4450 6350
+Connection ~ 4450 6350
 $EndSCHEMATC

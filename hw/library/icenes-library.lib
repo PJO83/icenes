@@ -814,7 +814,7 @@ ENDDEF
 DEF NES-Connector-72pin J 0 40 Y Y 1 F N
 F0 "J" 0 50 50 H V C CNN
 F1 "NES-Connector-72pin" 0 0 50 H V C CNN
-F2 "icenes-library:DIP-72-NES-CONNECTOR" 0 0 50 H I C CNN
+F2 "icenes-library:DIP-72-NES-CONNECTOR-2" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -700 -50 750 -3800 0 1 0 N

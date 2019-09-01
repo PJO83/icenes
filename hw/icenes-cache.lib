@@ -796,7 +796,7 @@ ENDDEF
 DEF icenes-library_NES-Connector-72pin J 0 40 Y Y 1 F N
 F0 "J" 0 50 50 H V C CNN
 F1 "icenes-library_NES-Connector-72pin" 0 0 50 H V C CNN
-F2 "icenes-library:DIP-72-NES-CONNECTOR" 0 0 50 H I C CNN
+F2 "icenes-library:DIP-72-NES-CONNECTOR-2" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -700 -50 750 -3800 0 1 0 N
@@ -885,6 +885,23 @@ F3 "" 0 0 50 V I C CNN
 F4 "0" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0805FR-070RL" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R0_0603
+#
+DEF icenes-library_R0_0603 R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R0_0603" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "0" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-070RL" 0 0 50 H I C CNN "Part number"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
