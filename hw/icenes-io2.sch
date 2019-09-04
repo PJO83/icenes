@@ -2280,7 +2280,7 @@ P 1450 5800
 F 0 "X2" H 1425 5925 50  0000 C CNN
 F 1 "DSC1001BI2-133.0000T" H 1425 5834 50  0000 C CNN
 F 2 "icenes-library:MEMS_Microship_Ocillator_SMD_CDFN-4_5.0x3.2mm" H 1550 5850 50  0001 C CNN
-F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/20005529B.pdf" H 1550 5850 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/268/20005529A-1149183.pdf" H 1550 5850 50  0001 C CNN
 F 4 "Microchip" H 1450 5800 50  0001 C CNN "Manufacturer"
 F 5 "DSC1001BI2-133.0000T" H 1450 5800 50  0001 C CNN "Part number"
 	1    1450 5800

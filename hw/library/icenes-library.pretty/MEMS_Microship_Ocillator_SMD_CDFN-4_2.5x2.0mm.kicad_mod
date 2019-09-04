@@ -1,4 +1,4 @@
-(module MEMS_Microship_Ocillator_SMD_CDFN-4_2.5x2.0mm (layer F.Cu) (tedit 5D65C45E)
+(module MEMS_Microship_Ocillator_SMD_CDFN-4_2.5x2.0mm (layer F.Cu) (tedit 5D6D8D71)
   (descr "SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package")
   (tags "SMD SMT crystal")
   (attr smd)
@@ -32,7 +32,7 @@
   (pad 1 smd rect (at -0.875 0.7) (size 1.15 1) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Package_BGA.3dshapes/WLP-4_0.83x0.83mm_P0.4mm.step
     (offset (xyz 0 0 -0.18))
-    (scale (xyz 3.9 3.3 1))
-    (rotate (xyz 0 0 0))
+    (scale (xyz 3.3 3.9 1))
+    (rotate (xyz 0 0 -90))
   )
 )
