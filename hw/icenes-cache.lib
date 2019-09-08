@@ -574,24 +574,6 @@ X Pin_9 9 -200 1100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# icenes-library_DSC1001BI2-133.0000T
-#
-DEF icenes-library_DSC1001BI2-133.0000T X 0 40 Y Y 1 F N
-F0 "X" -50 100 50 H V C CNN
-F1 "icenes-library_DSC1001BI2-133.0000T" 0 0 50 H V C CNN
-F2 "icenes-library:MEMS_Microship_Ocillator_SMD_CDFN-4_5.0x3.2mm" 100 50 50 H I C CNN
-F3 "" 100 50 50 H I C CNN
-F4 "Microchip" 0 0 50 H I C CNN "Manufacturer"
-F5 "DSC1001BI2-133.0000T" 0 0 50 H I C CNN "Part number"
-DRAW
-S -350 -50 300 -350 0 1 0 N
-X STANDBY# 1 -500 -100 150 R 50 50 1 1 I
-X GND 2 -500 -300 150 R 50 50 1 1 W
-X OUT 3 450 -300 150 L 50 50 1 1 O
-X VDD 4 450 -100 150 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # icenes-library_DSC1001DI2-012.0000
 #
 DEF icenes-library_DSC1001DI2-012.0000 X 0 40 Y Y 1 F N
@@ -885,23 +867,6 @@ F3 "" 0 0 50 V I C CNN
 F4 "0" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0805FR-070RL" 0 0 50 H I C CNN "Part number"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 50 50 1 1 P
-X ~ 2 150 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# icenes-library_R0_0603
-#
-DEF icenes-library_R0_0603 R 0 40 N N 1 F N
-F0 "R" 0 0 50 H V C CNN
-F1 "icenes-library_R0_0603" 0 -100 50 H I C CNN
-F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-F4 "0" 0 100 50 H V C CNN "Resistance"
-F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
-F6 "RC0603FR-070RL" 0 0 50 H I C CNN "Part number"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
