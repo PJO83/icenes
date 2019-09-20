@@ -896,9 +896,9 @@ F 3 "" H 3600 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5600 4250 0    50   BiDi ~ 0
-USB_DM
+USB_D_N
 Text GLabel 5600 4350 0    50   BiDi ~ 0
-USB_DP
+USB_D_P
 Text GLabel 8550 3850 2    50   BiDi ~ 0
 iCE_DONE
 Text GLabel 8550 3950 2    50   Output ~ 0

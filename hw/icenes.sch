@@ -838,9 +838,9 @@ F 5 "TPS62050DGSR" H 4450 1450 50  0001 C CNN "Part number"
 	1    0    0    -1  
 $EndComp
 Text GLabel 2325 7900 2    50   BiDi ~ 0
-USB_DM
+USB_D_N
 Text GLabel 2325 7800 2    50   BiDi ~ 0
-USB_DP
+USB_D_P
 Wire Wire Line
 	2250 7800 2325 7800
 Wire Wire Line
