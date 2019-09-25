@@ -1515,10 +1515,10 @@ Wire Wire Line
 	3125 8125 3125 8250
 Connection ~ 3300 8125
 Connection ~ 3125 8250
-Text Label 1975 6700 0    50   ~ 0
+Text Label 8975 6700 0    50   ~ 0
 ICE_CLK_21.47727MHz
 Wire Wire Line
-	1975 6700 2850 6700
+	8975 6700 9850 6700
 Wire Wire Line
 	1050 8850 2125 8850
 Wire Wire Line
@@ -1865,18 +1865,14 @@ F 6 "RC0603FR-07150RL" H 4825 9225 50  0001 C CNN "Part number"
 $EndComp
 Wire Wire Line
 	7475 8850 7800 8850
-Text Label 8925 6700 0    50   ~ 0
+Text Label 1925 6700 0    50   ~ 0
 ICE_CLK_26.601712MHz
 Wire Wire Line
-	8925 6700 9850 6700
-Text GLabel 2550 6800 0    50   Output ~ 0
+	1925 6700 2850 6700
+Text GLabel 2500 6800 0    50   Output ~ 0
 PPU_DATA_DIR
-Wire Wire Line
-	2550 6800 2850 6800
-Text GLabel 9475 6800 0    50   Output ~ 0
+Text GLabel 9525 6800 0    50   Output ~ 0
 ~CPU_DATA_OE
-Wire Wire Line
-	9475 6800 9850 6800
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5E05F6AC
@@ -1898,4 +1894,8 @@ Text Label 8050 1900 0    50   ~ 0
 VCCIO1_3V3
 Text Label 1950 3100 0    50   ~ 0
 VCCPLL0_1V2
+Wire Wire Line
+	2500 6800 2850 6800
+Wire Wire Line
+	9850 6800 9525 6800
 $EndSCHEMATC
