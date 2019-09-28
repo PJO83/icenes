@@ -511,10 +511,6 @@ Wire Wire Line
 Text Label 5000 3000 2    50   ~ 0
 GPIO_R6
 Wire Wire Line
-	4400 3100 5000 3100
-Text Label 5000 3100 2    50   ~ 0
-GPIO_P8
-Wire Wire Line
 	4400 3200 5000 3200
 Text Label 5000 3200 2    50   ~ 0
 GPIO_T6
@@ -535,10 +531,6 @@ Wire Wire Line
 Text Label 5000 3600 2    50   ~ 0
 GPIO_P7
 Wire Wire Line
-	4400 3700 5000 3700
-Text Label 5000 3700 2    50   ~ 0
-GPIO_N9
-Wire Wire Line
 	4400 3800 5000 3800
 Text Label 5000 3800 2    50   ~ 0
 GPIO_T9
@@ -547,29 +539,9 @@ Wire Wire Line
 Text Label 5000 3900 2    50   ~ 0
 GPIO_M9
 Wire Wire Line
-	4400 4000 5000 4000
-Text Label 5000 4000 2    50   ~ 0
-GPIO_P9
-Wire Wire Line
-	4400 4100 5000 4100
-Text Label 5000 4100 2    50   ~ 0
-GPIO_R10
-Wire Wire Line
 	4400 4200 5000 4200
 Text Label 5000 4200 2    50   ~ 0
 GPIO_L10
-Wire Wire Line
-	4400 4300 5000 4300
-Text Label 5000 4300 2    50   ~ 0
-GPIO_P10
-Wire Wire Line
-	4400 4400 5000 4400
-Text Label 5000 4400 2    50   ~ 0
-GPIO_N10
-Wire Wire Line
-	4400 4500 5000 4500
-Text Label 5000 4500 2    50   ~ 0
-GPIO_T10
 Wire Wire Line
 	4400 4600 5000 4600
 Text Label 5000 4600 2    50   ~ 0
@@ -1752,380 +1724,190 @@ Connection ~ 10600 10200
 Connection ~ 10600 10300
 Wire Wire Line
 	3100 7600 2500 7600
-Text Label 2500 7600 0    50   ~ 0
-GPIO_N6
 Wire Wire Line
 	3100 7700 2500 7700
-Text Label 2500 7700 0    50   ~ 0
-GPIO_T1
 Wire Wire Line
 	3100 7800 2500 7800
 Wire Wire Line
 	3100 7900 2500 7900
-Text Label 2500 7900 0    50   ~ 0
-GPIO_R2
 Wire Wire Line
 	3100 8000 2500 8000
-Text Label 2500 8000 0    50   ~ 0
-GPIO_N5
 Wire Wire Line
 	3100 8100 2500 8100
-Text Label 2500 8100 0    50   ~ 0
-GPIO_T2
 Wire Wire Line
 	3100 8200 2500 8200
-Text Label 2500 8200 0    50   ~ 0
-GPIO_P5
 Wire Wire Line
 	3100 8300 2500 8300
-Text Label 2500 8300 0    50   ~ 0
-GPIO_R3
 Wire Wire Line
 	3100 8400 2500 8400
-Text Label 2500 8400 0    50   ~ 0
-GPIO_R5
 Wire Wire Line
 	3100 8500 2500 8500
-Text Label 2500 8500 0    50   ~ 0
-GPIO_T3
 Wire Wire Line
 	3100 8600 2500 8600
-Text Label 2500 8600 0    50   ~ 0
-GPIO_R4
 Wire Wire Line
 	3100 8700 2500 8700
-Text Label 2500 8700 0    50   ~ 0
-GPIO_M7
-Text Label 2500 7800 0    50   ~ 0
-GPIO_P4
 Wire Wire Line
 	3100 8900 2500 8900
-Text Label 2500 8900 0    50   ~ 0
-GPIO_N7
 Wire Wire Line
 	3100 9000 2500 9000
-Text Label 2500 9000 0    50   ~ 0
-GPIO_P6
 Wire Wire Line
 	3100 9100 2500 9100
-Text Label 2500 9100 0    50   ~ 0
-GPIO_M8
 Wire Wire Line
 	3100 9200 2500 9200
-Text Label 2500 9200 0    50   ~ 0
-GPIO_T5
 Wire Wire Line
 	3100 9300 2500 9300
-Text Label 2500 9300 0    50   ~ 0
-GPIO_R6
 Wire Wire Line
 	3100 9400 2500 9400
-Text Label 2500 9400 0    50   ~ 0
-GPIO_P8
 Wire Wire Line
 	3100 9500 2500 9500
-Text Label 2500 9500 0    50   ~ 0
-GPIO_T6
 Wire Wire Line
 	3100 9600 2500 9600
-Text Label 2500 9600 0    50   ~ 0
-GPIO_L9
 Wire Wire Line
 	3100 9700 2500 9700
-Text Label 2500 9700 0    50   ~ 0
-GPIO_T7
 Wire Wire Line
 	3100 9800 2500 9800
-Text Label 2500 9800 0    50   ~ 0
-GPIO_T8
 Wire Wire Line
 	3100 9900 2500 9900
-Text Label 2500 9900 0    50   ~ 0
-GPIO_P7
 Wire Wire Line
 	3100 10000 2500 10000
-Text Label 2500 10000 0    50   ~ 0
-GPIO_N9
 Wire Wire Line
 	3600 7600 4200 7600
-Text Label 4200 7600 2    50   ~ 0
-GPIO_T9
 Wire Wire Line
 	3600 7700 4200 7700
-Text Label 4200 7700 2    50   ~ 0
-GPIO_M9
 Wire Wire Line
 	3600 7800 4200 7800
-Text Label 4200 7800 2    50   ~ 0
-GPIO_P9
 Wire Wire Line
 	3600 7900 4200 7900
-Text Label 4200 7900 2    50   ~ 0
-GPIO_R10
 Wire Wire Line
 	3600 8000 4200 8000
-Text Label 4200 8000 2    50   ~ 0
-GPIO_L10
-Wire Wire Line
-	3600 8100 4200 8100
-Text Label 4200 8100 2    50   ~ 0
-GPIO_P10
 Wire Wire Line
 	3600 8200 4200 8200
-Text Label 4200 8200 2    50   ~ 0
-GPIO_N10
 Wire Wire Line
 	3600 8300 4200 8300
-Text Label 4200 8300 2    50   ~ 0
-GPIO_T10
 Wire Wire Line
 	3600 8400 4200 8400
-Text Label 4200 8400 2    50   ~ 0
-GPIO_T11
 Wire Wire Line
 	3600 8500 4200 8500
-Text Label 4200 8500 2    50   ~ 0
-GPIO_T15
 Wire Wire Line
 	3600 8600 4200 8600
-Text Label 4200 8600 2    50   ~ 0
-GPIO_T14
 Wire Wire Line
 	3600 8700 4200 8700
-Text Label 4200 8700 2    50   ~ 0
-GPIO_M11
 Wire Wire Line
 	3600 9000 4200 9000
-Text Label 4200 9000 2    50   ~ 0
-GPIO_T13
 Wire Wire Line
 	3600 9100 4200 9100
-Text Label 4200 9100 2    50   ~ 0
-GPIO_N12
 Wire Wire Line
 	3600 9200 4200 9200
-Text Label 4200 9200 2    50   ~ 0
-GPIO_L11
 Wire Wire Line
 	3600 9300 4200 9300
-Text Label 4200 9300 2    50   ~ 0
-GPIO_T16
 Wire Wire Line
 	3600 9400 4200 9400
-Text Label 4200 9400 2    50   ~ 0
-GPIO_M12
 Wire Wire Line
 	3600 9500 4200 9500
-Text Label 4200 9500 2    50   ~ 0
-GPIO_R16
 Wire Wire Line
 	3600 9700 4200 9700
-Text Label 4200 9700 2    50   ~ 0
-GPIO_P13
 Wire Wire Line
 	3600 9600 4200 9600
-Text Label 4200 9600 2    50   ~ 0
-GPIO_K11
 Wire Wire Line
 	3600 9800 4200 9800
-Text Label 4200 9800 2    50   ~ 0
-GPIO_M5
 Wire Wire Line
 	3600 9900 4200 9900
-Text Label 4200 9900 2    50   ~ 0
-GPIO_R1
 Wire Wire Line
 	3600 10000 4200 10000
-Text Label 4200 10000 2    50   ~ 0
-GPIO_N4
 Wire Wire Line
 	9850 7600 9250 7600
-Text Label 9250 7600 0    50   ~ 0
-GPIO_E4
 Wire Wire Line
 	9850 7700 9250 7700
-Text Label 9250 7700 0    50   ~ 0
-GPIO_B2
 Wire Wire Line
 	9850 7800 9250 7800
-Text Label 9250 7800 0    50   ~ 0
-GPIO_F5
 Wire Wire Line
 	9850 7900 9250 7900
-Text Label 9250 7900 0    50   ~ 0
-GPIO_B1
 Wire Wire Line
 	9850 8000 9250 8000
-Text Label 9250 8000 0    50   ~ 0
-GPIO_C1
 Wire Wire Line
 	9850 8100 9250 8100
-Text Label 9250 8100 0    50   ~ 0
-GPIO_C2
 Wire Wire Line
 	9850 8200 9250 8200
-Text Label 9250 8200 0    50   ~ 0
-GPIO_F4
 Wire Wire Line
 	9850 8300 9250 8300
-Text Label 9250 8300 0    50   ~ 0
-GPIO_D2
 Wire Wire Line
 	9850 8400 9250 8400
-Text Label 9250 8400 0    50   ~ 0
-GPIO_G5
 Wire Wire Line
 	9850 8500 9250 8500
-Text Label 9250 8500 0    50   ~ 0
-GPIO_D1
 Wire Wire Line
 	9850 8600 9250 8600
-Text Label 9250 8600 0    50   ~ 0
-GPIO_G4
 Wire Wire Line
 	9850 8700 9250 8700
-Text Label 9250 8700 0    50   ~ 0
-GPIO_E3
 Wire Wire Line
 	9850 8900 9250 8900
-Text Label 9250 8900 0    50   ~ 0
-GPIO_H5
 Wire Wire Line
 	9850 9000 9250 9000
-Text Label 9250 9000 0    50   ~ 0
-GPIO_E2
 Wire Wire Line
 	9850 9100 9250 9100
-Text Label 9250 9100 0    50   ~ 0
-GPIO_G3
 Wire Wire Line
 	9850 9200 9250 9200
-Text Label 9250 9200 0    50   ~ 0
-GPIO_F3
 Wire Wire Line
 	9850 9300 9250 9300
-Text Label 9250 9300 0    50   ~ 0
-GPIO_H3
 Wire Wire Line
 	9850 9400 9250 9400
-Text Label 9250 9400 0    50   ~ 0
-GPIO_F2
 Wire Wire Line
 	9850 9500 9250 9500
-Text Label 9250 9500 0    50   ~ 0
-GPIO_H6
 Wire Wire Line
 	9850 9600 9250 9600
-Text Label 9250 9600 0    50   ~ 0
-GPIO_F1
 Wire Wire Line
 	9850 9700 9250 9700
-Text Label 9250 9700 0    50   ~ 0
-GPIO_H4
 Wire Wire Line
 	9850 9800 9250 9800
-Text Label 9250 9800 0    50   ~ 0
-GPIO_G2
 Wire Wire Line
 	9850 9900 9250 9900
-Text Label 9250 9900 0    50   ~ 0
-GPIO_J4
 Wire Wire Line
 	9850 10000 9250 10000
-Text Label 9250 10000 0    50   ~ 0
-GPIO_H2
 Wire Wire Line
 	10350 7600 10950 7600
-Text Label 10950 7600 2    50   ~ 0
-GPIO_J5
 Wire Wire Line
 	10350 7700 10950 7700
-Text Label 10950 7700 2    50   ~ 0
-GPIO_H1
 Wire Wire Line
 	10350 7800 10950 7800
-Text Label 10950 7800 2    50   ~ 0
-GPIO_J2
 Wire Wire Line
 	10350 7900 10950 7900
-Text Label 10950 7900 2    50   ~ 0
-GPIO_J1
 Wire Wire Line
 	10350 8000 10950 8000
-Text Label 10950 8000 2    50   ~ 0
-GPIO_K1
 Wire Wire Line
 	10350 8100 10950 8100
-Text Label 10950 8100 2    50   ~ 0
-GPIO_K3
 Wire Wire Line
 	10350 8200 10950 8200
-Text Label 10950 8200 2    50   ~ 0
-GPIO_L4
 Wire Wire Line
 	10350 8300 10950 8300
-Text Label 10950 8300 2    50   ~ 0
-GPIO_L1
 Wire Wire Line
 	10350 8400 10950 8400
-Text Label 10950 8400 2    50   ~ 0
-GPIO_K4
 Wire Wire Line
 	10350 8500 10950 8500
-Text Label 10950 8500 2    50   ~ 0
-GPIO_M1
 Wire Wire Line
 	10350 8600 10950 8600
-Text Label 10950 8600 2    50   ~ 0
-GPIO_L6
 Wire Wire Line
 	10350 8700 10950 8700
-Text Label 10950 8700 2    50   ~ 0
-GPIO_L3
 Wire Wire Line
 	10350 9000 10950 9000
-Text Label 10950 9000 2    50   ~ 0
-GPIO_K5
 Wire Wire Line
 	10350 9100 10950 9100
-Text Label 10950 9100 2    50   ~ 0
-GPIO_M2
 Wire Wire Line
 	10350 9200 10950 9200
-Text Label 10950 9200 2    50   ~ 0
-GPIO_L7
 Wire Wire Line
 	10350 9300 10950 9300
-Text Label 10950 9300 2    50   ~ 0
-GPIO_N2
 Wire Wire Line
 	10350 9400 10950 9400
-Text Label 10950 9400 2    50   ~ 0
-GPIO_M6
 Wire Wire Line
 	10350 9500 10950 9500
-Text Label 10950 9500 2    50   ~ 0
-GPIO_M3
 Wire Wire Line
 	10350 9600 10950 9600
-Text Label 10950 9600 2    50   ~ 0
-GPIO_L5
 Wire Wire Line
 	10350 9700 10950 9700
-Text Label 10950 9700 2    50   ~ 0
-GPIO_N3
 Wire Wire Line
 	10350 9800 10950 9800
-Text Label 10950 9800 2    50   ~ 0
-GPIO_P1
 Wire Wire Line
 	10350 9900 10950 9900
-Text Label 10950 9900 2    50   ~ 0
-GPIO_M4
 Wire Wire Line
 	10350 10000 10950 10000
-Text Label 10950 10000 2    50   ~ 0
-GPIO_P2
 Wire Wire Line
 	10600 8800 11100 8800
 Text GLabel 9650 6200 0    50   Input ~ 0
@@ -2225,4 +2007,271 @@ Text Label 1300 1400 0    50   ~ 0
 VCCIO2_3V3
 Text Label 2200 2600 0    50   ~ 0
 VCCPLL1_1V2
+Wire Wire Line
+	3600 8100 4200 8100
+Wire Wire Line
+	14625 7250 14625 7275
+Wire Wire Line
+	14275 7250 14625 7250
+Wire Wire Line
+	14275 7500 14275 7400
+Wire Wire Line
+	14100 7500 14275 7500
+Wire Wire Line
+	12575 6775 12575 6825
+Wire Wire Line
+	12575 7125 12575 7175
+$Comp
+L power:GND #PWR?
+U 1 1 5E5A2739
+P 12575 7175
+AR Path="/5D1BB1FB/5E5A2739" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5E5A2739" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 12575 6925 50  0001 C CNN
+F 1 "GND" H 12580 7002 50  0000 C CNN
+F 2 "" H 12575 7175 50  0001 C CNN
+F 3 "" H 12575 7175 50  0001 C CNN
+	1    12575 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C10uF C?
+U 1 1 5E5A2742
+P 12575 6975
+AR Path="/5D1BB1FB/5E5A2742" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5E5A2742" Ref="C62"  Part="1" 
+F 0 "C62" H 12690 7021 50  0000 L CNN
+F 1 "C10uF" H 12425 6875 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12575 6975 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 12575 6975 50  0001 C CNN
+F 4 "10uF" H 12690 6930 50  0000 L CNN "Capacitance"
+F 5 "GRM188R61A106KE69D " H 12575 6975 50  0001 C CNN "Part number"
+F 6 "Murata" H 12575 6975 50  0001 C CNN "Manufacturer"
+	1    12575 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5A2748
+P 14625 7275
+AR Path="/5D1BB1FB/5E5A2748" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5E5A2748" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 14625 7025 50  0001 C CNN
+F 1 "GND" H 14630 7102 50  0000 C CNN
+F 2 "" H 14625 7275 50  0001 C CNN
+F 3 "" H 14625 7275 50  0001 C CNN
+	1    14625 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E5A274E
+P 12575 6775
+AR Path="/5D1BB1FB/5E5A274E" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5E5A274E" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 12575 6625 50  0001 C CNN
+F 1 "+3V3" H 12590 6948 50  0000 C CNN
+F 2 "" H 12575 6775 50  0001 C CNN
+F 3 "" H 12575 6775 50  0001 C CNN
+	1    12575 6775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 8300 14700 8300
+Wire Wire Line
+	14100 8200 14700 8200
+Wire Wire Line
+	14100 8100 14700 8100
+Wire Wire Line
+	14100 8000 14700 8000
+Wire Wire Line
+	14100 7900 14700 7900
+Wire Wire Line
+	14100 7800 14700 7800
+Wire Wire Line
+	14100 7700 14700 7700
+Wire Wire Line
+	14100 7600 14700 7600
+Wire Wire Line
+	13600 7600 13000 7600
+Wire Wire Line
+	13600 7700 13000 7700
+Wire Wire Line
+	13600 7800 13000 7800
+Wire Wire Line
+	13600 7900 13000 7900
+Wire Wire Line
+	13600 8000 13000 8000
+Wire Wire Line
+	13600 8100 13000 8100
+Wire Wire Line
+	13600 8200 13000 8200
+Wire Wire Line
+	13600 8300 13000 8300
+Wire Wire Line
+	13050 6775 13050 6825
+Wire Wire Line
+	13050 7125 13050 7175
+$Comp
+L power:GND #PWR?
+U 1 1 5E5A2776
+P 13050 7175
+AR Path="/5D1BB1FB/5E5A2776" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5E5A2776" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 13050 6925 50  0001 C CNN
+F 1 "GND" H 13055 7002 50  0000 C CNN
+F 2 "" H 13050 7175 50  0001 C CNN
+F 3 "" H 13050 7175 50  0001 C CNN
+	1    13050 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C10uF C?
+U 1 1 5E5A277F
+P 13050 6975
+AR Path="/5D1BB1FB/5E5A277F" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5E5A277F" Ref="C64"  Part="1" 
+F 0 "C64" H 13165 7021 50  0000 L CNN
+F 1 "C10uF" H 12900 6875 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13050 6975 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 13050 6975 50  0001 C CNN
+F 4 "10uF" H 13165 6930 50  0000 L CNN "Capacitance"
+F 5 "GRM188R61A106KE69D " H 13050 6975 50  0001 C CNN "Part number"
+F 6 "Murata" H 13050 6975 50  0001 C CNN "Manufacturer"
+	1    13050 6975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 6775 12100 6825
+Wire Wire Line
+	12100 7125 12100 7175
+$Comp
+L power:GND #PWR?
+U 1 1 5E5A2787
+P 12100 7175
+AR Path="/5D1BB1FB/5E5A2787" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5E5A2787" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 12100 6925 50  0001 C CNN
+F 1 "GND" H 12105 7002 50  0000 C CNN
+F 2 "" H 12100 7175 50  0001 C CNN
+F 3 "" H 12100 7175 50  0001 C CNN
+	1    12100 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L icenes-library:C10uF C?
+U 1 1 5E5A2790
+P 12100 6975
+AR Path="/5D1BB1FB/5E5A2790" Ref="C?"  Part="1" 
+AR Path="/5D1BB49B/5E5A2790" Ref="C60"  Part="1" 
+F 0 "C60" H 12215 7021 50  0000 L CNN
+F 1 "C10uF" H 11950 6875 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12100 6975 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 12100 6975 50  0001 C CNN
+F 4 "10uF" H 12215 6930 50  0000 L CNN "Capacitance"
+F 5 "GRM188R61A106KE69D " H 12100 6975 50  0001 C CNN "Part number"
+F 6 "Murata" H 12100 6975 50  0001 C CNN "Manufacturer"
+	1    12100 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5E5A2796
+P 12100 6775
+AR Path="/5D1BB1FB/5E5A2796" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5E5A2796" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 12100 6625 50  0001 C CNN
+F 1 "+1V2" H 12115 6948 50  0000 C CNN
+F 2 "" H 12100 6775 50  0001 C CNN
+F 3 "" H 12100 6775 50  0001 C CNN
+	1    12100 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E5A279C
+P 13050 6775
+AR Path="/5D1BB1FB/5E5A279C" Ref="#PWR?"  Part="1" 
+AR Path="/5D1BB49B/5E5A279C" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 13050 6625 50  0001 C CNN
+F 1 "+5V" H 13065 6948 50  0000 C CNN
+F 2 "" H 13050 6775 50  0001 C CNN
+F 3 "" H 13050 6775 50  0001 C CNN
+	1    13050 6775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 7400 14275 7400
+Connection ~ 14275 7400
+Wire Wire Line
+	14275 7400 14275 7300
+Wire Wire Line
+	14100 7300 14275 7300
+Connection ~ 14275 7300
+Wire Wire Line
+	14275 7300 14275 7250
+Wire Wire Line
+	13050 6825 13400 6825
+Wire Wire Line
+	13400 6825 13400 7300
+Wire Wire Line
+	13400 7300 13600 7300
+Connection ~ 13050 6825
+Wire Wire Line
+	12575 6825 12925 6825
+Wire Wire Line
+	12925 6825 12925 7400
+Wire Wire Line
+	12925 7400 13600 7400
+Connection ~ 12575 6825
+Wire Wire Line
+	12100 6825 12450 6825
+Wire Wire Line
+	12450 6825 12450 7500
+Wire Wire Line
+	12450 7500 13600 7500
+Connection ~ 12100 6825
+$Comp
+L icenes-library:Conn_02x11_Odd_Even J?
+U 1 1 5E5A27B6
+P 13800 7800
+AR Path="/5D1BB1FB/5E5A27B6" Ref="J?"  Part="1" 
+AR Path="/5D1BB49B/5E5A27B6" Ref="J3"  Part="1" 
+F 0 "J3" H 13850 8517 50  0000 C CNN
+F 1 "Conn_02x11_Odd_Even" H 13850 8426 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical" H 13800 7800 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/527/ssq_th-1370157.pdf" H 13800 7800 50  0001 C CNN
+F 4 "Samtec" H 13800 7800 50  0001 C CNN "Manufacturer"
+F 5 "SSQ-111-02-T-D " H 13800 7800 50  0001 C CNN "Part number"
+	1    13800 7800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 4100 2    50   Output ~ 0
+RS232_TX_TTL
+Wire Wire Line
+	4400 4100 4550 4100
+Text GLabel 4550 4500 2    50   Input ~ 0
+RS232_RX_TTL
+Wire Wire Line
+	4400 4500 4550 4500
+Text GLabel 4550 4400 2    50   Input ~ 0
+RTSn
+Wire Wire Line
+	4400 4400 4550 4400
+Text GLabel 4550 4300 2    50   Output ~ 0
+CTSn
+Wire Wire Line
+	4400 4300 4550 4300
+Wire Wire Line
+	4400 3700 4550 3700
+Text GLabel 4550 3700 2    50   Input ~ 0
+DTRn
+Text GLabel 4550 4000 2    50   Output ~ 0
+DSRn
+Wire Wire Line
+	4400 4000 4550 4000
+Wire Wire Line
+	4400 3100 4550 3100
+Text GLabel 4550 3100 2    50   Output ~ 0
+DCDn
 $EndSCHEMATC
