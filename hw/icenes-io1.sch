@@ -1018,24 +1018,10 @@ Text Label 4750 6600 2    50   ~ 0
 LED5
 Text Label 4750 6000 2    50   ~ 0
 LED6
-Text Label 12075 2300 2    50   ~ 0
-GPIO_P16
 Text Label 5125 3100 2    50   ~ 0
 LED3
 Text Label 11750 5400 2    50   ~ 0
 GPIO_G14
-Text Label 11750 3000 2    50   ~ 0
-GPIO_K12
-Text Label 11750 2400 2    50   ~ 0
-GPIO_M13
-Text Label 11750 2600 2    50   ~ 0
-GPIO_L12
-Text Label 11750 4100 2    50   ~ 0
-GPIO_J14
-Text Label 11750 3600 2    50   ~ 0
-GPIO_K13
-Text Label 11750 4200 2    50   ~ 0
-GPIO_J12
 Text GLabel 12000 5300 2    50   Input ~ 0
 ICE_CIRAM_A10
 $Comp
@@ -1629,24 +1615,12 @@ Wire Wire Line
 	11150 2900 11750 2900
 Wire Wire Line
 	11150 4800 11750 4800
-Text Label 11750 3300 2    50   ~ 0
-GPIO_M15
 Text Label 11750 6200 2    50   ~ 0
 LED0
-Text Label 11750 4300 2    50   ~ 0
-GPIO_J13
 Text Label 11750 3200 2    50   ~ 0
 GPIO_C10
-Text Label 11750 3700 2    50   ~ 0
-GPIO_K14
-Text Label 11750 2900 2    50   ~ 0
-GPIO_M16
-Text Label 11750 4800 2    50   ~ 0
-GPIO_E13
 Wire Wire Line
 	11150 3400 11750 3400
-Text Label 11750 3400 2    50   ~ 0
-GPIO_J11
 Wire Wire Line
 	4150 5000 4300 5000
 Text GLabel 4300 5000 2    50   Output ~ 0
@@ -1657,30 +1631,56 @@ Text Label 4750 3800 2    50   ~ 0
 LED4
 Wire Wire Line
 	11150 2800 11750 2800
-Text Label 11750 2800 2    50   ~ 0
-GPIO_L13
 Wire Wire Line
 	11150 2700 11750 2700
-Text Label 11750 2700 2    50   ~ 0
-GPIO_N16
 Wire Wire Line
 	11150 2500 11750 2500
-Text Label 11750 2500 2    50   ~ 0
-GPIO_M14
 Wire Wire Line
 	11150 1900 11750 1900
-Text Label 11750 1900 2    50   ~ 0
-GPIO_R14
 Wire Wire Line
 	11150 2200 11750 2200
-Text Label 11750 2200 2    50   ~ 0
-GPIO_P15
 Wire Wire Line
 	11150 2000 11750 2000
-Text Label 11750 2000 2    50   ~ 0
-GPIO_R15
 Wire Wire Line
 	11150 2100 11750 2100
-Text Label 11750 2100 2    50   ~ 0
+Text GLabel 11750 3400 2    50   BiDi ~ 0
+GPIO_J11
+Text GLabel 11750 3000 2    50   BiDi ~ 0
+GPIO_K12
+Text GLabel 11750 2800 2    50   BiDi ~ 0
+GPIO_L13
+Text GLabel 11750 2600 2    50   BiDi ~ 0
+GPIO_L12
+Text GLabel 11750 3300 2    50   BiDi ~ 0
+GPIO_M15
+Text GLabel 11750 2700 2    50   BiDi ~ 0
+GPIO_N16
+Text GLabel 12075 2300 2    50   BiDi ~ 0
+GPIO_P16
+Text GLabel 11750 2200 2    50   BiDi ~ 0
+GPIO_P15
+Text GLabel 11750 2000 2    50   BiDi ~ 0
+GPIO_R15
+Text GLabel 11750 4800 2    50   BiDi ~ 0
+GPIO_H12
+Text GLabel 11750 4100 2    50   BiDi ~ 0
+GPIO_J14
+Text GLabel 11750 4300 2    50   BiDi ~ 0
+GPIO_J13
+Text GLabel 11750 4200 2    50   BiDi ~ 0
+GPIO_J12
+Text GLabel 11750 3700 2    50   BiDi ~ 0
+GPIO_K14
+Text GLabel 11750 3600 2    50   BiDi ~ 0
+GPIO_K13
+Text GLabel 11750 2900 2    50   BiDi ~ 0
+GPIO_L14
+Text GLabel 11750 2500 2    50   BiDi ~ 0
+GPIO_M14
+Text GLabel 11750 2400 2    50   BiDi ~ 0
+GPIO_M13
+Text GLabel 11750 2100 2    50   BiDi ~ 0
 GPIO_P14
+Text GLabel 11750 1900 2    50   BiDi ~ 0
+GPIO_R14
 $EndSCHEMATC

@@ -1,1 +1,13 @@
 https://www.ebay.com/itm/15-pcs-26-601-MHz-Crystal-Oscillator-HC49S-Quartz-Low-Profile-RC-PI-Arduino-Pro/352234816846?epid=8011545867&hash=item5202d4c54e:g:U2YAAOSwUYNaNVFE
+
+Specification
+Hold Type: HC-49S
+Nominal Frequency:3.2-90 MHz
+Oscilation Mode: Fundamental
+RoHS: Yes
+Operating Temp:-20 +70 deg C
+Frequency: 26.601712 MHz
+Load Capacitance (pF): 20pF
+Frequency Tolerance (ppm): ±20ppm
+Oscilation Mode: Fundamental
+Quantity: 15 PCS X Crystal Oscillator

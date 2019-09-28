@@ -580,8 +580,6 @@ Text Label 5000 5400 2    50   ~ 0
 GPIO_M12
 Wire Wire Line
 	4400 5500 5000 5500
-Text Label 5000 5500 2    50   ~ 0
-GPIO_R16
 Wire Wire Line
 	11150 1400 11750 1400
 Text Label 11750 1400 2    50   ~ 0
@@ -2274,4 +2272,52 @@ Wire Wire Line
 	4400 3100 4550 3100
 Text GLabel 4550 3100 2    50   Output ~ 0
 DCDn
+Text GLabel 2500 10000 0    50   BiDi ~ 0
+GPIO_J11
+Text GLabel 4200 10000 2    50   BiDi ~ 0
+GPIO_J12
+Text GLabel 2500 9900 0    50   BiDi ~ 0
+GPIO_K12
+Text GLabel 4200 9900 2    50   BiDi ~ 0
+GPIO_L13
+Text GLabel 2500 9800 0    50   BiDi ~ 0
+GPIO_L12
+Text GLabel 4200 9800 2    50   BiDi ~ 0
+GPIO_M15
+Text GLabel 2500 9700 0    50   BiDi ~ 0
+GPIO_N16
+Text GLabel 4200 9700 2    50   BiDi ~ 0
+GPIO_P16
+Text GLabel 2500 9600 0    50   BiDi ~ 0
+GPIO_P15
+Text Label 5000 5500 2    50   ~ 0
+GPIO_R16
+Text Label 4200 9600 2    50   ~ 0
+GPIO_R16
+Text GLabel 2500 9500 0    50   BiDi ~ 0
+GPIO_R15
+Text GLabel 4200 9500 2    50   BiDi ~ 0
+GPIO_H12
+Text GLabel 2500 9400 0    50   BiDi ~ 0
+GPIO_J14
+Text GLabel 4200 9400 2    50   BiDi ~ 0
+GPIO_J13
+Text GLabel 2500 9300 0    50   BiDi ~ 0
+GPIO_K14
+Text GLabel 4200 9300 2    50   BiDi ~ 0
+GPIO_K13
+Text GLabel 2500 9200 0    50   BiDi ~ 0
+GPIO_L14
+Text GLabel 4200 9200 2    50   BiDi ~ 0
+GPIO_M14
+Text GLabel 2500 9100 0    50   BiDi ~ 0
+GPIO_M13
+Text Label 4200 9100 2    50   ~ 0
+GPIO_N12
+Text GLabel 2500 9000 0    50   BiDi ~ 0
+GPIO_P14
+Text Label 4200 9000 2    50   ~ 0
+GPIO_P13
+Text GLabel 2500 8900 0    50   BiDi ~ 0
+GPIO_R14
 $EndSCHEMATC
