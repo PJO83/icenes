@@ -523,17 +523,17 @@ Wire Wire Line
 Text Label 5000 3400 2    50   ~ 0
 GPIO_T7
 Wire Wire Line
-	4400 3500 5000 3500
-Text Label 5000 3500 2    50   ~ 0
-GPIO_T8
+	4400 4000 5000 4000
+Text Label 5000 4000 2    50   ~ 0
+GPIO_P9
 Wire Wire Line
 	4400 3600 5000 3600
 Text Label 5000 3600 2    50   ~ 0
 GPIO_P7
 Wire Wire Line
-	4400 3800 5000 3800
-Text Label 5000 3800 2    50   ~ 0
-GPIO_T9
+	4400 3100 5000 3100
+Text Label 5000 3100 2    50   ~ 0
+GPIO_P8
 Wire Wire Line
 	4400 3900 5000 3900
 Text Label 5000 3900 2    50   ~ 0
@@ -2252,25 +2252,21 @@ Text GLabel 4550 4500 2    50   Input ~ 0
 RS232_RX_TTL
 Wire Wire Line
 	4400 4500 4550 4500
-Text GLabel 4550 4400 2    50   Input ~ 0
+Text GLabel 4550 3800 2    50   Input ~ 0
 RTSn
 Wire Wire Line
+	4400 3800 4550 3800
+Wire Wire Line
 	4400 4400 4550 4400
+Text GLabel 4550 4400 2    50   Input ~ 0
+DTRn
 Text GLabel 4550 4300 2    50   Output ~ 0
-CTSn
+DSRn
 Wire Wire Line
 	4400 4300 4550 4300
 Wire Wire Line
 	4400 3700 4550 3700
-Text GLabel 4550 3700 2    50   Input ~ 0
-DTRn
-Text GLabel 4550 4000 2    50   Output ~ 0
-DSRn
-Wire Wire Line
-	4400 4000 4550 4000
-Wire Wire Line
-	4400 3100 4550 3100
-Text GLabel 4550 3100 2    50   Output ~ 0
+Text GLabel 4550 3700 2    50   Output ~ 0
 DCDn
 Text GLabel 2500 10000 0    50   BiDi ~ 0
 GPIO_J11
@@ -2320,4 +2316,30 @@ Text Label 4200 9000 2    50   ~ 0
 GPIO_P13
 Text GLabel 2500 8900 0    50   BiDi ~ 0
 GPIO_R14
+Wire Wire Line
+	4400 3500 4550 3500
+Text GLabel 4550 3500 2    50   Output ~ 0
+CTSn
+Text Label 2500 8600 0    50   ~ 0
+GPIO_T14
+Text Label 4200 8600 2    50   ~ 0
+GPIO_T13
+Text Label 2500 8500 0    50   ~ 0
+GPIO_T11
+Text Label 4200 8500 2    50   ~ 0
+GPIO_L11
+Text Label 4200 8400 2    50   ~ 0
+GPIO_M12
+Text Label 2500 8400 0    50   ~ 0
+GPIO_M11
+Text Label 4200 8300 2    50   ~ 0
+GPIO_L10
+Text Label 2500 8300 0    50   ~ 0
+GPIO_L9
+Text Label 4200 8200 2    50   ~ 0
+GPIO_M9
+Text Label 2500 8700 0    50   ~ 0
+GPIO_T16
+Text Label 4200 8700 2    50   ~ 0
+GPIO_T15
 $EndSCHEMATC
