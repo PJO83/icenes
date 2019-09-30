@@ -1020,8 +1020,6 @@ Text Label 4750 6000 2    50   ~ 0
 LED6
 Text Label 5125 3100 2    50   ~ 0
 LED3
-Text Label 11750 5400 2    50   ~ 0
-GPIO_G14
 Text GLabel 12000 5300 2    50   Input ~ 0
 ICE_CIRAM_A10
 $Comp
@@ -1593,8 +1591,6 @@ Wire Wire Line
 	11150 4700 11900 4700
 Wire Wire Line
 	8975 6800 9850 6800
-Text Label 8975 6800 0    50   ~ 0
-GPIO_H11
 Wire Wire Line
 	4150 3100 5125 3100
 Text GLabel 4300 6700 2    50   Output ~ 0
@@ -1617,8 +1613,6 @@ Wire Wire Line
 	11150 4800 11750 4800
 Text Label 11750 6200 2    50   ~ 0
 LED0
-Text Label 11750 3200 2    50   ~ 0
-GPIO_C10
 Wire Wire Line
 	11150 3400 11750 3400
 Wire Wire Line
@@ -1683,4 +1677,10 @@ Text GLabel 11750 2100 2    50   BiDi ~ 0
 GPIO_P14
 Text GLabel 11750 1900 2    50   BiDi ~ 0
 GPIO_R14
+Text GLabel 11750 5400 2    50   BiDi ~ 0
+GPIO_G14
+Text GLabel 8975 6800 0    50   BiDi ~ 0
+GPIO_H11
+Text GLabel 11750 3200 2    50   BiDi ~ 0
+GPIO_J10
 $EndSCHEMATC
