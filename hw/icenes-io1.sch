@@ -380,244 +380,214 @@ Wire Wire Line
 	2800 3200 2800 3500
 Wire Wire Line
 	2800 3200 2850 3200
-Text GLabel 4300 4200 2    50   Output ~ 0
-ICE_PPU_A13
-Text GLabel 4300 4100 2    50   Output ~ 0
+Text GLabel 4300 5300 2    50   Output ~ 0
 ICE_PPU_A12
-Text GLabel 4300 4400 2    50   Output ~ 0
+Text GLabel 4300 4800 2    50   Output ~ 0
 ICE_PPU_A11
-Text GLabel 4300 3900 2    50   Output ~ 0
-ICE_PPU_A10
-Text GLabel 4300 3600 2    50   Output ~ 0
+Text GLabel 4300 4700 2    50   Output ~ 0
 ICE_PPU_A9
-Text GLabel 4300 3300 2    50   Output ~ 0
+Text GLabel 2700 6800 0    50   Output ~ 0
 ICE_PPU_A8
-Text GLabel 4300 3700 2    50   Output ~ 0
+Text GLabel 4300 4600 2    50   Output ~ 0
 ICE_PPU_A7
-Text GLabel 4300 3500 2    50   Output ~ 0
+Text GLabel 4300 4200 2    50   Output ~ 0
 ICE_PPU_A6
-Text GLabel 4300 3000 2    50   Output ~ 0
-ICE_PPU_A5
-Text GLabel 4300 5700 2    50   Output ~ 0
+Text GLabel 4300 3600 2    50   Output ~ 0
 ICE_PPU_A4
-Text GLabel 4300 4500 2    50   Output ~ 0
+Text GLabel 4300 3300 2    50   Output ~ 0
 ICE_PPU_A3
-Text GLabel 4300 3400 2    50   Output ~ 0
+Text GLabel 4300 3700 2    50   Output ~ 0
 ICE_PPU_A1
-Text GLabel 4300 3200 2    50   Output ~ 0
+Text GLabel 4300 3400 2    50   Output ~ 0
 ICE_PPU_A0
-Text GLabel 4925 2300 2    50   Output ~ 0
+Text GLabel 4925 3000 2    50   Output ~ 0
 ~PPU_ADDR_OE
-Text GLabel 4300 4000 2    50   Output ~ 0
+Text GLabel 4300 3500 2    50   Output ~ 0
 ICE_PPU_A2
-Text GLabel 4925 4800 2    50   Output ~ 0
+Text GLabel 4925 5600 2    50   Output ~ 0
 ~ICE_PPU_WR
-Text GLabel 2475 6800 0    50   Output ~ 0
+Text GLabel 4525 5500 2    50   Output ~ 0
 ~ICE_PPU_A13
-Text GLabel 4300 2500 2    50   Input ~ 0
+Text GLabel 4300 3100 2    50   Input ~ 0
 PPU_ADDR_DIR
 Wire Wire Line
-	4150 2300 4925 2300
+	4150 3000 4925 3000
 Wire Wire Line
-	4150 2500 4300 2500
+	4150 3100 4300 3100
 Wire Wire Line
-	4925 4800 4150 4800
-Wire Wire Line
-	4150 3200 4300 3200
+	4925 5600 4150 5600
 Wire Wire Line
 	4150 3400 4300 3400
 Wire Wire Line
-	4150 4000 4300 4000
-Wire Wire Line
-	4150 4500 4300 4500
-Wire Wire Line
-	4150 3300 4300 3300
-Wire Wire Line
-	4150 3000 4300 3000
+	4150 3700 4300 3700
 Wire Wire Line
 	4150 3500 4300 3500
 Wire Wire Line
-	4150 3600 4300 3600
+	4150 3300 4300 3300
 Wire Wire Line
-	4150 3700 4300 3700
-Wire Wire Line
-	4150 5700 4300 5700
-Wire Wire Line
-	4150 3900 4300 3900
-Wire Wire Line
-	4150 4400 4300 4400
-Wire Wire Line
-	4150 4100 4300 4100
+	2850 6800 2700 6800
 Wire Wire Line
 	4150 4200 4300 4200
-Text GLabel 4300 4600 2    50   Output ~ 0
-ICE_CPU_A0
-Text GLabel 4300 4900 2    50   Output ~ 0
-ICE_CPU_A1
-Text GLabel 4300 5400 2    50   Output ~ 0
-ICE_CPU_A2
-Text GLabel 4300 4700 2    50   Output ~ 0
-ICE_CPU_A3
-Text GLabel 4300 6200 2    50   Output ~ 0
-ICE_CPU_A5
-Text GLabel 4300 6300 2    50   Output ~ 0
-ICE_CPU_A6
-Text GLabel 4300 5300 2    50   Output ~ 0
-ICE_CPU_A7
-Text GLabel 4300 6400 2    50   Output ~ 0
-ICE_CPU_A8
-Text GLabel 4300 5500 2    50   Output ~ 0
-ICE_CPU_A9
-Text GLabel 4300 5600 2    50   Output ~ 0
-ICE_CPU_A10
-Text GLabel 4300 6800 2    50   Output ~ 0
-ICE_CPU_A11
-Text GLabel 4300 5800 2    50   Output ~ 0
-ICE_CPU_A12
-Text GLabel 4300 5900 2    50   Output ~ 0
-ICE_CPU_A13
-Text GLabel 4925 5100 2    50   Output ~ 0
-~CPU_ADDR_OE
-Text GLabel 4300 6100 2    50   Output ~ 0
-ICE_CPU_RW
-Text GLabel 4300 5200 2    50   Output ~ 0
-CPU_ADDR_DIR
-Wire Wire Line
-	4150 5100 4925 5100
-Wire Wire Line
-	4150 5200 4300 5200
-Wire Wire Line
-	4150 4600 4300 4600
 Wire Wire Line
 	4150 4700 4300 4700
 Wire Wire Line
-	4150 5400 4300 5400
+	4150 4600 4300 4600
 Wire Wire Line
-	4150 4900 4300 4900
+	4150 3600 4300 3600
 Wire Wire Line
-	4150 6200 4300 6200
-Wire Wire Line
-	4150 6300 4300 6300
+	4150 4800 4300 4800
 Wire Wire Line
 	4150 5300 4300 5300
+Text GLabel 4300 6400 2    50   Output ~ 0
+ICE_CPU_A0
+Text GLabel 4300 5900 2    50   Output ~ 0
+ICE_CPU_A2
+Text GLabel 4300 6100 2    50   Output ~ 0
+ICE_CPU_A3
+Text GLabel 4300 2900 2    50   Output ~ 0
+ICE_CPU_A5
+Text GLabel 4300 4100 2    50   Output ~ 0
+ICE_CPU_A6
+Text GLabel 4300 4000 2    50   Output ~ 0
+ICE_CPU_A7
+Text GLabel 4300 4300 2    50   Output ~ 0
+ICE_CPU_A8
+Text GLabel 4300 4500 2    50   Output ~ 0
+ICE_CPU_A9
+Text GLabel 4300 5200 2    50   Output ~ 0
+ICE_CPU_A10
+Text GLabel 4300 5400 2    50   Output ~ 0
+ICE_CPU_A11
+Text GLabel 4300 5700 2    50   Output ~ 0
+ICE_CPU_A12
+Text GLabel 4300 6000 2    50   Output ~ 0
+ICE_CPU_A13
+Text GLabel 4925 6300 2    50   Output ~ 0
+~CPU_ADDR_OE
+Text GLabel 4300 5800 2    50   Output ~ 0
+CPU_ADDR_DIR
 Wire Wire Line
-	4150 6400 4300 6400
-Wire Wire Line
-	4150 5500 4300 5500
-Wire Wire Line
-	4150 5600 4300 5600
-Wire Wire Line
-	4150 6800 4300 6800
+	4150 6300 4925 6300
 Wire Wire Line
 	4150 5800 4300 5800
 Wire Wire Line
-	4150 5900 4300 5900
-Wire Wire Line
-	4150 6700 4300 6700
+	4150 6400 4300 6400
 Wire Wire Line
 	4150 6100 4300 6100
-Text GLabel 11300 5500 2    50   BiDi ~ 0
+Wire Wire Line
+	4150 5900 4300 5900
+Wire Wire Line
+	4150 2900 4300 2900
+Wire Wire Line
+	4150 4100 4300 4100
+Wire Wire Line
+	4150 4000 4300 4000
+Wire Wire Line
+	4150 4300 4300 4300
+Wire Wire Line
+	4150 4500 4300 4500
+Wire Wire Line
+	4150 5200 4300 5200
+Wire Wire Line
+	4150 5400 4300 5400
+Wire Wire Line
+	4150 5700 4300 5700
+Wire Wire Line
+	4150 6000 4300 6000
+Text GLabel 11300 5900 2    50   BiDi ~ 0
 ICE_CPU_D1
-Text GLabel 11300 5700 2    50   BiDi ~ 0
-ICE_CPU_D2
 Text GLabel 11300 6300 2    50   BiDi ~ 0
 ICE_CPU_D3
-Text GLabel 11300 6800 2    50   BiDi ~ 0
-ICE_CPU_D4
 Text GLabel 11300 6100 2    50   BiDi ~ 0
+ICE_CPU_D4
+Text GLabel 11300 6800 2    50   BiDi ~ 0
 ICE_CPU_D5
 Text GLabel 11300 6400 2    50   BiDi ~ 0
 ICE_CPU_D6
 Text GLabel 11300 6600 2    50   BiDi ~ 0
 ICE_CPU_D7
-Text GLabel 4300 2000 2    50   BiDi ~ 0
-ICE_PPU_D0
-Text GLabel 4300 1900 2    50   BiDi ~ 0
-ICE_PPU_D1
-Text GLabel 11300 5200 2    50   BiDi ~ 0
-ICE_PPU_D2
-Text GLabel 11300 5000 2    50   BiDi ~ 0
-ICE_PPU_D3
-Text GLabel 4300 2900 2    50   BiDi ~ 0
-ICE_PPU_D4
-Text GLabel 4300 4300 2    50   BiDi ~ 0
-ICE_PPU_D5
 Text GLabel 4300 2600 2    50   BiDi ~ 0
+ICE_PPU_D0
+Text GLabel 4300 2000 2    50   BiDi ~ 0
+ICE_PPU_D1
+Text GLabel 4300 1900 2    50   BiDi ~ 0
+ICE_PPU_D3
+Text GLabel 4300 2500 2    50   BiDi ~ 0
+ICE_PPU_D4
+Text GLabel 4300 2800 2    50   BiDi ~ 0
+ICE_PPU_D5
+Text GLabel 4300 2300 2    50   BiDi ~ 0
 ICE_PPU_D6
 Text GLabel 4300 2700 2    50   BiDi ~ 0
-ICE_PPU_D7
-Text GLabel 4875 2200 2    50   Output ~ 0
+ICE_PPU_D2
+Text GLabel 4875 2100 2    50   Output ~ 0
 ~PPU_DATA_OE
-Text GLabel 11300 5100 2    50   BiDi ~ 0
+Text GLabel 11300 5300 2    50   BiDi ~ 0
 ICE_CPU_D0
-Text GLabel 11325 5900 2    50   Output ~ 0
-CPU_DATA_DIR
 Wire Wire Line
-	4150 2800 4300 2800
+	11150 6200 11300 6200
 Wire Wire Line
 	4150 2700 4300 2700
 Wire Wire Line
-	4150 2600 4300 2600
+	4150 2300 4300 2300
 Wire Wire Line
-	4150 4300 4300 4300
+	4150 2800 4300 2800
 Wire Wire Line
-	4150 2900 4300 2900
-Wire Wire Line
-	11150 5000 11300 5000
-Wire Wire Line
-	11150 5200 11300 5200
+	4150 2500 4300 2500
 Wire Wire Line
 	4150 1900 4300 1900
 Wire Wire Line
+	11150 5200 11300 5200
+Wire Wire Line
 	4150 2000 4300 2000
+Wire Wire Line
+	4150 2600 4300 2600
 Wire Wire Line
 	11150 6600 11300 6600
 Wire Wire Line
 	11150 6400 11300 6400
 Wire Wire Line
-	11150 6100 11300 6100
-Wire Wire Line
 	11150 6800 11300 6800
+Wire Wire Line
+	11150 6100 11300 6100
 Wire Wire Line
 	11150 6300 11300 6300
 Wire Wire Line
-	11150 5700 11300 5700
-Wire Wire Line
 	11150 5500 11300 5500
 Wire Wire Line
-	11150 5100 11300 5100
-Text GLabel 11300 6000 2    50   Output ~ 0
-ICE_M2
+	11150 5900 11300 5900
+Wire Wire Line
+	11150 5300 11300 5300
+Text GLabel 11300 6000 2    50   Input ~ 0
+ICE_CICtoMB
 Text GLabel 12000 4500 2    50   Output ~ 0
 ICE_CIC_CLK
 Text GLabel 11300 5600 2    50   Output ~ 0
-ICE_CICtoPak
-Text GLabel 11300 6700 2    50   Input ~ 0
-ICE_CICtoMB
-Text GLabel 12000 4600 2    50   Input ~ 0
-~ICE_IRQ
-Text GLabel 11300 4900 2    50   Input ~ 0
-~ICE_CIRAM_CE
-Text GLabel 11300 3800 2    50   Output ~ 0
-~MISC_OE2
-Text GLabel 11300 5800 2    50   Output ~ 0
-ICE_SYSTEM_CLK
-Text GLabel 12000 6500 2    50   Output ~ 0
 ~ICE_CIC_RST
-Text GLabel 12000 3500 2    50   Output ~ 0
-~MISC_OE1
-Text GLabel 12000 3900 2    50   Output ~ 0
-~ICE_PPU_RD
-Text GLabel 11300 4000 2    50   Output ~ 0
-~ICE_ROMSEL
-Text GLabel 11300 3100 2    50   Output ~ 0
-MISC_DIR1
-Text GLabel 12000 4400 2    50   Output ~ 0
-MISC_DIR2
+Text GLabel 11300 6700 2    50   Input ~ 0
+ICE_CIRAM_A10
+Text GLabel 12000 4600 2    50   Output ~ 0
+~MISC_OE2
+Text GLabel 11300 3800 2    50   BiDi ~ 0
+GPIO_J15
+Text GLabel 11300 5800 2    50   Output ~ 0
+ICE_CICtoPak
+Text GLabel 12000 6500 2    50   Input ~ 0
+~ICE_IRQ
+Text GLabel 12000 3500 2    50   BiDi ~ 0
+GPIO_L16
+Text GLabel 12000 3900 2    50   BiDi ~ 0
+GPIO_K15
+Text GLabel 11300 4000 2    50   BiDi ~ 0
+GPIO_K16
+Text GLabel 11300 2900 2    50   BiDi ~ 0
+GPIO_L14
+Text GLabel 12000 4400 2    50   BiDi ~ 0
+GPIO_J16
 Wire Wire Line
 	11150 3500 12000 3500
 Wire Wire Line
-	11150 3100 11300 3100
+	11150 2900 11300 2900
 Wire Wire Line
 	11150 5800 11300 5800
 Wire Wire Line
@@ -641,9 +611,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 4600 12000 4600
 Wire Wire Line
-	11150 4900 11300 4900
-Wire Wire Line
-	11150 5300 12000 5300
+	11150 5100 12000 5100
 $Comp
 L icenes-library:Green_LED D3
 U 1 1 5D4351DE
@@ -968,32 +936,32 @@ Wire Wire Line
 	9000 7750 11750 7750
 Wire Wire Line
 	11750 7750 11750 8575
-Text Label 9025 7750 0    50   ~ 0
+Text Label 9000 7750 0    50   ~ 0
 LED0
-Text Label 9025 7850 0    50   ~ 0
+Text Label 9000 7850 0    50   ~ 0
 LED1
-Text Label 9025 7950 0    50   ~ 0
+Text Label 9000 7950 0    50   ~ 0
 LED2
-Text Label 9025 8050 0    50   ~ 0
+Text Label 9000 8050 0    50   ~ 0
 LED3
-Text Label 9025 8150 0    50   ~ 0
+Text Label 9000 8150 0    50   ~ 0
 LED4
-Text Label 9025 8250 0    50   ~ 0
+Text Label 9000 8250 0    50   ~ 0
 LED5
-Text Label 9025 8350 0    50   ~ 0
+Text Label 9000 8350 0    50   ~ 0
 LED6
-Text Label 9025 8450 0    50   ~ 0
+Text Label 9000 8450 0    50   ~ 0
 LED7
 Wire Wire Line
-	4150 2100 4750 2100
+	11150 5700 11750 5700
 Wire Wire Line
-	4150 2400 4750 2400
+	4150 2200 4750 2200
 Wire Wire Line
-	4150 6500 4750 6500
+	4150 6200 4750 6200
 Wire Wire Line
-	4150 6600 4750 6600
+	4150 3900 4750 3900
 Wire Wire Line
-	4150 6000 4750 6000
+	4150 5000 4750 5000
 Wire Wire Line
 	11150 5400 11750 5400
 Wire Wire Line
@@ -1008,20 +976,20 @@ Wire Wire Line
 	11150 3600 11750 3600
 Wire Wire Line
 	11150 4200 11750 4200
-Text Label 4750 2100 2    50   ~ 0
+Text Label 11750 5700 2    50   ~ 0
 LED1
-Text Label 4750 2400 2    50   ~ 0
+Text Label 4750 2200 2    50   ~ 0
 LED2
-Text Label 4750 6500 2    50   ~ 0
+Text Label 4750 6200 2    50   ~ 0
 LED7
-Text Label 4750 6600 2    50   ~ 0
+Text Label 4750 3900 2    50   ~ 0
 LED5
-Text Label 4750 6000 2    50   ~ 0
+Text Label 4750 5000 2    50   ~ 0
 LED6
-Text Label 5125 3100 2    50   ~ 0
+Text Label 5125 2400 2    50   ~ 0
 LED3
-Text GLabel 12000 5300 2    50   Input ~ 0
-ICE_CIRAM_A10
+Text GLabel 12000 5100 2    50   Output ~ 0
+~CPU_DATA_OE
 $Comp
 L power:GND #PWR083
 U 1 1 5D4B6CF0
@@ -1433,10 +1401,6 @@ Wire Wire Line
 	5850 8250 6900 8250
 NoConn ~ 6900 9050
 NoConn ~ 6900 8950
-Text Label 7800 8850 2    50   ~ 0
-ICE_CLK_26.601712MHz
-Wire Wire Line
-	6900 8850 7475 8850
 Wire Wire Line
 	5850 8650 5850 8750
 Wire Wire Line
@@ -1479,20 +1443,17 @@ F 6 "RC0603FR-072M2L" H 5275 9025 50  0001 C CNN "Part number"
 	1    5275 9025
 	1    0    0    -1  
 $EndComp
-Connection ~ 7475 8850
 $Comp
 L icenes-library:TestPoint TP15
 U 1 1 5DB22244
-P 7475 8725
-F 0 "TP15" H 7533 8797 50  0000 L CNN
-F 1 "TestPoint" H 7475 8925 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7675 8725 50  0001 C CNN
-F 3 "~" H 7675 8725 50  0001 C CNN
-	1    7475 8725
-	1    0    0    -1  
+P 7050 8850
+F 0 "TP15" H 6950 9050 50  0000 L CNN
+F 1 "TestPoint" H 7050 9050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7250 8850 50  0001 C CNN
+F 3 "~" H 7250 8850 50  0001 C CNN
+	1    7050 8850
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7475 8850 7475 8725
 $Comp
 L icenes-library:26.601712MHz Y2
 U 1 1 5DB38CD4
@@ -1550,16 +1511,10 @@ F 6 "RC0603FR-07150RL" H 4825 9225 50  0001 C CNN "Part number"
 	1    4825 9225
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7475 8850 7800 8850
-Text Label 1925 6700 0    50   ~ 0
-ICE_CLK_26.601712MHz
-Wire Wire Line
-	1925 6700 2850 6700
-Text GLabel 4300 2800 2    50   Output ~ 0
+Text GLabel 11300 6200 2    50   Output ~ 0
 PPU_DATA_DIR
 Text GLabel 11900 4700 2    50   Output ~ 0
-~CPU_DATA_OE
+MISC_DIR2
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5E05F6AC
@@ -1582,25 +1537,21 @@ VCCIO1_3V3
 Text Label 1950 3100 0    50   ~ 0
 VCCPLL0_1V2
 Wire Wire Line
-	4150 2200 4875 2200
+	4150 2100 4875 2100
 Wire Wire Line
 	12075 2300 11150 2300
-Wire Wire Line
-	11150 5900 11325 5900
 Wire Wire Line
 	11150 4700 11900 4700
 Wire Wire Line
 	8975 6800 9850 6800
 Wire Wire Line
-	4150 3100 5125 3100
-Text GLabel 4300 6700 2    50   Output ~ 0
-ICE_CPU_A14
+	4150 2400 5125 2400
 Wire Wire Line
-	2475 6800 2850 6800
+	4525 5500 4150 5500
 Wire Wire Line
 	11150 3300 11750 3300
 Wire Wire Line
-	11150 6200 11750 6200
+	11150 4900 11750 4900
 Wire Wire Line
 	11150 4300 11750 4300
 Wire Wire Line
@@ -1608,20 +1559,20 @@ Wire Wire Line
 Wire Wire Line
 	11150 3700 11750 3700
 Wire Wire Line
-	11150 2900 11750 2900
+	11150 3100 11750 3100
 Wire Wire Line
 	11150 4800 11750 4800
-Text Label 11750 6200 2    50   ~ 0
+Text Label 11750 4900 2    50   ~ 0
 LED0
 Wire Wire Line
 	11150 3400 11750 3400
 Wire Wire Line
-	4150 5000 4300 5000
-Text GLabel 4300 5000 2    50   Output ~ 0
+	4150 3800 4300 3800
+Text GLabel 4300 3800 2    50   Output ~ 0
 ICE_CPU_A4
 Wire Wire Line
-	4150 3800 4750 3800
-Text Label 4750 3800 2    50   ~ 0
+	11150 5000 11750 5000
+Text Label 11750 5000 2    50   ~ 0
 LED4
 Wire Wire Line
 	11150 2800 11750 2800
@@ -1637,8 +1588,8 @@ Wire Wire Line
 	11150 2000 11750 2000
 Wire Wire Line
 	11150 2100 11750 2100
-Text GLabel 11750 3400 2    50   BiDi ~ 0
-GPIO_J11
+Text GLabel 11750 3400 2    50   Output ~ 0
+ICE_SYSTEM_CLK
 Text GLabel 11750 3000 2    50   BiDi ~ 0
 GPIO_K12
 Text GLabel 11750 2800 2    50   BiDi ~ 0
@@ -1655,20 +1606,20 @@ Text GLabel 11750 2200 2    50   BiDi ~ 0
 GPIO_P15
 Text GLabel 11750 2000 2    50   BiDi ~ 0
 GPIO_R15
-Text GLabel 11750 4800 2    50   BiDi ~ 0
-GPIO_H12
+Text GLabel 11750 4800 2    50   Output ~ 0
+~ICE_ROMSEL
 Text GLabel 11750 4100 2    50   BiDi ~ 0
 GPIO_J14
-Text GLabel 11750 4300 2    50   BiDi ~ 0
-GPIO_J13
-Text GLabel 11750 4200 2    50   BiDi ~ 0
-GPIO_J12
+Text GLabel 11750 4300 2    50   Output ~ 0
+MISC_DIR1
+Text GLabel 11750 4200 2    50   Output ~ 0
+~MISC_OE1
 Text GLabel 11750 3700 2    50   BiDi ~ 0
 GPIO_K14
 Text GLabel 11750 3600 2    50   BiDi ~ 0
 GPIO_K13
-Text GLabel 11750 2900 2    50   BiDi ~ 0
-GPIO_L14
+Text GLabel 11750 3100 2    50   BiDi ~ 0
+GPIO_M16
 Text GLabel 11750 2500 2    50   BiDi ~ 0
 GPIO_M14
 Text GLabel 11750 2400 2    50   BiDi ~ 0
@@ -1677,10 +1628,51 @@ Text GLabel 11750 2100 2    50   BiDi ~ 0
 GPIO_P14
 Text GLabel 11750 1900 2    50   BiDi ~ 0
 GPIO_R14
-Text GLabel 11750 5400 2    50   BiDi ~ 0
-GPIO_G14
-Text GLabel 8975 6800 0    50   BiDi ~ 0
-GPIO_H11
+Text GLabel 11750 5400 2    50   Output ~ 0
+CPU_DATA_DIR
+Text GLabel 8975 6800 0    50   Output ~ 0
+~ICE_PPU_RD
 Text GLabel 11750 3200 2    50   BiDi ~ 0
 GPIO_J10
+NoConn ~ 2850 6700
+Text GLabel 7100 8850 2    50   Input ~ 0
+ICE_CLK_26.601712MHz
+Wire Wire Line
+	7100 8850 7050 8850
+Connection ~ 7050 8850
+Wire Wire Line
+	7050 8850 6900 8850
+Text GLabel 11300 5500 2    50   BiDi ~ 0
+ICE_CPU_D2
+Text GLabel 11300 5200 2    50   Input ~ 0
+~ICE_CIRAM_CE
+Text GLabel 4300 3200 2    50   BiDi ~ 0
+ICE_PPU_D7
+Wire Wire Line
+	4150 3200 4300 3200
+Wire Wire Line
+	4150 4400 4300 4400
+Text GLabel 4300 4400 2    50   Output ~ 0
+ICE_PPU_A5
+Text GLabel 4300 6800 2    50   Output ~ 0
+ICE_CPU_A1
+Wire Wire Line
+	4150 6800 4300 6800
+NoConn ~ 4150 6700
+Wire Wire Line
+	4150 4900 4300 4900
+Text GLabel 4300 4900 2    50   Output ~ 0
+ICE_PPU_A10
+Wire Wire Line
+	4150 6500 4300 6500
+Text GLabel 4300 6500 2    50   Output ~ 0
+ICE_CPU_RW
+Text GLabel 4300 6600 2    50   Output ~ 0
+ICE_CPU_A14
+Wire Wire Line
+	4150 6600 4300 6600
+Wire Wire Line
+	4150 5100 4300 5100
+Text GLabel 4300 5100 2    50   Output ~ 0
+ICE_PPU_A13
 $EndSCHEMATC

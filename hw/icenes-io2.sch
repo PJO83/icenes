@@ -29,21 +29,6 @@ F 5 "iCE40HX8K-CT256" H 3800 1200 50  0001 C CNN "Part number"
 	5    3800 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L icenes-library:iCE40HX8K-CT256 U?
-U 6 1 5D1F06A7
-P 10550 1200
-AR Path="/5D1F06A7" Ref="U?"  Part="6" 
-AR Path="/5D1BB49B/5D1F06A7" Ref="U4"  Part="6" 
-F 0 "U4" H 10500 1315 50  0000 C CNN
-F 1 "iCE40HX8K-CT256" H 10500 1224 50  0000 C CNN
-F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 10550 1200 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/225/FPGA-DS-02029-3-5-iCE40-LP-HX-Family-Data-Sheet-1022803.pdf" H 10550 1200 50  0001 C CNN
-F 4 "Lattice" H 10550 1200 50  0001 C CNN "Manufacturer"
-F 5 "iCE40HX8K-CT256" H 10550 1200 50  0001 C CNN "Part number"
-	6    10550 1200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3100 1400 2950 1400
 Wire Wire Line
@@ -519,21 +504,21 @@ Wire Wire Line
 Text Label 5000 3300 2    50   ~ 0
 GPIO_L9
 Wire Wire Line
-	4400 3400 5000 3400
-Text Label 5000 3400 2    50   ~ 0
-GPIO_T7
+	4400 4300 5000 4300
+Text Label 5000 4300 2    50   ~ 0
+GPIO_P10
 Wire Wire Line
-	4400 4000 5000 4000
-Text Label 5000 4000 2    50   ~ 0
-GPIO_P9
+	4400 4500 5000 4500
+Text Label 5000 4500 2    50   ~ 0
+GPIO_T10
 Wire Wire Line
-	4400 3600 5000 3600
-Text Label 5000 3600 2    50   ~ 0
-GPIO_P7
+	4400 4100 5000 4100
+Text Label 5000 4100 2    50   ~ 0
+GPIO_R10
 Wire Wire Line
-	4400 3100 5000 3100
-Text Label 5000 3100 2    50   ~ 0
-GPIO_P8
+	4400 4400 5000 4400
+Text Label 5000 4400 2    50   ~ 0
+GPIO_N10
 Wire Wire Line
 	4400 3900 5000 3900
 Text Label 5000 3900 2    50   ~ 0
@@ -772,10 +757,6 @@ Wire Wire Line
 	11150 6200 11750 6200
 Text Label 11750 6200 2    50   ~ 0
 GPIO_R1
-Wire Wire Line
-	11150 6300 11750 6300
-Text Label 11750 6300 2    50   ~ 0
-GPIO_N4
 Text Label 5000 1600 2    50   ~ 0
 GPIO_P4
 Wire Wire Line
@@ -784,8 +765,6 @@ Text Label 2500 4200 0    50   ~ 0
 GPIO_P13
 Wire Wire Line
 	3100 4100 2500 4100
-Text Label 2500 4100 0    50   ~ 0
-GPIO_K11
 $Comp
 L icenes-library:Conn_02x31_Odd_Even J4
 U 1 1 5D55C666
@@ -1717,97 +1696,89 @@ Wire Wire Line
 Connection ~ 10600 10200
 Connection ~ 10600 10300
 Wire Wire Line
-	3100 7600 2500 7600
+	14100 8300 14700 8300
+Wire Wire Line
+	14100 7900 14700 7900
+Wire Wire Line
+	14100 8000 14700 8000
 Wire Wire Line
 	3100 7700 2500 7700
 Wire Wire Line
 	3100 7800 2500 7800
 Wire Wire Line
-	3100 7900 2500 7900
-Wire Wire Line
-	3100 8000 2500 8000
-Wire Wire Line
-	3100 8100 2500 8100
-Wire Wire Line
-	3100 8200 2500 8200
-Wire Wire Line
-	3100 8300 2500 8300
-Wire Wire Line
-	3100 8400 2500 8400
-Wire Wire Line
-	3100 8500 2500 8500
-Wire Wire Line
-	3100 8600 2500 8600
-Wire Wire Line
-	3100 8700 2500 8700
-Wire Wire Line
-	3100 8900 2500 8900
+	3600 7900 4200 7900
 Wire Wire Line
 	3100 9000 2500 9000
 Wire Wire Line
-	3100 9100 2500 9100
-Wire Wire Line
-	3100 9200 2500 9200
-Wire Wire Line
-	3100 9300 2500 9300
-Wire Wire Line
 	3100 9400 2500 9400
-Wire Wire Line
-	3100 9500 2500 9500
-Wire Wire Line
-	3100 9600 2500 9600
 Wire Wire Line
 	3100 9700 2500 9700
 Wire Wire Line
-	3100 9800 2500 9800
+	3100 7900 2500 7900
+Wire Wire Line
+	3100 8200 2500 8200
+Wire Wire Line
+	3100 8400 2500 8400
+Wire Wire Line
+	3600 8200 4200 8200
+Wire Wire Line
+	3600 8400 4200 8400
+Wire Wire Line
+	3100 8600 2500 8600
+Wire Wire Line
+	3600 9000 4200 9000
+Wire Wire Line
+	3100 9100 2500 9100
+Wire Wire Line
+	3600 9300 4200 9300
+Wire Wire Line
+	3600 8300 4200 8300
+Wire Wire Line
+	3600 8500 4200 8500
+Wire Wire Line
+	3100 8700 2500 8700
 Wire Wire Line
 	3100 9900 2500 9900
 Wire Wire Line
 	3100 10000 2500 10000
 Wire Wire Line
-	3600 7600 4200 7600
+	13600 8300 13000 8300
+Wire Wire Line
+	14100 8100 14700 8100
+Wire Wire Line
+	13600 8200 13000 8200
 Wire Wire Line
 	3600 7700 4200 7700
 Wire Wire Line
 	3600 7800 4200 7800
 Wire Wire Line
-	3600 7900 4200 7900
-Wire Wire Line
-	3600 8000 4200 8000
-Wire Wire Line
-	3600 8200 4200 8200
-Wire Wire Line
-	3600 8300 4200 8300
-Wire Wire Line
-	3600 8400 4200 8400
-Wire Wire Line
-	3600 8500 4200 8500
-Wire Wire Line
-	3600 8600 4200 8600
-Wire Wire Line
-	3600 8700 4200 8700
-Wire Wire Line
-	3600 9000 4200 9000
-Wire Wire Line
-	3600 9100 4200 9100
-Wire Wire Line
-	3600 9200 4200 9200
-Wire Wire Line
-	3600 9300 4200 9300
+	3600 9500 4200 9500
 Wire Wire Line
 	3600 9400 4200 9400
 Wire Wire Line
-	3600 9500 4200 9500
+	3600 9800 4200 9800
+Wire Wire Line
+	3100 9800 2500 9800
+Wire Wire Line
+	3100 8100 2500 8100
+Wire Wire Line
+	3100 8300 2500 8300
+Wire Wire Line
+	3600 8100 4200 8100
 Wire Wire Line
 	3600 9700 4200 9700
 Wire Wire Line
-	3600 9600 4200 9600
-Wire Wire Line
-	3600 9800 4200 9800
-Wire Wire Line
-	3600 9900 4200 9900
+	3600 8700 4200 8700
 Wire Wire Line
 	3600 10000 4200 10000
+Wire Wire Line
+	3600 8600 4200 8600
+Wire Wire Line
+	3100 8500 2500 8500
+Wire Wire Line
+	3100 8900 2500 8900
+Wire Wire Line
+	3600 9900 4200 9900
 Wire Wire Line
 	9850 7600 9250 7600
 Wire Wire Line
@@ -1904,11 +1875,6 @@ Wire Wire Line
 	10350 10000 10950 10000
 Wire Wire Line
 	10600 8800 11100 8800
-Text GLabel 9650 6200 0    50   Input ~ 0
-ICE_CLK_12MHZ
-Wire Wire Line
-	9650 6200 9850 6200
-NoConn ~ 9850 6300
 $Comp
 L icenes-library:R_TBD R36
 U 1 1 5DA26BEC
@@ -1962,7 +1928,6 @@ F 3 "~" H 2275 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2075 4750 2075 4700
-NoConn ~ 3100 5500
 $Comp
 L icenes-library:TestPoint TP16
 U 1 1 5DDC0B2C
@@ -1994,7 +1959,6 @@ F 3 "~" H 2550 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 3000 2550 3050
-NoConn ~ 3100 5400
 Text Label 8050 1400 0    50   ~ 0
 VCCIO3_3V3
 Text Label 1300 1400 0    50   ~ 0
@@ -2002,7 +1966,7 @@ VCCIO2_3V3
 Text Label 2200 2600 0    50   ~ 0
 VCCPLL1_1V2
 Wire Wire Line
-	3600 8100 4200 8100
+	3100 8000 2500 8000
 Wire Wire Line
 	14625 7250 14625 7275
 Wire Wire Line
@@ -2071,37 +2035,27 @@ F 3 "" H 12575 6775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14100 8300 14700 8300
+	13600 8100 13000 8100
 Wire Wire Line
-	14100 8200 14700 8200
-Wire Wire Line
-	14100 8100 14700 8100
-Wire Wire Line
-	14100 8000 14700 8000
-Wire Wire Line
-	14100 7900 14700 7900
+	13600 7900 13000 7900
 Wire Wire Line
 	14100 7800 14700 7800
+Wire Wire Line
+	13600 7600 13000 7600
+Wire Wire Line
+	3100 9300 2500 9300
+Wire Wire Line
+	3600 7600 4200 7600
 Wire Wire Line
 	14100 7700 14700 7700
 Wire Wire Line
 	14100 7600 14700 7600
 Wire Wire Line
-	13600 7600 13000 7600
-Wire Wire Line
-	13600 7700 13000 7700
+	3600 8000 4200 8000
 Wire Wire Line
 	13600 7800 13000 7800
 Wire Wire Line
-	13600 7900 13000 7900
-Wire Wire Line
 	13600 8000 13000 8000
-Wire Wire Line
-	13600 8100 13000 8100
-Wire Wire Line
-	13600 8200 13000 8200
-Wire Wire Line
-	13600 8300 13000 8300
 Wire Wire Line
 	13050 6775 13050 6825
 Wire Wire Line
@@ -2240,147 +2194,129 @@ F 5 "SSQ-111-02-T-D " H 13800 7800 50  0001 C CNN "Part number"
 	1    13800 7800
 	1    0    0    -1  
 $EndComp
-Text GLabel 4550 4100 2    50   Output ~ 0
+Text GLabel 4550 4000 2    50   Output ~ 0
 RS232_TX_TTL
 Wire Wire Line
-	4400 4100 4550 4100
-Text GLabel 4550 4500 2    50   Input ~ 0
+	4400 4000 4550 4000
+Text GLabel 4550 3700 2    50   Input ~ 0
 RS232_RX_TTL
 Wire Wire Line
-	4400 4500 4550 4500
+	4400 3700 4550 3700
 Text GLabel 4550 3800 2    50   Input ~ 0
 RTSn
 Wire Wire Line
 	4400 3800 4550 3800
 Wire Wire Line
-	4400 4400 4550 4400
-Text GLabel 4550 4400 2    50   Input ~ 0
+	4400 3100 4550 3100
+Text GLabel 4550 3100 2    50   Input ~ 0
 DTRn
-Text GLabel 4550 4300 2    50   Output ~ 0
+Text GLabel 4550 3400 2    50   Output ~ 0
 DSRn
 Wire Wire Line
-	4400 4300 4550 4300
+	4400 3400 4550 3400
 Wire Wire Line
-	4400 3700 4550 3700
-Text GLabel 4550 3700 2    50   Output ~ 0
+	4400 3600 4550 3600
+Text GLabel 4550 3600 2    50   Output ~ 0
 DCDn
 Text GLabel 2500 10000 0    50   BiDi ~ 0
-GPIO_J11
-Text GLabel 4200 10000 2    50   BiDi ~ 0
-GPIO_J12
-Text GLabel 2500 9900 0    50   BiDi ~ 0
 GPIO_K12
 Text GLabel 4200 9900 2    50   BiDi ~ 0
 GPIO_L13
-Text GLabel 2500 9800 0    50   BiDi ~ 0
+Text GLabel 2500 9900 0    50   BiDi ~ 0
 GPIO_L12
-Text GLabel 4200 9800 2    50   BiDi ~ 0
+Text GLabel 2500 8900 0    50   BiDi ~ 0
 GPIO_M15
-Text GLabel 2500 9700 0    50   BiDi ~ 0
+Text GLabel 2500 8700 0    50   BiDi ~ 0
 GPIO_N16
-Text GLabel 4200 9700 2    50   BiDi ~ 0
+Text GLabel 4200 8600 2    50   BiDi ~ 0
 GPIO_P16
-Text GLabel 2500 9600 0    50   BiDi ~ 0
+Text GLabel 4200 8500 2    50   BiDi ~ 0
 GPIO_P15
 Text Label 5000 5500 2    50   ~ 0
 GPIO_R16
-Text Label 4200 9600 2    50   ~ 0
+Text Label 2500 8500 0    50   ~ 0
 GPIO_R16
-Text GLabel 2500 9500 0    50   BiDi ~ 0
+Text GLabel 4200 8300 2    50   BiDi ~ 0
 GPIO_R15
-Text GLabel 4200 9500 2    50   BiDi ~ 0
-GPIO_H12
-Text GLabel 2500 9400 0    50   BiDi ~ 0
-GPIO_J14
-Text GLabel 4200 9400 2    50   BiDi ~ 0
-GPIO_J13
-Text GLabel 2500 9300 0    50   BiDi ~ 0
-GPIO_K14
 Text GLabel 4200 9300 2    50   BiDi ~ 0
-GPIO_K13
-Text GLabel 2500 9200 0    50   BiDi ~ 0
-GPIO_L14
-Text GLabel 4200 9200 2    50   BiDi ~ 0
-GPIO_M14
+GPIO_J14
 Text GLabel 2500 9100 0    50   BiDi ~ 0
+GPIO_K14
+Text GLabel 4200 10000 2    50   BiDi ~ 0
+GPIO_K13
+Text GLabel 4200 9000 2    50   BiDi ~ 0
+GPIO_M16
+Text GLabel 4200 8700 2    50   BiDi ~ 0
+GPIO_M14
+Text GLabel 2500 8600 0    50   BiDi ~ 0
 GPIO_M13
-Text Label 4200 9100 2    50   ~ 0
+Text Label 4200 9700 2    50   ~ 0
 GPIO_N12
-Text GLabel 2500 9000 0    50   BiDi ~ 0
+Text GLabel 4200 8400 2    50   BiDi ~ 0
 GPIO_P14
-Text Label 4200 9000 2    50   ~ 0
+Text Label 4200 8100 2    50   ~ 0
 GPIO_P13
-Text GLabel 2500 8900 0    50   BiDi ~ 0
+Text GLabel 4200 8200 2    50   BiDi ~ 0
 GPIO_R14
 Wire Wire Line
 	4400 3500 4550 3500
 Text GLabel 4550 3500 2    50   Output ~ 0
 CTSn
-Text Label 2500 8600 0    50   ~ 0
-GPIO_T14
-Text Label 4200 8600 2    50   ~ 0
-GPIO_T13
-Text Label 2500 8500 0    50   ~ 0
-GPIO_T11
-Text Label 4200 8500 2    50   ~ 0
-GPIO_L11
-Text Label 4200 8400 2    50   ~ 0
-GPIO_M12
-Text Label 2500 8400 0    50   ~ 0
-GPIO_M11
-Text Label 4200 8300 2    50   ~ 0
-GPIO_L10
-Text Label 2500 8300 0    50   ~ 0
-GPIO_L9
-Text Label 4200 8200 2    50   ~ 0
-GPIO_M9
-Text Label 2500 8700 0    50   ~ 0
-GPIO_T16
-Text Label 4200 8700 2    50   ~ 0
-GPIO_T15
 Text Label 2500 8200 0    50   ~ 0
-GPIO_P9
-Text Label 4200 8100 2    50   ~ 0
-GPIO_P8
+GPIO_T14
 Text Label 2500 8100 0    50   ~ 0
-GPIO_T7
-Text Label 4200 8000 2    50   ~ 0
-GPIO_M8
-Text Label 2500 8000 0    50   ~ 0
-GPIO_N7
-Text Label 4200 7900 2    50   ~ 0
-GPIO_M7
+GPIO_T13
 Text Label 2500 7900 0    50   ~ 0
-GPIO_N6
+GPIO_T11
+Text Label 2500 9800 0    50   ~ 0
+GPIO_L11
+Text Label 4200 9800 2    50   ~ 0
+GPIO_M12
+Text Label 2500 9700 0    50   ~ 0
+GPIO_M11
+Text Label 4200 9400 2    50   ~ 0
+GPIO_L10
+Text Label 2500 9400 0    50   ~ 0
+GPIO_L9
+Text Label 4200 9500 2    50   ~ 0
+GPIO_M9
+Text Label 2500 8400 0    50   ~ 0
+GPIO_T16
+Text Label 2500 8300 0    50   ~ 0
+GPIO_T15
+Text Label 4200 7900 2    50   ~ 0
+GPIO_P10
 Text Label 4200 7800 2    50   ~ 0
-GPIO_P6
+GPIO_M8
 Text Label 2500 7800 0    50   ~ 0
-GPIO_N5
+GPIO_N7
 Text Label 4200 7700 2    50   ~ 0
-GPIO_P5
+GPIO_M7
 Text Label 2500 7700 0    50   ~ 0
-GPIO_P4
-Text Label 4200 7600 2    50   ~ 0
-GPIO_T6
-Text Label 2500 7600 0    50   ~ 0
-GPIO_R6
-Text Label 13000 7900 0    50   ~ 0
-GPIO_P7
-Text Label 13000 8300 0    50   ~ 0
-GPIO_T5
-Text Label 14700 8300 2    50   ~ 0
-GPIO_R5
+GPIO_N6
 Text Label 13000 8200 0    50   ~ 0
-GPIO_R4
-Text Label 14700 8200 2    50   ~ 0
-GPIO_T3
-Text Label 13000 8100 0    50   ~ 0
-GPIO_R3
-Text Label 14700 8100 2    50   ~ 0
-GPIO_T2
-Text Label 13000 8000 0    50   ~ 0
-GPIO_R2
+GPIO_P6
 Text Label 14700 8000 2    50   ~ 0
+GPIO_N5
+Text Label 14700 8100 2    50   ~ 0
+GPIO_P5
+Text Label 14700 7900 2    50   ~ 0
+GPIO_P4
+Text Label 13000 8300 0    50   ~ 0
+GPIO_T6
+Text Label 14700 8300 2    50   ~ 0
+GPIO_R6
+Text Label 13000 8100 0    50   ~ 0
+GPIO_R5
+Text Label 13000 8000 0    50   ~ 0
+GPIO_R4
+Text Label 13000 7900 0    50   ~ 0
+GPIO_T3
+Text Label 13000 7800 0    50   ~ 0
+GPIO_R3
+Text Label 14700 7800 2    50   ~ 0
+GPIO_T2
+Text Label 13000 7600 0    50   ~ 0
 GPIO_T1
 Text Label 9250 10000 0    50   ~ 0
 GPIO_E4
@@ -2402,13 +2338,7 @@ Text Label 10950 9600 2    50   ~ 0
 GPIO_D1
 Text Label 9250 9600 0    50   ~ 0
 GPIO_G5
-Text GLabel 14700 7700 2    50   BiDi ~ 0
-GPIO_G14
-Text GLabel 14700 7900 2    50   BiDi ~ 0
-GPIO_H11
-Text Label 13000 7800 0    50   ~ 0
-GPIO_K11
-Text GLabel 14700 7800 2    50   BiDi ~ 0
+Text GLabel 2500 9300 0    50   BiDi ~ 0
 GPIO_J10
 Text Label 10950 9500 2    50   ~ 0
 GPIO_E3
@@ -2486,12 +2416,86 @@ Text Label 10950 7600 2    50   ~ 0
 GPIO_M4
 Text Label 9250 7600 0    50   ~ 0
 GPIO_P1
-Text Label 14700 7600 2    50   ~ 0
+Text Label 4200 7600 2    50   ~ 0
 GPIO_M5
-Text Label 13000 7600 0    50   ~ 0
+Text Label 14700 7700 2    50   ~ 0
 GPIO_P2
-Text Label 13000 7700 0    50   ~ 0
+Text Label 14700 7600 2    50   ~ 0
 GPIO_R1
 Text Label 9250 8900 0    50   ~ 0
+GPIO_K9
+Text GLabel 9850 6300 0    50   Input ~ 0
+ICE_CLK_26.601712MHz
+Wire Wire Line
+	2900 5500 3100 5500
+Text GLabel 2900 5500 0    50   Input ~ 0
+ICE_CLK_12MHZ
+$Comp
+L icenes-library:iCE40HX8K-CT256 U?
+U 6 1 5D1F06A7
+P 10550 1200
+AR Path="/5D1F06A7" Ref="U?"  Part="6" 
+AR Path="/5D1BB49B/5D1F06A7" Ref="U4"  Part="6" 
+F 0 "U4" H 10500 1315 50  0000 C CNN
+F 1 "iCE40HX8K-CT256" H 10500 1224 50  0000 C CNN
+F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 10550 1200 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/225/FPGA-DS-02029-3-5-iCE40-LP-HX-Family-Data-Sheet-1022803.pdf" H 10550 1200 50  0001 C CNN
+F 4 "Lattice" H 10550 1200 50  0001 C CNN "Manufacturer"
+F 5 "iCE40HX8K-CT256" H 10550 1200 50  0001 C CNN "Part number"
+	6    10550 1200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9850 6200
+Wire Wire Line
+	3100 5400 2500 5400
+Text Label 2500 5400 0    50   ~ 0
+GPIO_K9
+Text Label 13000 7700 0    50   ~ 0
+GPIO_R2
+Wire Wire Line
+	13600 7700 13000 7700
+Wire Wire Line
+	14100 8200 14700 8200
+Text Label 14700 8200 2    50   ~ 0
+GPIO_T5
+Wire Wire Line
+	11150 6300 11750 6300
+Text Label 11750 6300 2    50   ~ 0
 GPIO_N4
+Wire Wire Line
+	3100 7600 2500 7600
+Text Label 2500 7600 0    50   ~ 0
+GPIO_N4
+Text Label 4200 8000 2    50   ~ 0
+GPIO_T10
+Text Label 2500 8000 0    50   ~ 0
+GPIO_R10
+Text GLabel 2500 9000 0    50   BiDi ~ 0
+GPIO_L14
+Text GLabel 4450 9100 2    50   BiDi ~ 0
+GPIO_L16
+Wire Wire Line
+	3600 9100 4450 9100
+Text GLabel 4450 9200 2    50   BiDi ~ 0
+GPIO_K15
+Wire Wire Line
+	3600 9200 4450 9200
+Text GLabel 2950 9200 0    50   BiDi ~ 0
+GPIO_K16
+Wire Wire Line
+	3100 9200 2950 9200
+Wire Wire Line
+	3100 9500 2500 9500
+Text Label 2500 9500 0    50   ~ 0
+GPIO_N10
+Text GLabel 3750 9600 2    50   BiDi ~ 0
+GPIO_J15
+Wire Wire Line
+	3600 9600 3750 9600
+Text GLabel 2250 9600 0    50   BiDi ~ 0
+GPIO_J16
+Wire Wire Line
+	2250 9600 3100 9600
+Text GLabel 2500 4100 0    50   Output ~ 0
+ICE_M2
 $EndSCHEMATC
