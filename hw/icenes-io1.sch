@@ -380,15 +380,13 @@ Wire Wire Line
 	2800 3200 2800 3500
 Wire Wire Line
 	2800 3200 2850 3200
-Text GLabel 4300 5300 2    50   Output ~ 0
-ICE_PPU_A12
-Text GLabel 4300 4800 2    50   Output ~ 0
-ICE_PPU_A11
-Text GLabel 4300 4700 2    50   Output ~ 0
-ICE_PPU_A9
 Text GLabel 2700 6800 0    50   Output ~ 0
+ICE_PPU_A12
+Text GLabel 4300 4900 2    50   Output ~ 0
+ICE_PPU_A11
+Text GLabel 4300 5300 2    50   Output ~ 0
 ICE_PPU_A8
-Text GLabel 4300 4600 2    50   Output ~ 0
+Text GLabel 4300 5100 2    50   Output ~ 0
 ICE_PPU_A7
 Text GLabel 4300 4200 2    50   Output ~ 0
 ICE_PPU_A6
@@ -425,19 +423,17 @@ Wire Wire Line
 Wire Wire Line
 	4150 3300 4300 3300
 Wire Wire Line
-	2850 6800 2700 6800
+	4150 5300 4300 5300
 Wire Wire Line
 	4150 4200 4300 4200
 Wire Wire Line
-	4150 4700 4300 4700
-Wire Wire Line
-	4150 4600 4300 4600
+	4150 5100 4300 5100
 Wire Wire Line
 	4150 3600 4300 3600
 Wire Wire Line
-	4150 4800 4300 4800
+	4150 4900 4300 4900
 Wire Wire Line
-	4150 5300 4300 5300
+	2850 6800 2700 6800
 Text GLabel 4300 6400 2    50   Output ~ 0
 ICE_CPU_A0
 Text GLabel 4300 5900 2    50   Output ~ 0
@@ -450,14 +446,10 @@ Text GLabel 4300 4100 2    50   Output ~ 0
 ICE_CPU_A6
 Text GLabel 4300 4000 2    50   Output ~ 0
 ICE_CPU_A7
-Text GLabel 4300 4300 2    50   Output ~ 0
-ICE_CPU_A8
 Text GLabel 4300 4500 2    50   Output ~ 0
 ICE_CPU_A9
 Text GLabel 4300 5200 2    50   Output ~ 0
 ICE_CPU_A10
-Text GLabel 4300 5400 2    50   Output ~ 0
-ICE_CPU_A11
 Text GLabel 4300 5700 2    50   Output ~ 0
 ICE_CPU_A12
 Text GLabel 4300 6000 2    50   Output ~ 0
@@ -483,13 +475,9 @@ Wire Wire Line
 Wire Wire Line
 	4150 4000 4300 4000
 Wire Wire Line
-	4150 4300 4300 4300
-Wire Wire Line
 	4150 4500 4300 4500
 Wire Wire Line
 	4150 5200 4300 5200
-Wire Wire Line
-	4150 5400 4300 5400
 Wire Wire Line
 	4150 5700 4300 5700
 Wire Wire Line
@@ -1660,8 +1648,8 @@ Wire Wire Line
 	4150 6800 4300 6800
 NoConn ~ 4150 6700
 Wire Wire Line
-	4150 4900 4300 4900
-Text GLabel 4300 4900 2    50   Output ~ 0
+	4150 4700 4300 4700
+Text GLabel 4300 4700 2    50   Output ~ 0
 ICE_PPU_A10
 Wire Wire Line
 	4150 6500 4300 6500
@@ -1672,7 +1660,19 @@ ICE_CPU_A14
 Wire Wire Line
 	4150 6600 4300 6600
 Wire Wire Line
-	4150 5100 4300 5100
-Text GLabel 4300 5100 2    50   Output ~ 0
+	4150 4600 4300 4600
+Text GLabel 4300 4600 2    50   Output ~ 0
 ICE_PPU_A13
+Wire Wire Line
+	4150 4300 4300 4300
+Text GLabel 4300 4300 2    50   Output ~ 0
+ICE_CPU_A8
+Wire Wire Line
+	4150 4800 4300 4800
+Text GLabel 4300 4800 2    50   Output ~ 0
+ICE_PPU_A9
+Wire Wire Line
+	4150 5400 4300 5400
+Text GLabel 4300 5400 2    50   Output ~ 0
+ICE_CPU_A11
 $EndSCHEMATC

@@ -149,20 +149,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 3000 1750 3000
 Wire Wire Line
-	1850 3100 1750 3100
-Wire Wire Line
-	1850 3200 1750 3200
-Wire Wire Line
-	1850 3300 1750 3300
-Wire Wire Line
-	1850 3400 1750 3400
-Wire Wire Line
-	1850 3500 1750 3500
-Wire Wire Line
-	1850 3600 1750 3600
-Wire Wire Line
-	1850 3700 1750 3700
-Wire Wire Line
 	12100 5650 12000 5650
 Wire Wire Line
 	12000 5650 12000 5750
@@ -390,20 +376,6 @@ Text GLabel 3150 4000 2    50   Input ~ 0
 PPU_ADDR_DIR
 Text GLabel 1700 4100 0    50   Input ~ 0
 ~PPU_ADDR_OE
-Text GLabel 1750 3700 0    50   Input ~ 0
-ICE_PPU_A13
-Text GLabel 1750 3600 0    50   Input ~ 0
-ICE_PPU_A12
-Text GLabel 1750 3500 0    50   Input ~ 0
-ICE_PPU_A11
-Text GLabel 1750 3400 0    50   Input ~ 0
-ICE_PPU_A10
-Text GLabel 1750 3300 0    50   Input ~ 0
-ICE_PPU_A9
-Text GLabel 1750 3200 0    50   Input ~ 0
-ICE_PPU_A8
-Text GLabel 1750 3100 0    50   Input ~ 0
-ICE_PPU_A7
 Text GLabel 1750 3000 0    50   Input ~ 0
 ICE_PPU_A6
 Text GLabel 1750 2900 0    50   Input ~ 0
@@ -521,18 +493,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 3100 3650 3100
 Wire Wire Line
-	3050 3200 3650 3200
-Wire Wire Line
-	3050 3300 3650 3300
-Wire Wire Line
-	3050 3400 3650 3400
-Wire Wire Line
-	3050 3500 3650 3500
-Wire Wire Line
-	3050 3600 3650 3600
-Wire Wire Line
-	3050 3700 3650 3700
-Wire Wire Line
 	3050 3800 3650 3800
 Wire Wire Line
 	12100 2850 11500 2850
@@ -552,10 +512,6 @@ Wire Wire Line
 	13850 2850 14500 2850
 Wire Wire Line
 	13850 2950 14500 2950
-Wire Wire Line
-	13850 3050 14500 3050
-Wire Wire Line
-	13850 3150 14500 3150
 Wire Wire Line
 	13850 3250 14500 3250
 Wire Wire Line
@@ -645,18 +601,6 @@ NES_PPU_A5
 Text Label 3650 3000 2    50   ~ 0
 NES_PPU_A6
 Text Label 3650 3100 2    50   ~ 0
-NES_PPU_A7
-Text Label 3650 3200 2    50   ~ 0
-NES_PPU_A8
-Text Label 3650 3300 2    50   ~ 0
-NES_PPU_A9
-Text Label 3650 3400 2    50   ~ 0
-NES_PPU_A10
-Text Label 3650 3500 2    50   ~ 0
-NES_PPU_A11
-Text Label 3650 3600 2    50   ~ 0
-NES_PPU_A12
-Text Label 3650 3700 2    50   ~ 0
 NES_PPU_A13
 Text Label 3650 3800 2    50   ~ 0
 ~NES_PPU_A13
@@ -678,10 +622,6 @@ Text Label 14500 2850 2    50   ~ 0
 NES_PPU_A13
 Text Label 14500 2950 2    50   ~ 0
 NES_PPU_A12
-Text Label 14500 3050 2    50   ~ 0
-NES_PPU_A10
-Text Label 14500 3150 2    50   ~ 0
-NES_PPU_A11
 Text Label 14500 3250 2    50   ~ 0
 NES_PPU_A9
 Text Label 14500 3350 2    50   ~ 0
@@ -1858,4 +1798,64 @@ Wire Wire Line
 Connection ~ 7150 4300
 Wire Wire Line
 	7150 4300 7150 4400
+Text GLabel 1750 3100 0    50   Input ~ 0
+ICE_PPU_A13
+Wire Wire Line
+	1850 3100 1750 3100
+Text Label 3650 3500 2    50   ~ 0
+NES_PPU_A9
+Wire Wire Line
+	3050 3500 3650 3500
+Text Label 3650 3300 2    50   ~ 0
+NES_PPU_A10
+Wire Wire Line
+	3050 3300 3650 3300
+Text Label 3650 3400 2    50   ~ 0
+NES_PPU_A11
+Wire Wire Line
+	3050 3400 3650 3400
+Text Label 3650 3600 2    50   ~ 0
+NES_PPU_A8
+Wire Wire Line
+	3050 3600 3650 3600
+Text Label 3650 3700 2    50   ~ 0
+NES_PPU_A7
+Wire Wire Line
+	3050 3700 3650 3700
+Text Label 3650 3200 2    50   ~ 0
+NES_PPU_A12
+Wire Wire Line
+	3050 3200 3650 3200
+Wire Wire Line
+	1850 3300 1750 3300
+Text GLabel 1750 3300 0    50   Input ~ 0
+ICE_PPU_A10
+Wire Wire Line
+	1850 3500 1750 3500
+Text GLabel 1750 3500 0    50   Input ~ 0
+ICE_PPU_A9
+Wire Wire Line
+	1850 3400 1750 3400
+Text GLabel 1750 3400 0    50   Input ~ 0
+ICE_PPU_A11
+Wire Wire Line
+	1850 3600 1750 3600
+Text GLabel 1750 3600 0    50   Input ~ 0
+ICE_PPU_A8
+Wire Wire Line
+	1850 3700 1750 3700
+Text GLabel 1750 3700 0    50   Input ~ 0
+ICE_PPU_A7
+Wire Wire Line
+	1850 3200 1750 3200
+Text GLabel 1750 3200 0    50   Input ~ 0
+ICE_PPU_A12
+Text Label 14500 3150 2    50   ~ 0
+NES_PPU_A11
+Wire Wire Line
+	13850 3150 14500 3150
+Text Label 14500 3050 2    50   ~ 0
+NES_PPU_A10
+Wire Wire Line
+	13850 3050 14500 3050
 $EndSCHEMATC
