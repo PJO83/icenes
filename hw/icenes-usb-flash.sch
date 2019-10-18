@@ -1011,16 +1011,16 @@ F 6 "RC0603FR-0710KL" H 8750 6825 50  0001 C CNN "Part number"
 	0    1    1    0   
 $EndComp
 $Comp
-L icenes-library:R4.7K R16
+L icenes-library:R6.04k R16
 U 1 1 5D99454A
 P 8750 6475
 F 0 "R16" V 8704 6545 50  0000 L CNN
-F 1 "R4.7K" H 8750 6375 50  0001 C CNN
+F 1 "R6.04k" H 8750 6375 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8750 6475 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 8750 6475 50  0001 C CNN
-F 4 "4.7K" V 8795 6545 50  0000 L CNN "Resistance"
+F 4 "6.04k" V 8795 6545 50  0000 L CNN "Resistance"
 F 5 "Yageo" H 8750 6475 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-072K2L" H 8750 6475 50  0001 C CNN "Part number"
+F 6 "RC0603FR-076K04L" H 8750 6475 50  0001 C CNN "Part number"
 	1    8750 6475
 	0    1    1    0   
 $EndComp

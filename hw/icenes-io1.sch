@@ -1147,8 +1147,6 @@ NoConn ~ 3125 8950
 Text Label 4000 8850 2    50   ~ 0
 ICE_CLK_21.47727MHz
 Wire Wire Line
-	3125 8850 3700 8850
-Wire Wire Line
 	2075 8650 2075 8750
 Wire Wire Line
 	2075 8350 2075 8250
@@ -1251,22 +1249,17 @@ F 6 "RC0603FR-072M2L" H 1500 9025 50  0001 C CNN "Part number"
 	1    1500 9025
 	1    0    0    -1  
 $EndComp
-Connection ~ 3700 8850
-Wire Wire Line
-	3700 8850 4000 8850
 $Comp
 L icenes-library:TestPoint TP14
 U 1 1 5DB07242
-P 3700 8725
-F 0 "TP14" H 3758 8797 50  0000 L CNN
-F 1 "TestPoint" H 3700 8925 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3900 8725 50  0001 C CNN
-F 3 "~" H 3900 8725 50  0001 C CNN
-	1    3700 8725
-	1    0    0    -1  
+P 3700 8950
+F 0 "TP14" H 3600 9150 50  0000 L CNN
+F 1 "TestPoint" H 3700 9150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3900 8950 50  0001 C CNN
+F 3 "~" H 3900 8950 50  0001 C CNN
+	1    3700 8950
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3700 8850 3700 8725
 $Comp
 L icenes-library:SN74LVC1404 U9
 U 1 1 5DB221AD
@@ -1675,4 +1668,11 @@ Wire Wire Line
 	4150 5400 4300 5400
 Text GLabel 4300 5400 2    50   Output ~ 0
 ICE_CPU_A11
+Wire Wire Line
+	3700 8950 3700 8850
+Wire Wire Line
+	3125 8850 3700 8850
+Wire Wire Line
+	3700 8850 4000 8850
+Connection ~ 3700 8850
 $EndSCHEMATC

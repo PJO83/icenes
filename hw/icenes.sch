@@ -1137,16 +1137,16 @@ Connection ~ 1950 8225
 Wire Wire Line
 	1950 8225 1950 8250
 $Comp
-L icenes-library:R2.2K R1
+L icenes-library:R1.54k R1
 U 1 1 5D7C3716
 P 3150 6750
-F 0 "R1" H 3125 6850 50  0000 C CNN
-F 1 "R2.2K" H 3150 6650 50  0001 C CNN
+F 0 "R1" H 3150 6850 50  0000 C CNN
+F 1 "R1.54k" H 3150 6650 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3150 6750 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 3150 6750 50  0001 C CNN
-F 4 "2.2K" H 3150 6750 50  0000 C CNN "Resistance"
+F 4 "1.54k" H 3150 6750 50  0000 C CNN "Resistance"
 F 5 "Yageo" H 3150 6750 50  0001 C CNN "Manufacturer"
-F 6 "RC0603FR-072K2L" H 3150 6750 50  0001 C CNN "Part number"
+F 6 "RC0603FR-071K54L" H 3150 6750 50  0001 C CNN "Part number"
 	1    3150 6750
 	1    0    0    -1  
 $EndComp

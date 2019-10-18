@@ -759,12 +759,8 @@ Text Label 11750 6200 2    50   ~ 0
 GPIO_R1
 Text Label 5000 1600 2    50   ~ 0
 GPIO_P4
-Wire Wire Line
-	3100 4200 2500 4200
-Text Label 2500 4200 0    50   ~ 0
+Text Label 2700 4200 0    50   ~ 0
 GPIO_P13
-Wire Wire Line
-	3100 4100 2500 4100
 $Comp
 L icenes-library:Conn_02x31_Odd_Even J4
 U 1 1 5D55C666
@@ -1876,13 +1872,16 @@ Wire Wire Line
 Wire Wire Line
 	10600 8800 11100 8800
 $Comp
-L icenes-library:R_TBD R36
+L icenes-library:R10K R36
 U 1 1 5DA26BEC
 P 1300 4200
 F 0 "R36" V 1300 4270 50  0000 L CNN
-F 1 "R_TBD" H 1300 4100 50  0001 C CNN
+F 1 "R10K" H 1300 4100 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 4200 50  0001 C CNN
-F 3 "" V 1300 4200 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 1300 4200 50  0001 C CNN
+F 4 "10k" V 1375 4350 50  0000 C CNN "Resistance"
+F 5 "Yageo" V 1300 4200 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0710KL" V 1300 4200 50  0001 C CNN "Part number"
 	1    1300 4200
 	0    1    1    0   
 $EndComp
@@ -2496,6 +2495,12 @@ Text GLabel 2250 9600 0    50   BiDi ~ 0
 GPIO_J16
 Wire Wire Line
 	2250 9600 3100 9600
-Text GLabel 2500 4100 0    50   Output ~ 0
+Text GLabel 2675 4100 0    50   Output ~ 0
 ICE_M2
+Text Notes 525  4300 0    25   ~ 0
+Rough estimation for max resistance \nis about 13k.\nTry with 10k to begin with.\nIf 10k does no work move down to \n6.04k, 4.7k, 2.2k. 1.54k. 698, 200.
+Wire Wire Line
+	3100 4200 2700 4200
+Wire Wire Line
+	2675 4100 3100 4100
 $EndSCHEMATC

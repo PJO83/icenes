@@ -155,6 +155,11 @@ D 0 Ohms, +-1%, 100mW, 75V, 0603
 F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #
+$CMP R1.54k
+D 1.54kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
+$ENDCMP
+#
 $CMP R10K
 D 10kOhms, +-1%, 100mW, 75V, 0603
 F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
@@ -202,6 +207,11 @@ $ENDCMP
 #
 $CMP R510K
 D 510kOhms, +-1%, 100mW, 75V, 0603
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
+$ENDCMP
+#
+$CMP R6.04k
+D 6.04kOhms, +-1%, 100mW, 75V, 0603
 F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf
 $ENDCMP
 #

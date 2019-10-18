@@ -1,0 +1,19 @@
+https://technick.net/tools/impedance-calculator/microstrip/
+W = 0.0000899
+H = 0.0001
+T = 0.000035
+Er = 4.05
+
+8.366122388810439e-11 F/m
+Trace length: ~3cm
+
+ => 8.366122388810439e-11 * 0.03 = 2.5098e-12
+
+TraceCap ~ 2.5098e-12
+SPI_CLK = 15MHz?
+
+Maximim Rpullup = 1/(2*SPI_CLK * TraceCap) = 13281.27Ohm
+
+Try with 10k to begin with.
+If 10k does no work move down to 
+6.04k, 4.7k, 2.2k. 1.54k. 698, 200.

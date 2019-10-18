@@ -874,6 +874,23 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# icenes-library_R1.54k
+#
+DEF icenes-library_R1.54k R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R1.54k" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "1.54k" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-071K54L" 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # icenes-library_R10K
 #
 DEF icenes-library_R10K R 0 40 N N 1 F N
@@ -881,7 +898,7 @@ F0 "R" 0 0 50 H V C CNN
 F1 "icenes-library_R10K" 0 -100 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "10K" 0 100 50 H V C CNN "Resistance"
+F4 "10k" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0603FR-0710KL" 0 0 50 H I C CNN "Part number"
 DRAW
@@ -898,7 +915,7 @@ F0 "R" 0 0 50 H V C CNN
 F1 "icenes-library_R12K" 0 -100 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
-F4 "12K" 0 100 50 H V C CNN "Resistance"
+F4 "12k" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0603FR-0712KL" 0 0 50 H I C CNN "Part number"
 DRAW
@@ -932,7 +949,7 @@ F0 "R" 0 0 50 H V C CNN
 F1 "icenes-library_R2.2K" 0 -100 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "2.2K" 0 100 50 H V C CNN "Resistance"
+F4 "2.2k" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0603FR-072K2L" 0 0 50 H I C CNN "Part number"
 DRAW
@@ -983,26 +1000,9 @@ F0 "R" 0 0 50 H V C CNN
 F1 "icenes-library_R360K" 0 -100 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "360K" 0 100 50 H V C CNN "Resistance"
+F4 "360k" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0603FR-07360KL" 0 0 50 H I C CNN "Part number"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 50 50 1 1 P
-X ~ 2 150 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# icenes-library_R4.7K
-#
-DEF icenes-library_R4.7K R 0 40 N N 1 F N
-F0 "R" 0 0 50 H V C CNN
-F1 "icenes-library_R4.7K" 0 -100 50 H I C CNN
-F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-F4 "4.7K" 0 100 50 H V C CNN "Resistance"
-F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
-F6 "RC0603FR-072K2L" 0 0 50 H I C CNN "Part number"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -1017,9 +1017,26 @@ F0 "R" 0 0 50 H V C CNN
 F1 "icenes-library_R510K" 0 -100 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "510K" 0 100 50 H V C CNN "Resistance"
+F4 "510k" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0603FR-07510KL " 0 0 50 H I C CNN "Part number"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# icenes-library_R6.04k
+#
+DEF icenes-library_R6.04k R 0 40 N N 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "icenes-library_R6.04k" 0 -100 50 H I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "6.04k" 0 100 50 H V C CNN "Resistance"
+F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
+F6 "RC0603FR-076K04L" 0 0 50 H I C CNN "Part number"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -1051,7 +1068,7 @@ F0 "R" 0 0 50 H V C CNN
 F1 "icenes-library_R820K" 0 -100 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "820K" 0 100 50 H V C CNN "Resistance"
+F4 "820k" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0603FR-07820KL " 0 0 50 H I C CNN "Part number"
 DRAW
@@ -1068,23 +1085,9 @@ F0 "R" 0 0 50 H V C CNN
 F1 "icenes-library_R91K" 0 -100 50 H I C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
-F4 "91K" 0 100 50 H V C CNN "Resistance"
+F4 "91k" 0 100 50 H V C CNN "Resistance"
 F5 "Yageo" 0 0 50 H I C CNN "Manufacturer"
 F6 "RC0603FR-0791KL" 0 0 50 H I C CNN "Part number"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 50 50 1 1 P
-X ~ 2 150 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# icenes-library_R_TBD
-#
-DEF icenes-library_R_TBD R 0 40 N N 1 F N
-F0 "R" 0 0 50 H V C CNN
-F1 "icenes-library_R_TBD" 0 -100 50 H I C CNN
-F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
