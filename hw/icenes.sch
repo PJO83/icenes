@@ -2235,4 +2235,65 @@ F 3 "~" H 14750 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14750 1250 14750 1300
+$Comp
+L icenes-library:Green_LED D?
+U 1 1 5DB636C2
+P 8175 5575
+AR Path="/5D1BB1FB/5DB636C2" Ref="D?"  Part="1" 
+AR Path="/5DB636C2" Ref="D11"  Part="1" 
+F 0 "D11" V 8275 5500 50  0000 R CNN
+F 1 "Green_LED" H 8350 5675 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8175 5575 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/216/APTD2012LCGCK-1102037.pdf" H 8175 5575 50  0001 C CNN
+F 4 "Kingbright" H 8175 5575 50  0001 C CNN "Manufacturer"
+F 5 "APTD2012LCGCK" H 8175 5575 50  0001 C CNN "Part number"
+	1    8175 5575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L icenes-library:R698 R?
+U 1 1 5DB636CB
+P 8175 5225
+AR Path="/5D1BB1FB/5DB636CB" Ref="R?"  Part="1" 
+AR Path="/5DB636CB" Ref="R38"  Part="1" 
+F 0 "R38" V 8129 5295 50  0000 L CNN
+F 1 "R698" H 8175 5125 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8175 5225 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" V 8175 5225 50  0001 C CNN
+F 4 "698" V 8220 5295 50  0000 L CNN "Resistance"
+F 5 "Yageo" H 8175 5225 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-07698RL" H 8175 5225 50  0001 C CNN "Part number"
+	1    8175 5225
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB636D1
+P 8175 5775
+AR Path="/5D1BB1FB/5DB636D1" Ref="#PWR?"  Part="1" 
+AR Path="/5DB636D1" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 8175 5525 50  0001 C CNN
+F 1 "GND" H 8180 5602 50  0000 C CNN
+F 2 "" H 8175 5775 50  0001 C CNN
+F 3 "" H 8175 5775 50  0001 C CNN
+	1    8175 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 5375 8175 5425
+Wire Wire Line
+	8175 5725 8175 5775
+Wire Wire Line
+	8175 4950 8175 5075
+$Comp
+L power:+3V3 #PWR071
+U 1 1 5DB99DBA
+P 8175 4950
+F 0 "#PWR071" H 8175 4800 50  0001 C CNN
+F 1 "+3V3" H 8190 5123 50  0000 C CNN
+F 2 "" H 8175 4950 50  0001 C CNN
+F 3 "" H 8175 4950 50  0001 C CNN
+	1    8175 4950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
